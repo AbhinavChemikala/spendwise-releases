@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v108",
-    "versionNumber": 108,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v108/app-release.apk",
-    "downloadSizeBytes": 119760134,
-    "releaseNotes": "Introducing smart, bank-priority matching that identifies Axis, ICICI, and Kotak transaction formats directly from SMS alerts to extract clean, precise merchant names.\n\nAdds comprehensive background AI logs that trace the full execution chain to explain exactly why model checks failed, complete with direct support for custom on-device and cloud parameters.",
+    "tagName": "v110",
+    "versionNumber": 110,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v110/app-release.apk",
+    "downloadSizeBytes": 119743750,
+    "releaseNotes": "Cleaned up the laggy gesture dragging bugs! ✨ Reordering cards on Home & Insights tabs is now fully button-based and super smooth 🚀 Cards stay intact, layout works perfectly! 🎯🎨",
     "publishedAt": "2026-06-02",
-    "sha256": "9280d7244376ba1cb7bd6def3e1228b73aebf8a40839f70d74c2c0d770b3902d"
+    "sha256": "40bb8ce9d872ead18f0a3ee00f95a5d33f9427b638f661e47652cf1b39188661"
   },
   "releases": [
+    {
+      "tagName": "v110",
+      "versionNumber": 110,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v110/app-release.apk",
+      "downloadSizeBytes": 119743750,
+      "releaseNotes": "Cleaned up the laggy gesture dragging bugs! ✨ Reordering cards on Home & Insights tabs is now fully button-based and super smooth 🚀 Cards stay intact, layout works perfectly! 🎯🎨",
+      "publishedAt": "2026-06-02",
+      "sha256": "40bb8ce9d872ead18f0a3ee00f95a5d33f9427b638f661e47652cf1b39188661"
+    },
     {
       "tagName": "v108",
       "versionNumber": 108,
@@ -89,18 +98,30 @@
       "releaseNotes": "Merge branch 'main' of https://github.com/AbhinavChemikala/SpendWise",
       "publishedAt": "2026-06-01",
       "sha256": "14f601a57fea70e901ac8dbf0f6d6992e89da9019c5a0d41e62dbf078d42647c"
-    },
-    {
-      "tagName": "v99",
-      "versionNumber": 99,
-      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v99/app-release.apk",
-      "downloadSizeBytes": 119694514,
-      "releaseNotes": "SpendWise release automation pipeline has been fully hardened!\n\n• Absolute Path Resolution: Migrated all intermediate diffing paths to absolute, fully resolved paths. This prevents working directory mismatches in subprojects and ensures that the patch generator finds historical APK assets flawlessly.",
-      "publishedAt": "2026-06-01",
-      "sha256": "49b106eb8ae0c72e145c1728ff38dedb65ec435f7cbb70562a10293bf6426f83"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 108,
+      "toVersion": 110,
+      "size": 1242019,
+      "sha256": "f1086165321bbda6e2d35c1a98ec88ae88b26fa753d2ece64cca2906e8851cd4",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v110/patch_v108_to_v110.patch"
+    },
+    {
+      "fromVersion": 107,
+      "toVersion": 110,
+      "size": 1260779,
+      "sha256": "ac1e122c807f6b6bc62dd51c763d9fd7436e49b17226c91c9b6a24afd5f4360e",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v110/patch_v107_to_v110.patch"
+    },
+    {
+      "fromVersion": 106,
+      "toVersion": 110,
+      "size": 1260738,
+      "sha256": "b02eff8cdc3daf263d129ad10e31d961313c451347ae9b4e0a1a49c728ce48a5",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v110/patch_v106_to_v110.patch"
+    },
     {
       "fromVersion": 107,
       "toVersion": 108,

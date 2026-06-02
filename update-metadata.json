@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v107",
-    "versionNumber": 107,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v107/app-release.apk",
+    "tagName": "v108",
+    "versionNumber": 108,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v108/app-release.apk",
     "downloadSizeBytes": 119760134,
-    "releaseNotes": "Trigger split-repository OTA release pipeline test",
+    "releaseNotes": "Introducing smart, bank-priority matching that identifies Axis, ICICI, and Kotak transaction formats directly from SMS alerts to extract clean, precise merchant names.\n\nAdds comprehensive background AI logs that trace the full execution chain to explain exactly why model checks failed, complete with direct support for custom on-device and cloud parameters.",
     "publishedAt": "2026-06-02",
-    "sha256": "c6465f2ec62a2d37f2711870c8f553dfc3715c921235cbce3782c5d87f39597f"
+    "sha256": "9280d7244376ba1cb7bd6def3e1228b73aebf8a40839f70d74c2c0d770b3902d"
   },
   "releases": [
+    {
+      "tagName": "v108",
+      "versionNumber": 108,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v108/app-release.apk",
+      "downloadSizeBytes": 119760134,
+      "releaseNotes": "Introducing smart, bank-priority matching that identifies Axis, ICICI, and Kotak transaction formats directly from SMS alerts to extract clean, precise merchant names.\n\nAdds comprehensive background AI logs that trace the full execution chain to explain exactly why model checks failed, complete with direct support for custom on-device and cloud parameters.",
+      "publishedAt": "2026-06-02",
+      "sha256": "9280d7244376ba1cb7bd6def3e1228b73aebf8a40839f70d74c2c0d770b3902d"
+    },
     {
       "tagName": "v107",
       "versionNumber": 107,
@@ -92,6 +101,20 @@
     }
   ],
   "patches": [
+    {
+      "fromVersion": 107,
+      "toVersion": 108,
+      "size": 845777,
+      "sha256": "800bc7170969cb2283d7e008c179257857327e48906c18841fb8c2bb471a8d6d",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v108/patch_v107_to_v108.patch"
+    },
+    {
+      "fromVersion": 106,
+      "toVersion": 108,
+      "size": 845781,
+      "sha256": "3496bfbf913e064494eb376ca52d3a0e77b5ee8c601463a54e8ac2405d4e82b3",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v108/patch_v106_to_v108.patch"
+    },
     {
       "fromVersion": 106,
       "toVersion": 107,

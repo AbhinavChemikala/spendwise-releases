@@ -1,0 +1,234 @@
+{
+  "latest": {
+    "tagName": "v106",
+    "versionNumber": 106,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v106/app-release.apk",
+    "downloadSizeBytes": 119760134,
+    "releaseNotes": "Your SpendWise codebase is now fully private! To protect your sensitive project source code, signing keys, and Firebase configurations while keeping OTA updates completely open and fast, we transitioned the CI/CD pipeline to a secure split-repository architecture.\n\nPushing updates to your private repository automatically builds, signs, and releases files (APKs and patches) into your new public spendwise-releases repository. Local UpdateManager tests have also been upgraded to run offline using cached files, bypassing network restrictions.",
+    "publishedAt": "2026-06-02",
+    "sha256": "22ffad45dd4d0064f29aa37e4cb92ca4858515139afc510483b31a934047d8ff"
+  },
+  "releases": [
+    {
+      "tagName": "v106",
+      "versionNumber": 106,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v106/app-release.apk",
+      "downloadSizeBytes": 119760134,
+      "releaseNotes": "Your SpendWise codebase is now fully private! To protect your sensitive project source code, signing keys, and Firebase configurations while keeping OTA updates completely open and fast, we transitioned the CI/CD pipeline to a secure split-repository architecture.\n\nPushing updates to your private repository automatically builds, signs, and releases files (APKs and patches) into your new public spendwise-releases repository. Local UpdateManager tests have also been upgraded to run offline using cached files, bypassing network restrictions.",
+      "publishedAt": "2026-06-02",
+      "sha256": "22ffad45dd4d0064f29aa37e4cb92ca4858515139afc510483b31a934047d8ff"
+    },
+    {
+      "tagName": "v105",
+      "versionNumber": 105,
+      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v105/app-release.apk",
+      "downloadSizeBytes": 119760134,
+      "releaseNotes": "Introducing a major upgrade to the SpendWise SMS engine! Sideloaded financial alerts from verified banks containing support or dispute links are now recognized instantly as 100% legitimate transactions. They bypass spam checks and the AI queue, going straight to your dashboard in the blink of an eye with zero latency and zero data overhead.",
+      "publishedAt": "2026-06-01",
+      "sha256": "50af42c68cdf12a051cc92bc7fee87f2ac906c66bffc336d020feb9e37e74b78"
+    },
+    {
+      "tagName": "v104",
+      "versionNumber": 104,
+      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v104/app-release.apk",
+      "downloadSizeBytes": 119760134,
+      "releaseNotes": "💖 Fuel Independent Development, Built with Love!\nIntroducing a beautiful, premium Donate Button right inside the settings screen! If SpendWise helps you track your budgets and ingestion rules, consider supporting ad-free, secure tools. It opens all your favorite UPI apps directly, featuring preset quick chips (₹50, ₹100, ₹250, ₹500, ₹1000) and a stunning pulsing animation!\n\n🎉 A Particle Celebration for Legends!\nEvery successful support transfer triggers a gorgeous Confetti Explosion falling down your screen in real-time! Our custom particle physics engine animates hundreds of colorful, rotating confetti pieces at a butter-smooth 60fps to express our deepest gratitude.\n\n🛡️ Smart Bank Verification Fallback\nSince modern banking apps restrict transaction status reporting for personal UPI peer-to-peer VPAs, SpendWise incorporates an empathetic self-verification backup. If your payment goes through but the banking app returns unconfirmed, a warm card lets you confirm and celebrate anyway!",
+      "publishedAt": "2026-06-01",
+      "sha256": "5dc07a12c5701020959be2bc43f7e40946f2122239bdc3582fa0545ac9a5d6ab"
+    },
+    {
+      "tagName": "v103",
+      "versionNumber": 103,
+      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v103/app-release.apk",
+      "downloadSizeBytes": 119710902,
+      "releaseNotes": "⚡ Lightning-Fast Updates, Fixed!\nSpendWise now correctly reads and applies micro-patches, bringing you lightning-fast OTA updates that are up to 99.9% smaller and complete in the blink of an eye!\n\n🏎️ Instant Desktop Verification\nWe've introduced a high-performance verification engine that tests our update systems directly on our development computers, ensuring flawless OTA updates are shipped with 100% confidence!",
+      "publishedAt": "2026-06-01",
+      "sha256": "5d2fb8a6ca3186e288edd79727aabce3e38722c71240c41e39dc69a5d035d052"
+    },
+    {
+      "tagName": "v102",
+      "versionNumber": 102,
+      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v102/app-release.apk",
+      "downloadSizeBytes": 119710902,
+      "releaseNotes": "⚡ Lightning-Fast Updates, Fixed!\nSpendWise now correctly reads and applies micro-patches, bringing you lightning-fast OTA updates that are up to 99.9% smaller and complete in the blink of an eye!\n\n🏎️ Instant Desktop Verification\nWe've introduced a high-performance verification engine that tests our update systems directly on our development computers, ensuring flawless OTA updates are shipped with 100% confidence!",
+      "publishedAt": "2026-06-01",
+      "sha256": "d407bd5c371a90de954b35c72c4458c0471fd4a6d2eeaf3ba2a28aae062e9e7f"
+    },
+    {
+      "tagName": "v101",
+      "versionNumber": 101,
+      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v101/app-release.apk",
+      "downloadSizeBytes": 119710898,
+      "releaseNotes": "SpendWise client-side update system has been fully resolved!\n\n• Enhanced Visual Diagnostics: Added real-time Toast alerts to the OTA Update manager. The app now displays the exact reason for any patch failure (such as checksum mismatches or delta alignment errors) directly on your device before performing a safe, automated full APK fallback download.",
+      "publishedAt": "2026-06-01",
+      "sha256": "83c64401f95a4ef1a79fb04a2e9b50613fc5d5c2c82a3708cb10aa5eb11c69ed"
+    },
+    {
+      "tagName": "v100",
+      "versionNumber": 100,
+      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v100/app-release.apk",
+      "downloadSizeBytes": 119694514,
+      "releaseNotes": "Merge branch 'main' of https://github.com/AbhinavChemikala/SpendWise",
+      "publishedAt": "2026-06-01",
+      "sha256": "14f601a57fea70e901ac8dbf0f6d6992e89da9019c5a0d41e62dbf078d42647c"
+    },
+    {
+      "tagName": "v99",
+      "versionNumber": 99,
+      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v99/app-release.apk",
+      "downloadSizeBytes": 119694514,
+      "releaseNotes": "SpendWise release automation pipeline has been fully hardened!\n\n• Absolute Path Resolution: Migrated all intermediate diffing paths to absolute, fully resolved paths. This prevents working directory mismatches in subprojects and ensures that the patch generator finds historical APK assets flawlessly.",
+      "publishedAt": "2026-06-01",
+      "sha256": "49b106eb8ae0c72e145c1728ff38dedb65ec435f7cbb70562a10293bf6426f83"
+    }
+  ],
+  "patches": [
+    {
+      "fromVersion": 104,
+      "toVersion": 105,
+      "size": 143431,
+      "sha256": "e07b70fde6fe777f4fc0413e0205eb79e56adc1338f2ab87940d8cc958eb87c7",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v105/patch_v104_to_v105.patch"
+    },
+    {
+      "fromVersion": 103,
+      "toVersion": 105,
+      "size": 1312441,
+      "sha256": "c6e5e931d95a9d070b2f890f50f4b8e075f36cc699a13af89e9827871388818d",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v105/patch_v103_to_v105.patch"
+    },
+    {
+      "fromVersion": 102,
+      "toVersion": 105,
+      "size": 1312436,
+      "sha256": "d861c58bf32f67d8c6481782345791351041754129d7e2fcd812ac145219d960",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v105/patch_v102_to_v105.patch"
+    },
+    {
+      "fromVersion": 103,
+      "toVersion": 104,
+      "size": 1312586,
+      "sha256": "1fb069424f5e7076ad6897b06a56fe28f849e583343b1e63a9c9743c857ac45e",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v104/patch_v103_to_v104.patch"
+    },
+    {
+      "fromVersion": 102,
+      "toVersion": 104,
+      "size": 1312575,
+      "sha256": "bd8fbd56668a3b4bceba23c08b02ccedd6e3f70e11a9478c40bb8dfa1ece229c",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v104/patch_v102_to_v104.patch"
+    },
+    {
+      "fromVersion": 101,
+      "toVersion": 104,
+      "size": 1303662,
+      "sha256": "7b52dce6f783a0542910312e75b68e85bcea095693ffe65f966726844a44e03f",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v104/patch_v101_to_v104.patch"
+    },
+    {
+      "fromVersion": 102,
+      "toVersion": 103,
+      "size": 129946,
+      "sha256": "bea9c30734b114b356f261314e4118e0f1bcefafc0236e1b76418eef7845d581",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v103/patch_v102_to_v103.patch"
+    },
+    {
+      "fromVersion": 101,
+      "toVersion": 103,
+      "size": 322192,
+      "sha256": "42914e86d83d301dfd84daaddf1fbd73ec43b4f82ddbbca7d0a3b4b7125df1f8",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v103/patch_v101_to_v103.patch"
+    },
+    {
+      "fromVersion": 100,
+      "toVersion": 103,
+      "size": 998036,
+      "sha256": "ae61ba4fa6d75acdee9d494d406a6614bdec87c8e6b7ff50d878ec6abc4d1dc0",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v103/patch_v100_to_v103.patch"
+    },
+    {
+      "fromVersion": 101,
+      "toVersion": 102,
+      "size": 322277,
+      "sha256": "d85dd31a6cec95e0ae069bddf315e5bd36d5b464af0667c29f1adee1258920c5",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v102/patch_v101_to_v102.patch"
+    },
+    {
+      "fromVersion": 100,
+      "toVersion": 102,
+      "size": 998041,
+      "sha256": "6d8b1c53981f1b487208efb2da9808baa0c438bc220bdad224771f403a6d5c1b",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v102/patch_v100_to_v102.patch"
+    },
+    {
+      "fromVersion": 99,
+      "toVersion": 102,
+      "size": 998007,
+      "sha256": "f8bfba7119218d76ab3eaf47e9024fc8bc6b68f19c7040926214005196fdf9f9",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v102/patch_v99_to_v102.patch"
+    },
+    {
+      "fromVersion": 100,
+      "toVersion": 101,
+      "size": 943162,
+      "sha256": "3d343b553a1160d24d7a7d5a73b823cc58faffcd54c2e0b06a3840d63db64a27",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v101/patch_v100_to_v101.patch"
+    },
+    {
+      "fromVersion": 99,
+      "toVersion": 101,
+      "size": 943165,
+      "sha256": "c2b2e8f0ab97465936b556ea87647b2349caff8dc72c2fa7c164afb41c77a643",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v101/patch_v99_to_v101.patch"
+    },
+    {
+      "fromVersion": 97,
+      "toVersion": 101,
+      "size": 943155,
+      "sha256": "398c31834daeb9d403f785ffe9f418e99206460cc3ec1a6d27c08b32ff6a5824",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v101/patch_v97_to_v101.patch"
+    },
+    {
+      "fromVersion": 99,
+      "toVersion": 100,
+      "size": 129922,
+      "sha256": "362a0afb5133610ac44210c84fb3f42ca8227e70c4d607b71af8f0dcd9257fc0",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v100/patch_v99_to_v100.patch"
+    },
+    {
+      "fromVersion": 97,
+      "toVersion": 100,
+      "size": 129919,
+      "sha256": "f7096c3c6e6bf1bdd464a84dd1e380eaf482b13290957b9a915d235ad3883066",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v100/patch_v97_to_v100.patch"
+    },
+    {
+      "fromVersion": 96,
+      "toVersion": 100,
+      "size": 129918,
+      "sha256": "05ab9499aa86833bc8c9a1e1a10d990bedec29bd6cca719410376f858257708a",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v100/patch_v96_to_v100.patch"
+    },
+    {
+      "fromVersion": 97,
+      "toVersion": 99,
+      "size": 129877,
+      "sha256": "bd38d4afa556a91d048f672a58dc3416e8a37097e126cfcea70de7aebb456769",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v99/patch_v97_to_v99.patch"
+    },
+    {
+      "fromVersion": 96,
+      "toVersion": 99,
+      "size": 129927,
+      "sha256": "0170b9724ad5ff6fb532ae07e80409291e52a0abedcfd4870c3132b2b28b549c",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v99/patch_v96_to_v99.patch"
+    },
+    {
+      "fromVersion": 95,
+      "toVersion": 99,
+      "size": 765479,
+      "sha256": "bf131132227fe162fdffaf3474503c82cdf84e1d020260799446ab65a1465546",
+      "url": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v99/patch_v95_to_v99.patch"
+    }
+  ]
+}

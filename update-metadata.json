@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v110",
-    "versionNumber": 110,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v110/app-release.apk",
-    "downloadSizeBytes": 119743750,
-    "releaseNotes": "Cleaned up the laggy gesture dragging bugs! ✨ Reordering cards on Home & Insights tabs is now fully button-based and super smooth 🚀 Cards stay intact, layout works perfectly! 🎯🎨",
+    "tagName": "v111",
+    "versionNumber": 111,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v111/app-release.apk",
+    "downloadSizeBytes": 119760130,
+    "releaseNotes": "✨ Collapses floating action buttons on scroll to keep transaction details visible\n📅 Added a date picker to manual transaction entry dialog to support custom dates\n🎨 Custom-themed the Calendar selector to blend with SpendWise's dark mode branding",
     "publishedAt": "2026-06-02",
-    "sha256": "40bb8ce9d872ead18f0a3ee00f95a5d33f9427b638f661e47652cf1b39188661"
+    "sha256": "9588ee207ad5021ac22c2d3faa209f4e6d0a96b515a033d64847b09413bd0f96"
   },
   "releases": [
+    {
+      "tagName": "v111",
+      "versionNumber": 111,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v111/app-release.apk",
+      "downloadSizeBytes": 119760130,
+      "releaseNotes": "✨ Collapses floating action buttons on scroll to keep transaction details visible\n📅 Added a date picker to manual transaction entry dialog to support custom dates\n🎨 Custom-themed the Calendar selector to blend with SpendWise's dark mode branding",
+      "publishedAt": "2026-06-02",
+      "sha256": "9588ee207ad5021ac22c2d3faa209f4e6d0a96b515a033d64847b09413bd0f96"
+    },
     {
       "tagName": "v110",
       "versionNumber": 110,
@@ -89,18 +98,30 @@
       "releaseNotes": "SpendWise client-side update system has been fully resolved!\n\n• Enhanced Visual Diagnostics: Added real-time Toast alerts to the OTA Update manager. The app now displays the exact reason for any patch failure (such as checksum mismatches or delta alignment errors) directly on your device before performing a safe, automated full APK fallback download.",
       "publishedAt": "2026-06-01",
       "sha256": "83c64401f95a4ef1a79fb04a2e9b50613fc5d5c2c82a3708cb10aa5eb11c69ed"
-    },
-    {
-      "tagName": "v100",
-      "versionNumber": 100,
-      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v100/app-release.apk",
-      "downloadSizeBytes": 119694514,
-      "releaseNotes": "Merge branch 'main' of https://github.com/AbhinavChemikala/SpendWise",
-      "publishedAt": "2026-06-01",
-      "sha256": "14f601a57fea70e901ac8dbf0f6d6992e89da9019c5a0d41e62dbf078d42647c"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 110,
+      "toVersion": 111,
+      "size": 1270462,
+      "sha256": "99151d94d7a3aad4450ea25657af8026b01017f602a412611290fcb968a06f9e",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v111/patch_v110_to_v111.patch"
+    },
+    {
+      "fromVersion": 108,
+      "toVersion": 111,
+      "size": 1251695,
+      "sha256": "9f6717b88c0ee112712c9369926f2a42f0994610650bdeaa00ea14909ede45af",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v111/patch_v108_to_v111.patch"
+    },
+    {
+      "fromVersion": 107,
+      "toVersion": 111,
+      "size": 1305155,
+      "sha256": "627ffb217f0ef17ca4b9ec0596827c261b001e9264d0a4e071b00639697746ac",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v111/patch_v107_to_v111.patch"
+    },
     {
       "fromVersion": 108,
       "toVersion": 110,

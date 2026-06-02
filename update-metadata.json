@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v106",
-    "versionNumber": 106,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v106/app-release.apk",
+    "tagName": "v107",
+    "versionNumber": 107,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v107/app-release.apk",
     "downloadSizeBytes": 119760134,
-    "releaseNotes": "Your SpendWise codebase is now fully private! To protect your sensitive project source code, signing keys, and Firebase configurations while keeping OTA updates completely open and fast, we transitioned the CI/CD pipeline to a secure split-repository architecture.\n\nPushing updates to your private repository automatically builds, signs, and releases files (APKs and patches) into your new public spendwise-releases repository. Local UpdateManager tests have also been upgraded to run offline using cached files, bypassing network restrictions.",
+    "releaseNotes": "Trigger split-repository OTA release pipeline test",
     "publishedAt": "2026-06-02",
-    "sha256": "22ffad45dd4d0064f29aa37e4cb92ca4858515139afc510483b31a934047d8ff"
+    "sha256": "c6465f2ec62a2d37f2711870c8f553dfc3715c921235cbce3782c5d87f39597f"
   },
   "releases": [
+    {
+      "tagName": "v107",
+      "versionNumber": 107,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v107/app-release.apk",
+      "downloadSizeBytes": 119760134,
+      "releaseNotes": "Trigger split-repository OTA release pipeline test",
+      "publishedAt": "2026-06-02",
+      "sha256": "c6465f2ec62a2d37f2711870c8f553dfc3715c921235cbce3782c5d87f39597f"
+    },
     {
       "tagName": "v106",
       "versionNumber": 106,
@@ -83,6 +92,13 @@
     }
   ],
   "patches": [
+    {
+      "fromVersion": 106,
+      "toVersion": 107,
+      "size": 130011,
+      "sha256": "72623e4ffdd1a2e20219fb9ec3c9558eb74a45cb490ea230d390e5d8df17532f",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v107/patch_v106_to_v107.patch"
+    },
     {
       "fromVersion": 104,
       "toVersion": 105,

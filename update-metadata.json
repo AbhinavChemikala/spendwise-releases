@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v111",
-    "versionNumber": 111,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v111/app-release.apk",
-    "downloadSizeBytes": 119760130,
-    "releaseNotes": "✨ Collapses floating action buttons on scroll to keep transaction details visible\n📅 Added a date picker to manual transaction entry dialog to support custom dates\n🎨 Custom-themed the Calendar selector to blend with SpendWise's dark mode branding",
-    "publishedAt": "2026-06-02",
-    "sha256": "9588ee207ad5021ac22c2d3faa209f4e6d0a96b515a033d64847b09413bd0f96"
+    "tagName": "v112",
+    "versionNumber": 112,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v112/app-release.apk",
+    "downloadSizeBytes": 119776518,
+    "releaseNotes": "📬 Smarter email/SMS sync matching with stop-words support!\n\n🔍 Enhanced Axis duplicate checker with relaxed account numbers and fuzzy merchant names!\n\n🛡️ Double-layered post-AI duplicate protection to avoid repeat entries!\n\n⚡ New \"Add anyway\" manual override flow in the AI Review center!",
+    "publishedAt": "2026-06-03",
+    "sha256": "6525112f9b0fc5bf19380ad4d45cbd461b51051d7c7a6bbd6dd7e97003b19950"
   },
   "releases": [
+    {
+      "tagName": "v112",
+      "versionNumber": 112,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v112/app-release.apk",
+      "downloadSizeBytes": 119776518,
+      "releaseNotes": "📬 Smarter email/SMS sync matching with stop-words support!\n\n🔍 Enhanced Axis duplicate checker with relaxed account numbers and fuzzy merchant names!\n\n🛡️ Double-layered post-AI duplicate protection to avoid repeat entries!\n\n⚡ New \"Add anyway\" manual override flow in the AI Review center!",
+      "publishedAt": "2026-06-03",
+      "sha256": "6525112f9b0fc5bf19380ad4d45cbd461b51051d7c7a6bbd6dd7e97003b19950"
+    },
     {
       "tagName": "v111",
       "versionNumber": 111,
@@ -89,18 +98,30 @@
       "releaseNotes": "⚡ Lightning-Fast Updates, Fixed!\nSpendWise now correctly reads and applies micro-patches, bringing you lightning-fast OTA updates that are up to 99.9% smaller and complete in the blink of an eye!\n\n🏎️ Instant Desktop Verification\nWe've introduced a high-performance verification engine that tests our update systems directly on our development computers, ensuring flawless OTA updates are shipped with 100% confidence!",
       "publishedAt": "2026-06-01",
       "sha256": "d407bd5c371a90de954b35c72c4458c0471fd4a6d2eeaf3ba2a28aae062e9e7f"
-    },
-    {
-      "tagName": "v101",
-      "versionNumber": 101,
-      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v101/app-release.apk",
-      "downloadSizeBytes": 119710898,
-      "releaseNotes": "SpendWise client-side update system has been fully resolved!\n\n• Enhanced Visual Diagnostics: Added real-time Toast alerts to the OTA Update manager. The app now displays the exact reason for any patch failure (such as checksum mismatches or delta alignment errors) directly on your device before performing a safe, automated full APK fallback download.",
-      "publishedAt": "2026-06-01",
-      "sha256": "83c64401f95a4ef1a79fb04a2e9b50613fc5d5c2c82a3708cb10aa5eb11c69ed"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 111,
+      "toVersion": 112,
+      "size": 1151203,
+      "sha256": "7eaedd8493e0317e327bcd953aeced574441cc6a6e0f5096d09c08798d91a16f",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v112/patch_v111_to_v112.patch"
+    },
+    {
+      "fromVersion": 110,
+      "toVersion": 112,
+      "size": 1340080,
+      "sha256": "5523d27ad01e5427fc24c2abf51d40f1dd4d41d58f5efce406628920fc456b85",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v112/patch_v110_to_v112.patch"
+    },
+    {
+      "fromVersion": 108,
+      "toVersion": 112,
+      "size": 1325222,
+      "sha256": "10c7e1bd09e046a661444d0747602424419dde6e1b3f754be12ea73448cb4610",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v112/patch_v108_to_v112.patch"
+    },
     {
       "fromVersion": 110,
       "toVersion": 111,

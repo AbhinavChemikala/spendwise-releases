@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v113",
-    "versionNumber": 113,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v113/app-release.apk",
-    "downloadSizeBytes": 119825670,
-    "releaseNotes": "📑 Sleek, compact tabbed design separating conditions and actions!\n\n🎯 Replaced text fields with beautiful dropdown lists for assigning category, bank, and bucket!\n\n🎨 Harmonious purple vertical gradients and custom icon integration matching the premium theme!",
+    "tagName": "v114",
+    "versionNumber": 114,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v114/app-release.apk",
+    "downloadSizeBytes": 119842054,
+    "releaseNotes": "✨ Kept the native launcher splash screen visible on start until transactions load to eliminate lag and visual jumpiness!\n\n📊 Introduced weekly and monthly notifications alerting you of spend trends and category changes!\n\nSunday mornings at 9:00 AM and monthly wrap-ups are now completely automated! 🚀🎨",
     "publishedAt": "2026-06-03",
-    "sha256": "b16a077d199c2bffb0c6d559acd709858c4e9c1f3d2f5081af132c9c234548be"
+    "sha256": "47d985e4c92199c39a67b8f2de89bbd62e9939403aaad0349b3c847386a7012f"
   },
   "releases": [
+    {
+      "tagName": "v114",
+      "versionNumber": 114,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v114/app-release.apk",
+      "downloadSizeBytes": 119842054,
+      "releaseNotes": "✨ Kept the native launcher splash screen visible on start until transactions load to eliminate lag and visual jumpiness!\n\n📊 Introduced weekly and monthly notifications alerting you of spend trends and category changes!\n\nSunday mornings at 9:00 AM and monthly wrap-ups are now completely automated! 🚀🎨",
+      "publishedAt": "2026-06-03",
+      "sha256": "47d985e4c92199c39a67b8f2de89bbd62e9939403aaad0349b3c847386a7012f"
+    },
     {
       "tagName": "v113",
       "versionNumber": 113,
@@ -89,18 +98,30 @@
       "releaseNotes": "💖 Fuel Independent Development, Built with Love!\nIntroducing a beautiful, premium Donate Button right inside the settings screen! If SpendWise helps you track your budgets and ingestion rules, consider supporting ad-free, secure tools. It opens all your favorite UPI apps directly, featuring preset quick chips (₹50, ₹100, ₹250, ₹500, ₹1000) and a stunning pulsing animation!\n\n🎉 A Particle Celebration for Legends!\nEvery successful support transfer triggers a gorgeous Confetti Explosion falling down your screen in real-time! Our custom particle physics engine animates hundreds of colorful, rotating confetti pieces at a butter-smooth 60fps to express our deepest gratitude.\n\n🛡️ Smart Bank Verification Fallback\nSince modern banking apps restrict transaction status reporting for personal UPI peer-to-peer VPAs, SpendWise incorporates an empathetic self-verification backup. If your payment goes through but the banking app returns unconfirmed, a warm card lets you confirm and celebrate anyway!",
       "publishedAt": "2026-06-01",
       "sha256": "5dc07a12c5701020959be2bc43f7e40946f2122239bdc3582fa0545ac9a5d6ab"
-    },
-    {
-      "tagName": "v103",
-      "versionNumber": 103,
-      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v103/app-release.apk",
-      "downloadSizeBytes": 119710902,
-      "releaseNotes": "⚡ Lightning-Fast Updates, Fixed!\nSpendWise now correctly reads and applies micro-patches, bringing you lightning-fast OTA updates that are up to 99.9% smaller and complete in the blink of an eye!\n\n🏎️ Instant Desktop Verification\nWe've introduced a high-performance verification engine that tests our update systems directly on our development computers, ensuring flawless OTA updates are shipped with 100% confidence!",
-      "publishedAt": "2026-06-01",
-      "sha256": "5d2fb8a6ca3186e288edd79727aabce3e38722c71240c41e39dc69a5d035d052"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 113,
+      "toVersion": 114,
+      "size": 1049191,
+      "sha256": "83538252b0a8c36b49d449ac3599974a27716c1dc5797a14d06f2780c4ee027c",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v114/patch_v113_to_v114.patch"
+    },
+    {
+      "fromVersion": 112,
+      "toVersion": 114,
+      "size": 1379800,
+      "sha256": "722b4eebd4613e5a2948e6fbe53098137e979c829dd86e4121bfdf8be18eea7f",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v114/patch_v112_to_v114.patch"
+    },
+    {
+      "fromVersion": 111,
+      "toVersion": 114,
+      "size": 1404165,
+      "sha256": "3af8170fd3fba8bf8661064af9e4306ade40ab0d77d1c718ebc436b0d0a46cab",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v114/patch_v111_to_v114.patch"
+    },
     {
       "fromVersion": 112,
       "toVersion": 113,

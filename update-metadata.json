@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v117",
-    "versionNumber": 117,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v117/app-release.apk",
-    "downloadSizeBytes": 119842054,
-    "releaseNotes": "🎨 Visual Bucket Analytics: The Bucket Analytics card is now a beautiful progress dashboard displaying your top 3 custom spending buckets with dynamic colors and icons.\n🧭 Seamless Navigation: Pressing back on bottom tabs now returns you to Home instead of closing the app, and full-screen screens (like SMS Scan) dismiss cleanly.\n⚙️ Premium Bottom Bar: Redesigned bottom tabs to completely remove duplicate grey capsules and blocky hover squares for a pixel-perfect, clean selection highlight.\n📅 Smarter Timestamps: Missing email transaction times now fall back to the exact email arrival time instead of a hardcoded 12:00 PM.\n📊 Optimized Layouts: The Spending Map and Bucket Analytics cards are now visible by default and positioned at the bottom of the Insights tab presets.",
+    "tagName": "v118",
+    "versionNumber": 118,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v118/app-release.apk",
+    "downloadSizeBytes": 119858438,
+    "releaseNotes": "⚡ Tame the AI! Introduced a rule toggle to confirm trusted rules instantly without waiting for NPU review. Fast, responsive tracking! 🚀🎯",
     "publishedAt": "2026-06-04",
-    "sha256": "963768807060bcc4dd36d22ee57f0be3af1002108b1d0bed7249768e2643b368"
+    "sha256": "78d439b1844902e525ed87ec7ac216b55186774c21886fe71dee6e791d80bf5c"
   },
   "releases": [
+    {
+      "tagName": "v118",
+      "versionNumber": 118,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v118/app-release.apk",
+      "downloadSizeBytes": 119858438,
+      "releaseNotes": "⚡ Tame the AI! Introduced a rule toggle to confirm trusted rules instantly without waiting for NPU review. Fast, responsive tracking! 🚀🎯",
+      "publishedAt": "2026-06-04",
+      "sha256": "78d439b1844902e525ed87ec7ac216b55186774c21886fe71dee6e791d80bf5c"
+    },
     {
       "tagName": "v117",
       "versionNumber": 117,
@@ -89,18 +98,30 @@
       "releaseNotes": "Your SpendWise codebase is now fully private! To protect your sensitive project source code, signing keys, and Firebase configurations while keeping OTA updates completely open and fast, we transitioned the CI/CD pipeline to a secure split-repository architecture.\n\nPushing updates to your private repository automatically builds, signs, and releases files (APKs and patches) into your new public spendwise-releases repository. Local UpdateManager tests have also been upgraded to run offline using cached files, bypassing network restrictions.",
       "publishedAt": "2026-06-02",
       "sha256": "22ffad45dd4d0064f29aa37e4cb92ca4858515139afc510483b31a934047d8ff"
-    },
-    {
-      "tagName": "v105",
-      "versionNumber": 105,
-      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v105/app-release.apk",
-      "downloadSizeBytes": 119760134,
-      "releaseNotes": "Introducing a major upgrade to the SpendWise SMS engine! Sideloaded financial alerts from verified banks containing support or dispute links are now recognized instantly as 100% legitimate transactions. They bypass spam checks and the AI queue, going straight to your dashboard in the blink of an eye with zero latency and zero data overhead.",
-      "publishedAt": "2026-06-01",
-      "sha256": "50af42c68cdf12a051cc92bc7fee87f2ac906c66bffc336d020feb9e37e74b78"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 117,
+      "toVersion": 118,
+      "size": 1195422,
+      "sha256": "703a5339b1aff7234e86a3cafdcf35c4eda8a399564edabca288676df5e5a41e",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v118/patch_v117_to_v118.patch"
+    },
+    {
+      "fromVersion": 114,
+      "toVersion": 118,
+      "size": 1273365,
+      "sha256": "0cc7b372a4600957a6e19706b886e882b80e2bca5f8890503db845a54bc30c38",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v118/patch_v114_to_v118.patch"
+    },
+    {
+      "fromVersion": 113,
+      "toVersion": 118,
+      "size": 1357772,
+      "sha256": "c6b83ca33288a62bbbd51da6de13d32e062707830532ffe39f213a00d463609d",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v118/patch_v113_to_v118.patch"
+    },
     {
       "fromVersion": 114,
       "toVersion": 117,

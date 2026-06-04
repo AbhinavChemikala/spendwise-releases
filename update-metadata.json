@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v114",
-    "versionNumber": 114,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v114/app-release.apk",
+    "tagName": "v117",
+    "versionNumber": 117,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v117/app-release.apk",
     "downloadSizeBytes": 119842054,
-    "releaseNotes": "✨ Kept the native launcher splash screen visible on start until transactions load to eliminate lag and visual jumpiness!\n\n📊 Introduced weekly and monthly notifications alerting you of spend trends and category changes!\n\nSunday mornings at 9:00 AM and monthly wrap-ups are now completely automated! 🚀🎨",
-    "publishedAt": "2026-06-03",
-    "sha256": "47d985e4c92199c39a67b8f2de89bbd62e9939403aaad0349b3c847386a7012f"
+    "releaseNotes": "🎨 Visual Bucket Analytics: The Bucket Analytics card is now a beautiful progress dashboard displaying your top 3 custom spending buckets with dynamic colors and icons.\n🧭 Seamless Navigation: Pressing back on bottom tabs now returns you to Home instead of closing the app, and full-screen screens (like SMS Scan) dismiss cleanly.\n⚙️ Premium Bottom Bar: Redesigned bottom tabs to completely remove duplicate grey capsules and blocky hover squares for a pixel-perfect, clean selection highlight.\n📅 Smarter Timestamps: Missing email transaction times now fall back to the exact email arrival time instead of a hardcoded 12:00 PM.\n📊 Optimized Layouts: The Spending Map and Bucket Analytics cards are now visible by default and positioned at the bottom of the Insights tab presets.",
+    "publishedAt": "2026-06-04",
+    "sha256": "963768807060bcc4dd36d22ee57f0be3af1002108b1d0bed7249768e2643b368"
   },
   "releases": [
+    {
+      "tagName": "v117",
+      "versionNumber": 117,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v117/app-release.apk",
+      "downloadSizeBytes": 119842054,
+      "releaseNotes": "🎨 Visual Bucket Analytics: The Bucket Analytics card is now a beautiful progress dashboard displaying your top 3 custom spending buckets with dynamic colors and icons.\n🧭 Seamless Navigation: Pressing back on bottom tabs now returns you to Home instead of closing the app, and full-screen screens (like SMS Scan) dismiss cleanly.\n⚙️ Premium Bottom Bar: Redesigned bottom tabs to completely remove duplicate grey capsules and blocky hover squares for a pixel-perfect, clean selection highlight.\n📅 Smarter Timestamps: Missing email transaction times now fall back to the exact email arrival time instead of a hardcoded 12:00 PM.\n📊 Optimized Layouts: The Spending Map and Bucket Analytics cards are now visible by default and positioned at the bottom of the Insights tab presets.",
+      "publishedAt": "2026-06-04",
+      "sha256": "963768807060bcc4dd36d22ee57f0be3af1002108b1d0bed7249768e2643b368"
+    },
     {
       "tagName": "v114",
       "versionNumber": 114,
@@ -89,18 +98,30 @@
       "releaseNotes": "Introducing a major upgrade to the SpendWise SMS engine! Sideloaded financial alerts from verified banks containing support or dispute links are now recognized instantly as 100% legitimate transactions. They bypass spam checks and the AI queue, going straight to your dashboard in the blink of an eye with zero latency and zero data overhead.",
       "publishedAt": "2026-06-01",
       "sha256": "50af42c68cdf12a051cc92bc7fee87f2ac906c66bffc336d020feb9e37e74b78"
-    },
-    {
-      "tagName": "v104",
-      "versionNumber": 104,
-      "downloadUrl": "https://github.com/AbhinavChemikala/SpendWise/releases/download/v104/app-release.apk",
-      "downloadSizeBytes": 119760134,
-      "releaseNotes": "💖 Fuel Independent Development, Built with Love!\nIntroducing a beautiful, premium Donate Button right inside the settings screen! If SpendWise helps you track your budgets and ingestion rules, consider supporting ad-free, secure tools. It opens all your favorite UPI apps directly, featuring preset quick chips (₹50, ₹100, ₹250, ₹500, ₹1000) and a stunning pulsing animation!\n\n🎉 A Particle Celebration for Legends!\nEvery successful support transfer triggers a gorgeous Confetti Explosion falling down your screen in real-time! Our custom particle physics engine animates hundreds of colorful, rotating confetti pieces at a butter-smooth 60fps to express our deepest gratitude.\n\n🛡️ Smart Bank Verification Fallback\nSince modern banking apps restrict transaction status reporting for personal UPI peer-to-peer VPAs, SpendWise incorporates an empathetic self-verification backup. If your payment goes through but the banking app returns unconfirmed, a warm card lets you confirm and celebrate anyway!",
-      "publishedAt": "2026-06-01",
-      "sha256": "5dc07a12c5701020959be2bc43f7e40946f2122239bdc3582fa0545ac9a5d6ab"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 114,
+      "toVersion": 117,
+      "size": 1171265,
+      "sha256": "1d81c8b1c5e6d40ba77daa04c09d50cfce92200e6a7074937853a4ad70b3efc6",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v117/patch_v114_to_v117.patch"
+    },
+    {
+      "fromVersion": 113,
+      "toVersion": 117,
+      "size": 1303870,
+      "sha256": "ad3da614fb6c98fa5e7ea62f7c89202f36f6abb2d70ebf05fcf2dd56fa4dd337",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v117/patch_v113_to_v117.patch"
+    },
+    {
+      "fromVersion": 112,
+      "toVersion": 117,
+      "size": 1451958,
+      "sha256": "9af636b83d2e378b49e02f4cc62d18e9d34d7a6255b13c1ba256cb6c8b493980",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v117/patch_v112_to_v117.patch"
+    },
     {
       "fromVersion": 113,
       "toVersion": 114,

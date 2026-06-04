@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v119",
-    "versionNumber": 119,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v119/app-release.apk",
-    "downloadSizeBytes": 119858438,
-    "releaseNotes": "🔒 Guard category rules! Enabled background NPU/AI merchant cleanups for rule-backed transactions while locking custom category assignments and respecting explicit custom merchant definitions. 🧼⚡",
+    "tagName": "v120",
+    "versionNumber": 120,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v120/app-release.apk",
+    "downloadSizeBytes": 119874822,
+    "releaseNotes": "💳 You can now map transactions to specific cards or custom accounts in your rules! Pick from your existing accounts list or type custom names to keep your logs perfectly organized. 🚀✨",
     "publishedAt": "2026-06-04",
-    "sha256": "72ca6a6bd4701f99a3eb72302d58c3e5e5314126c97736236e95d8604afef9bd"
+    "sha256": "fbb4a9c4b9ace82ab915d55bd1a74398b35e9361cf63850eaf6f59556197ae02"
   },
   "releases": [
+    {
+      "tagName": "v120",
+      "versionNumber": 120,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v120/app-release.apk",
+      "downloadSizeBytes": 119874822,
+      "releaseNotes": "💳 You can now map transactions to specific cards or custom accounts in your rules! Pick from your existing accounts list or type custom names to keep your logs perfectly organized. 🚀✨",
+      "publishedAt": "2026-06-04",
+      "sha256": "fbb4a9c4b9ace82ab915d55bd1a74398b35e9361cf63850eaf6f59556197ae02"
+    },
     {
       "tagName": "v119",
       "versionNumber": 119,
@@ -89,18 +98,30 @@
       "releaseNotes": "Introducing smart, bank-priority matching that identifies Axis, ICICI, and Kotak transaction formats directly from SMS alerts to extract clean, precise merchant names.\n\nAdds comprehensive background AI logs that trace the full execution chain to explain exactly why model checks failed, complete with direct support for custom on-device and cloud parameters.",
       "publishedAt": "2026-06-02",
       "sha256": "9280d7244376ba1cb7bd6def3e1228b73aebf8a40839f70d74c2c0d770b3902d"
-    },
-    {
-      "tagName": "v107",
-      "versionNumber": 107,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v107/app-release.apk",
-      "downloadSizeBytes": 119760134,
-      "releaseNotes": "Trigger split-repository OTA release pipeline test",
-      "publishedAt": "2026-06-02",
-      "sha256": "c6465f2ec62a2d37f2711870c8f553dfc3715c921235cbce3782c5d87f39597f"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 119,
+      "toVersion": 120,
+      "size": 1094167,
+      "sha256": "c5ce60f28392ba7f264d67f54d891f429d288404122192f9e2157695fb6be347",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v120/patch_v119_to_v120.patch"
+    },
+    {
+      "fromVersion": 118,
+      "toVersion": 120,
+      "size": 1060615,
+      "sha256": "eb4250669c4a59c4539160bde39fc3282d8a886256fba09c686948148abb253c",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v120/patch_v118_to_v120.patch"
+    },
+    {
+      "fromVersion": 117,
+      "toVersion": 120,
+      "size": 1268037,
+      "sha256": "846d0312e3589a03b8d8cfd529c0f93be952265004394644c99159d8ed8c2379",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v120/patch_v117_to_v120.patch"
+    },
     {
       "fromVersion": 118,
       "toVersion": 119,

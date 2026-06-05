@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v123",
-    "versionNumber": 123,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v123/app-release.apk",
-    "downloadSizeBytes": 133006692,
-    "releaseNotes": "💳 Track credit card dues with instant recalculations when marked as paid, plus beautiful new badges!\n📬 Sync Axis statements automatically with the corrected email sender filter!\n⚙️ Drag-and-drop layouts on Home and Insights screens now save permanently without resetting on app close!\n🧹 Streamlined the dashboard by removing the duplicate standalone financial buckets widget!",
+    "tagName": "v124",
+    "versionNumber": 124,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v124/app-release.apk",
+    "downloadSizeBytes": 133039456,
+    "releaseNotes": "⏰ Get daily notifications for upcoming credit card statement deadlines at your chosen time!\n\n📂 Fixed the statement debug logs filter so you can easily track and view sync results for all your custom forwarded statement sources directly in settings!",
     "publishedAt": "2026-06-05",
-    "sha256": "c98bf607affef41fb0fbe339d88d715ba8a5d86d4852984e36711eedca49a1f8"
+    "sha256": "24fb370233b481bfc139ceb57789bd8e023e9a751a574ce776f66afc85d9fb5a"
   },
   "releases": [
+    {
+      "tagName": "v124",
+      "versionNumber": 124,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v124/app-release.apk",
+      "downloadSizeBytes": 133039456,
+      "releaseNotes": "⏰ Get daily notifications for upcoming credit card statement deadlines at your chosen time!\n\n📂 Fixed the statement debug logs filter so you can easily track and view sync results for all your custom forwarded statement sources directly in settings!",
+      "publishedAt": "2026-06-05",
+      "sha256": "24fb370233b481bfc139ceb57789bd8e023e9a751a574ce776f66afc85d9fb5a"
+    },
     {
       "tagName": "v123",
       "versionNumber": 123,
@@ -89,18 +98,30 @@
       "releaseNotes": "📬 Smarter email/SMS sync matching with stop-words support!\n\n🔍 Enhanced Axis duplicate checker with relaxed account numbers and fuzzy merchant names!\n\n🛡️ Double-layered post-AI duplicate protection to avoid repeat entries!\n\n⚡ New \"Add anyway\" manual override flow in the AI Review center!",
       "publishedAt": "2026-06-03",
       "sha256": "6525112f9b0fc5bf19380ad4d45cbd461b51051d7c7a6bbd6dd7e97003b19950"
-    },
-    {
-      "tagName": "v111",
-      "versionNumber": 111,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v111/app-release.apk",
-      "downloadSizeBytes": 119760130,
-      "releaseNotes": "✨ Collapses floating action buttons on scroll to keep transaction details visible\n📅 Added a date picker to manual transaction entry dialog to support custom dates\n🎨 Custom-themed the Calendar selector to blend with SpendWise's dark mode branding",
-      "publishedAt": "2026-06-02",
-      "sha256": "9588ee207ad5021ac22c2d3faa209f4e6d0a96b515a033d64847b09413bd0f96"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 123,
+      "toVersion": 124,
+      "size": 4031974,
+      "sha256": "4563ea5cdc60793b629762bf1c37b6787c343436a2f7028c15c67c8730e7fe38",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v124/patch_v123_to_v124.patch"
+    },
+    {
+      "fromVersion": 122,
+      "toVersion": 124,
+      "size": 4039032,
+      "sha256": "67f203a1896081f5a028d2691b60dc7ad8b84fe50f2eca8d8a536e207e8e984f",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v124/patch_v122_to_v124.patch"
+    },
+    {
+      "fromVersion": 120,
+      "toVersion": 124,
+      "size": 14636754,
+      "sha256": "d5c178493cca49983f34452d04e118fb172ee7b0f92e477ff443524ed7796f88",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v124/patch_v120_to_v124.patch"
+    },
     {
       "fromVersion": 122,
       "toVersion": 123,

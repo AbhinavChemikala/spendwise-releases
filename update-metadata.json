@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v125",
-    "versionNumber": 125,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v125/app-release.apk",
-    "downloadSizeBytes": 133039456,
-    "releaseNotes": "💳 Sync and view multiple credit cards from the same bank side-by-side!\n🔒 Collision-free locked statement handling with auto-merge on unlock.\n🧪 Fully tested and verified across all statement parsers!",
+    "tagName": "v126",
+    "versionNumber": 126,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v126/app-release.apk",
+    "downloadSizeBytes": 133055844,
+    "releaseNotes": "💳 Redesigned the statements screen into a gorgeous virtual credit card wallet!\n✨ Added a tactile swipable card pager with 3D perspective rotation and scaling.\n🎨 Ambient glow shifting backdrop matching card branding colors.\n📅 Sliding segmented month selector control with smooth scale animations.",
     "publishedAt": "2026-06-05",
-    "sha256": "c1751ef355f3cdb1d212f54b8047149ddcb7df87fc307e9c492c78067746b732"
+    "sha256": "7765bf6078d65d84a3ab2c1628c0bce322df045ba2081155991075c8e0223404"
   },
   "releases": [
+    {
+      "tagName": "v126",
+      "versionNumber": 126,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v126/app-release.apk",
+      "downloadSizeBytes": 133055844,
+      "releaseNotes": "💳 Redesigned the statements screen into a gorgeous virtual credit card wallet!\n✨ Added a tactile swipable card pager with 3D perspective rotation and scaling.\n🎨 Ambient glow shifting backdrop matching card branding colors.\n📅 Sliding segmented month selector control with smooth scale animations.",
+      "publishedAt": "2026-06-05",
+      "sha256": "7765bf6078d65d84a3ab2c1628c0bce322df045ba2081155991075c8e0223404"
+    },
     {
       "tagName": "v125",
       "versionNumber": 125,
@@ -89,18 +98,30 @@
       "releaseNotes": "✨ Kept the native launcher splash screen visible on start until transactions load to eliminate lag and visual jumpiness!\n\n📊 Introduced weekly and monthly notifications alerting you of spend trends and category changes!\n\nSunday mornings at 9:00 AM and monthly wrap-ups are now completely automated! 🚀🎨",
       "publishedAt": "2026-06-03",
       "sha256": "47d985e4c92199c39a67b8f2de89bbd62e9939403aaad0349b3c847386a7012f"
-    },
-    {
-      "tagName": "v113",
-      "versionNumber": 113,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v113/app-release.apk",
-      "downloadSizeBytes": 119825670,
-      "releaseNotes": "📑 Sleek, compact tabbed design separating conditions and actions!\n\n🎯 Replaced text fields with beautiful dropdown lists for assigning category, bank, and bucket!\n\n🎨 Harmonious purple vertical gradients and custom icon integration matching the premium theme!",
-      "publishedAt": "2026-06-03",
-      "sha256": "b16a077d199c2bffb0c6d559acd709858c4e9c1f3d2f5081af132c9c234548be"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 125,
+      "toVersion": 126,
+      "size": 1210489,
+      "sha256": "269ca14f7c809e561989ea664259aa8a991b2e99dec3c4e450c8cecfff08c992",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v126/patch_v125_to_v126.patch"
+    },
+    {
+      "fromVersion": 124,
+      "toVersion": 126,
+      "size": 1900109,
+      "sha256": "611ac67484092dde67f3b9520fc9d265ea7d9f3d16e4c9cfe54ed848e71c7aed",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v126/patch_v124_to_v126.patch"
+    },
+    {
+      "fromVersion": 123,
+      "toVersion": 126,
+      "size": 4106998,
+      "sha256": "6af5e1f6911b96fe50f615ab03ae12c59b5944f225bd1bdaae4e5cfb5358786b",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v126/patch_v123_to_v126.patch"
+    },
     {
       "fromVersion": 124,
       "toVersion": 125,

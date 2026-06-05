@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v120",
-    "versionNumber": 120,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v120/app-release.apk",
-    "downloadSizeBytes": 119874822,
-    "releaseNotes": "💳 You can now map transactions to specific cards or custom accounts in your rules! Pick from your existing accounts list or type custom names to keep your logs perfectly organized. 🚀✨",
-    "publishedAt": "2026-06-04",
-    "sha256": "fbb4a9c4b9ace82ab915d55bd1a74398b35e9361cf63850eaf6f59556197ae02"
+    "tagName": "v122",
+    "versionNumber": 122,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v122/app-release.apk",
+    "downloadSizeBytes": 133006688,
+    "releaseNotes": "📬 Auto-Sync from Gmail: Automatically fetch and sync statements from major card providers (IDFC FIRST, SBI, HDFC, ICICI, Axis, Slice, and more) in seconds! 🔒 Secure Inline Decryption: Enter your statement password once, save it securely on your device, and watch future statements decrypt automatically. 📈 Premium Spending Charts: Track billing cycles with a smooth, touch-interactive daily trend line and category breakdown donut chart! 🛡️ Smart Expense Calculations: View your true net expenses (purchases minus cashbacks/refunds) while ignoring bill repayments to keep charts 100% accurate.",
+    "publishedAt": "2026-06-05",
+    "sha256": "22d2d9aaefd3bfe1a7c43140b77ee45c8dd96b77492e653d3391aaf0ce5ddaac"
   },
   "releases": [
+    {
+      "tagName": "v122",
+      "versionNumber": 122,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v122/app-release.apk",
+      "downloadSizeBytes": 133006688,
+      "releaseNotes": "📬 Auto-Sync from Gmail: Automatically fetch and sync statements from major card providers (IDFC FIRST, SBI, HDFC, ICICI, Axis, Slice, and more) in seconds! 🔒 Secure Inline Decryption: Enter your statement password once, save it securely on your device, and watch future statements decrypt automatically. 📈 Premium Spending Charts: Track billing cycles with a smooth, touch-interactive daily trend line and category breakdown donut chart! 🛡️ Smart Expense Calculations: View your true net expenses (purchases minus cashbacks/refunds) while ignoring bill repayments to keep charts 100% accurate.",
+      "publishedAt": "2026-06-05",
+      "sha256": "22d2d9aaefd3bfe1a7c43140b77ee45c8dd96b77492e653d3391aaf0ce5ddaac"
+    },
     {
       "tagName": "v120",
       "versionNumber": 120,
@@ -89,18 +98,30 @@
       "releaseNotes": "Cleaned up the laggy gesture dragging bugs! ✨ Reordering cards on Home & Insights tabs is now fully button-based and super smooth 🚀 Cards stay intact, layout works perfectly! 🎯🎨",
       "publishedAt": "2026-06-02",
       "sha256": "40bb8ce9d872ead18f0a3ee00f95a5d33f9427b638f661e47652cf1b39188661"
-    },
-    {
-      "tagName": "v108",
-      "versionNumber": 108,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v108/app-release.apk",
-      "downloadSizeBytes": 119760134,
-      "releaseNotes": "Introducing smart, bank-priority matching that identifies Axis, ICICI, and Kotak transaction formats directly from SMS alerts to extract clean, precise merchant names.\n\nAdds comprehensive background AI logs that trace the full execution chain to explain exactly why model checks failed, complete with direct support for custom on-device and cloud parameters.",
-      "publishedAt": "2026-06-02",
-      "sha256": "9280d7244376ba1cb7bd6def3e1228b73aebf8a40839f70d74c2c0d770b3902d"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 120,
+      "toVersion": 122,
+      "size": 14687209,
+      "sha256": "1915ce34aa4cc1f898a9f7aff11cb35bf7a2f129fe0766f6d6c8007f77e24cdb",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v122/patch_v120_to_v122.patch"
+    },
+    {
+      "fromVersion": 119,
+      "toVersion": 122,
+      "size": 14710070,
+      "sha256": "5eef7cd07cd20f6d9c54070046b91c40e4d42100134d0f29158581911f470073",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v122/patch_v119_to_v122.patch"
+    },
+    {
+      "fromVersion": 118,
+      "toVersion": 122,
+      "size": 14699894,
+      "sha256": "f825c946a28cf402763ba605ebc8612c20d991c49650d2fef59acd5db1487766",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v122/patch_v118_to_v122.patch"
+    },
     {
       "fromVersion": 119,
       "toVersion": 120,

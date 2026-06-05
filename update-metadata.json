@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v126",
-    "versionNumber": 126,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v126/app-release.apk",
+    "tagName": "v127",
+    "versionNumber": 127,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v127/app-release.apk",
     "downloadSizeBytes": 133055844,
-    "releaseNotes": "💳 Redesigned the statements screen into a gorgeous virtual credit card wallet!\n✨ Added a tactile swipable card pager with 3D perspective rotation and scaling.\n🎨 Ambient glow shifting backdrop matching card branding colors.\n📅 Sliding segmented month selector control with smooth scale animations.",
+    "releaseNotes": "📊 Hide paid statements from your dashboard automatically!\n🔢 Correctly mask 2-digit credit card suffixes with dots.\n🔄 Reset Gmail sync cache seamlessly for Axis and IDFC FIRST Bank updates.",
     "publishedAt": "2026-06-05",
-    "sha256": "7765bf6078d65d84a3ab2c1628c0bce322df045ba2081155991075c8e0223404"
+    "sha256": "90ac10de5b1dcc5baed75df50a5cea6a5dace5fcd2efee4f73d6effbc0759f15"
   },
   "releases": [
+    {
+      "tagName": "v127",
+      "versionNumber": 127,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v127/app-release.apk",
+      "downloadSizeBytes": 133055844,
+      "releaseNotes": "📊 Hide paid statements from your dashboard automatically!\n🔢 Correctly mask 2-digit credit card suffixes with dots.\n🔄 Reset Gmail sync cache seamlessly for Axis and IDFC FIRST Bank updates.",
+      "publishedAt": "2026-06-05",
+      "sha256": "90ac10de5b1dcc5baed75df50a5cea6a5dace5fcd2efee4f73d6effbc0759f15"
+    },
     {
       "tagName": "v126",
       "versionNumber": 126,
@@ -89,18 +98,30 @@
       "releaseNotes": "🎨 Visual Bucket Analytics: The Bucket Analytics card is now a beautiful progress dashboard displaying your top 3 custom spending buckets with dynamic colors and icons.\n🧭 Seamless Navigation: Pressing back on bottom tabs now returns you to Home instead of closing the app, and full-screen screens (like SMS Scan) dismiss cleanly.\n⚙️ Premium Bottom Bar: Redesigned bottom tabs to completely remove duplicate grey capsules and blocky hover squares for a pixel-perfect, clean selection highlight.\n📅 Smarter Timestamps: Missing email transaction times now fall back to the exact email arrival time instead of a hardcoded 12:00 PM.\n📊 Optimized Layouts: The Spending Map and Bucket Analytics cards are now visible by default and positioned at the bottom of the Insights tab presets.",
       "publishedAt": "2026-06-04",
       "sha256": "963768807060bcc4dd36d22ee57f0be3af1002108b1d0bed7249768e2643b368"
-    },
-    {
-      "tagName": "v114",
-      "versionNumber": 114,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v114/app-release.apk",
-      "downloadSizeBytes": 119842054,
-      "releaseNotes": "✨ Kept the native launcher splash screen visible on start until transactions load to eliminate lag and visual jumpiness!\n\n📊 Introduced weekly and monthly notifications alerting you of spend trends and category changes!\n\nSunday mornings at 9:00 AM and monthly wrap-ups are now completely automated! 🚀🎨",
-      "publishedAt": "2026-06-03",
-      "sha256": "47d985e4c92199c39a67b8f2de89bbd62e9939403aaad0349b3c847386a7012f"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 126,
+      "toVersion": 127,
+      "size": 805480,
+      "sha256": "8d57886238374a405e5ed9d3514ca9980a3b800adaeb120553b6763d78a49dbe",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v127/patch_v126_to_v127.patch"
+    },
+    {
+      "fromVersion": 125,
+      "toVersion": 127,
+      "size": 1477150,
+      "sha256": "5c3ba5b818961472bf3d4fffd0ae51e09780e5233ad21dd08def9d834c3e713d",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v127/patch_v125_to_v127.patch"
+    },
+    {
+      "fromVersion": 124,
+      "toVersion": 127,
+      "size": 1954909,
+      "sha256": "be50730bd14cd9c661633f1d471c354bb69b50cead6695bb74fde2b0511f1aca",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v127/patch_v124_to_v127.patch"
+    },
     {
       "fromVersion": 125,
       "toVersion": 126,

@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v122",
-    "versionNumber": 122,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v122/app-release.apk",
-    "downloadSizeBytes": 133006688,
-    "releaseNotes": "📬 Auto-Sync from Gmail: Automatically fetch and sync statements from major card providers (IDFC FIRST, SBI, HDFC, ICICI, Axis, Slice, and more) in seconds! 🔒 Secure Inline Decryption: Enter your statement password once, save it securely on your device, and watch future statements decrypt automatically. 📈 Premium Spending Charts: Track billing cycles with a smooth, touch-interactive daily trend line and category breakdown donut chart! 🛡️ Smart Expense Calculations: View your true net expenses (purchases minus cashbacks/refunds) while ignoring bill repayments to keep charts 100% accurate.",
+    "tagName": "v123",
+    "versionNumber": 123,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v123/app-release.apk",
+    "downloadSizeBytes": 133006692,
+    "releaseNotes": "💳 Track credit card dues with instant recalculations when marked as paid, plus beautiful new badges!\n📬 Sync Axis statements automatically with the corrected email sender filter!\n⚙️ Drag-and-drop layouts on Home and Insights screens now save permanently without resetting on app close!\n🧹 Streamlined the dashboard by removing the duplicate standalone financial buckets widget!",
     "publishedAt": "2026-06-05",
-    "sha256": "22d2d9aaefd3bfe1a7c43140b77ee45c8dd96b77492e653d3391aaf0ce5ddaac"
+    "sha256": "c98bf607affef41fb0fbe339d88d715ba8a5d86d4852984e36711eedca49a1f8"
   },
   "releases": [
+    {
+      "tagName": "v123",
+      "versionNumber": 123,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v123/app-release.apk",
+      "downloadSizeBytes": 133006692,
+      "releaseNotes": "💳 Track credit card dues with instant recalculations when marked as paid, plus beautiful new badges!\n📬 Sync Axis statements automatically with the corrected email sender filter!\n⚙️ Drag-and-drop layouts on Home and Insights screens now save permanently without resetting on app close!\n🧹 Streamlined the dashboard by removing the duplicate standalone financial buckets widget!",
+      "publishedAt": "2026-06-05",
+      "sha256": "c98bf607affef41fb0fbe339d88d715ba8a5d86d4852984e36711eedca49a1f8"
+    },
     {
       "tagName": "v122",
       "versionNumber": 122,
@@ -89,18 +98,30 @@
       "releaseNotes": "✨ Collapses floating action buttons on scroll to keep transaction details visible\n📅 Added a date picker to manual transaction entry dialog to support custom dates\n🎨 Custom-themed the Calendar selector to blend with SpendWise's dark mode branding",
       "publishedAt": "2026-06-02",
       "sha256": "9588ee207ad5021ac22c2d3faa209f4e6d0a96b515a033d64847b09413bd0f96"
-    },
-    {
-      "tagName": "v110",
-      "versionNumber": 110,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v110/app-release.apk",
-      "downloadSizeBytes": 119743750,
-      "releaseNotes": "Cleaned up the laggy gesture dragging bugs! ✨ Reordering cards on Home & Insights tabs is now fully button-based and super smooth 🚀 Cards stay intact, layout works perfectly! 🎯🎨",
-      "publishedAt": "2026-06-02",
-      "sha256": "40bb8ce9d872ead18f0a3ee00f95a5d33f9427b638f661e47652cf1b39188661"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 122,
+      "toVersion": 123,
+      "size": 1262921,
+      "sha256": "027f14dd4defe8dd31d114f93e94ba27d830bb76b71a355a8a21621d39ac6ac4",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v123/patch_v122_to_v123.patch"
+    },
+    {
+      "fromVersion": 120,
+      "toVersion": 123,
+      "size": 14684779,
+      "sha256": "056fe3ab49a38abfdcacc5b6a906b72587657873daa75140a36689c6d7cb7986",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v123/patch_v120_to_v123.patch"
+    },
+    {
+      "fromVersion": 119,
+      "toVersion": 123,
+      "size": 14696238,
+      "sha256": "fbae181e543e8f90b221f3bc967f4aef8b85dab1ed42b82ca26781d1a40ccf90",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v123/patch_v119_to_v123.patch"
+    },
     {
       "fromVersion": 120,
       "toVersion": 122,

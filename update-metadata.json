@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v129",
-    "versionNumber": 129,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v129/app-release.apk",
+    "tagName": "v130",
+    "versionNumber": 130,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v130/app-release.apk",
     "downloadSizeBytes": 133055844,
-    "releaseNotes": "💳 Personalise the virtual card wallet dashboard!\n👤 Dynamically display the saved profile name (or Google account name) in uppercase instead of the hardcoded placeholder.",
+    "releaseNotes": "🔒 Keeps background syncs and backups running flawlessly by auto-clearing expired Google tokens from cache!\n\n⚠️ Introduces smart, high-priority notifications to immediately alert you if your Gmail sync or Google Drive backup credentials need a quick reconnection!\n\n✨ Polishes month selection chips on the credit card statement view with clean border margins and scale transitions without edge clipping!",
     "publishedAt": "2026-06-07",
-    "sha256": "24085aa791b6571f0b280deab3be48e2c9117ecee9f6bd9e14209199782e99fc"
+    "sha256": "a8353615926ab7321eb7c87b3849543837259c57b641e06312540eea80e4f3b7"
   },
   "releases": [
+    {
+      "tagName": "v130",
+      "versionNumber": 130,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v130/app-release.apk",
+      "downloadSizeBytes": 133055844,
+      "releaseNotes": "🔒 Keeps background syncs and backups running flawlessly by auto-clearing expired Google tokens from cache!\n\n⚠️ Introduces smart, high-priority notifications to immediately alert you if your Gmail sync or Google Drive backup credentials need a quick reconnection!\n\n✨ Polishes month selection chips on the credit card statement view with clean border margins and scale transitions without edge clipping!",
+      "publishedAt": "2026-06-07",
+      "sha256": "a8353615926ab7321eb7c87b3849543837259c57b641e06312540eea80e4f3b7"
+    },
     {
       "tagName": "v129",
       "versionNumber": 129,
@@ -89,18 +98,30 @@
       "releaseNotes": "💳 You can now map transactions to specific cards or custom accounts in your rules! Pick from your existing accounts list or type custom names to keep your logs perfectly organized. 🚀✨",
       "publishedAt": "2026-06-04",
       "sha256": "fbb4a9c4b9ace82ab915d55bd1a74398b35e9361cf63850eaf6f59556197ae02"
-    },
-    {
-      "tagName": "v119",
-      "versionNumber": 119,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v119/app-release.apk",
-      "downloadSizeBytes": 119858438,
-      "releaseNotes": "🔒 Guard category rules! Enabled background NPU/AI merchant cleanups for rule-backed transactions while locking custom category assignments and respecting explicit custom merchant definitions. 🧼⚡",
-      "publishedAt": "2026-06-04",
-      "sha256": "72ca6a6bd4701f99a3eb72302d58c3e5e5314126c97736236e95d8604afef9bd"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 129,
+      "toVersion": 130,
+      "size": 960626,
+      "sha256": "d2f669f5dc917710256d048b1c913d5f3915a0d56bdb2a78f481538f529b5fc3",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v130/patch_v129_to_v130.patch"
+    },
+    {
+      "fromVersion": 128,
+      "toVersion": 130,
+      "size": 1054562,
+      "sha256": "f7e34050c1ddc900df09420ae4620ce958eb5699bedc5f660daa0e7ad5073fc3",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v130/patch_v128_to_v130.patch"
+    },
+    {
+      "fromVersion": 127,
+      "toVersion": 130,
+      "size": 1011527,
+      "sha256": "a74b5379d8510b223e140a4ede37dfe1a63ef3700c004c0a9584760ea7ed9a02",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v130/patch_v127_to_v130.patch"
+    },
     {
       "fromVersion": 128,
       "toVersion": 129,

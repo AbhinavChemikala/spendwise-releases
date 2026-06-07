@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v128",
-    "versionNumber": 128,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v128/app-release.apk",
-    "downloadSizeBytes": 133055840,
-    "releaseNotes": "📊 Extract all EMI interest & principal amortizations on ICICI and Amazon Pay credit cards!\n🔄 Correctly handle multi-line descriptions and fix trailing reward point labels on merchants.",
+    "tagName": "v129",
+    "versionNumber": 129,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v129/app-release.apk",
+    "downloadSizeBytes": 133055844,
+    "releaseNotes": "💳 Personalise the virtual card wallet dashboard!\n👤 Dynamically display the saved profile name (or Google account name) in uppercase instead of the hardcoded placeholder.",
     "publishedAt": "2026-06-07",
-    "sha256": "b67d2126ccc10215248b16f2f1c20f1a65f0dbc8f8151f1153e12eae16106123"
+    "sha256": "24085aa791b6571f0b280deab3be48e2c9117ecee9f6bd9e14209199782e99fc"
   },
   "releases": [
+    {
+      "tagName": "v129",
+      "versionNumber": 129,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v129/app-release.apk",
+      "downloadSizeBytes": 133055844,
+      "releaseNotes": "💳 Personalise the virtual card wallet dashboard!\n👤 Dynamically display the saved profile name (or Google account name) in uppercase instead of the hardcoded placeholder.",
+      "publishedAt": "2026-06-07",
+      "sha256": "24085aa791b6571f0b280deab3be48e2c9117ecee9f6bd9e14209199782e99fc"
+    },
     {
       "tagName": "v128",
       "versionNumber": 128,
@@ -89,18 +98,30 @@
       "releaseNotes": "🔒 Guard category rules! Enabled background NPU/AI merchant cleanups for rule-backed transactions while locking custom category assignments and respecting explicit custom merchant definitions. 🧼⚡",
       "publishedAt": "2026-06-04",
       "sha256": "72ca6a6bd4701f99a3eb72302d58c3e5e5314126c97736236e95d8604afef9bd"
-    },
-    {
-      "tagName": "v118",
-      "versionNumber": 118,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v118/app-release.apk",
-      "downloadSizeBytes": 119858438,
-      "releaseNotes": "⚡ Tame the AI! Introduced a rule toggle to confirm trusted rules instantly without waiting for NPU review. Fast, responsive tracking! 🚀🎯",
-      "publishedAt": "2026-06-04",
-      "sha256": "78d439b1844902e525ed87ec7ac216b55186774c21886fe71dee6e791d80bf5c"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 128,
+      "toVersion": 129,
+      "size": 566272,
+      "sha256": "8e91ba2ebd1c7854c2f6d9871ddcb99c505094609b321c8c13ff9369d9f0d599",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v129/patch_v128_to_v129.patch"
+    },
+    {
+      "fromVersion": 127,
+      "toVersion": 129,
+      "size": 936521,
+      "sha256": "1a467e92c22c418b5a08d8a971167871685d76c6ab6f095361381006b9bdbd07",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v129/patch_v127_to_v129.patch"
+    },
+    {
+      "fromVersion": 126,
+      "toVersion": 129,
+      "size": 1115370,
+      "sha256": "9f4381fba0dd2cc78ea195dd994f65d02989e139f33a27bfce779b70d8eb885d",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v129/patch_v126_to_v129.patch"
+    },
     {
       "fromVersion": 127,
       "toVersion": 128,

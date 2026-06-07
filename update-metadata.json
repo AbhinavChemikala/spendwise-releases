@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v127",
-    "versionNumber": 127,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v127/app-release.apk",
-    "downloadSizeBytes": 133055844,
-    "releaseNotes": "📊 Hide paid statements from your dashboard automatically!\n🔢 Correctly mask 2-digit credit card suffixes with dots.\n🔄 Reset Gmail sync cache seamlessly for Axis and IDFC FIRST Bank updates.",
-    "publishedAt": "2026-06-05",
-    "sha256": "90ac10de5b1dcc5baed75df50a5cea6a5dace5fcd2efee4f73d6effbc0759f15"
+    "tagName": "v128",
+    "versionNumber": 128,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v128/app-release.apk",
+    "downloadSizeBytes": 133055840,
+    "releaseNotes": "📊 Extract all EMI interest & principal amortizations on ICICI and Amazon Pay credit cards!\n🔄 Correctly handle multi-line descriptions and fix trailing reward point labels on merchants.",
+    "publishedAt": "2026-06-07",
+    "sha256": "b67d2126ccc10215248b16f2f1c20f1a65f0dbc8f8151f1153e12eae16106123"
   },
   "releases": [
+    {
+      "tagName": "v128",
+      "versionNumber": 128,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v128/app-release.apk",
+      "downloadSizeBytes": 133055840,
+      "releaseNotes": "📊 Extract all EMI interest & principal amortizations on ICICI and Amazon Pay credit cards!\n🔄 Correctly handle multi-line descriptions and fix trailing reward point labels on merchants.",
+      "publishedAt": "2026-06-07",
+      "sha256": "b67d2126ccc10215248b16f2f1c20f1a65f0dbc8f8151f1153e12eae16106123"
+    },
     {
       "tagName": "v127",
       "versionNumber": 127,
@@ -89,18 +98,30 @@
       "releaseNotes": "⚡ Tame the AI! Introduced a rule toggle to confirm trusted rules instantly without waiting for NPU review. Fast, responsive tracking! 🚀🎯",
       "publishedAt": "2026-06-04",
       "sha256": "78d439b1844902e525ed87ec7ac216b55186774c21886fe71dee6e791d80bf5c"
-    },
-    {
-      "tagName": "v117",
-      "versionNumber": 117,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v117/app-release.apk",
-      "downloadSizeBytes": 119842054,
-      "releaseNotes": "🎨 Visual Bucket Analytics: The Bucket Analytics card is now a beautiful progress dashboard displaying your top 3 custom spending buckets with dynamic colors and icons.\n🧭 Seamless Navigation: Pressing back on bottom tabs now returns you to Home instead of closing the app, and full-screen screens (like SMS Scan) dismiss cleanly.\n⚙️ Premium Bottom Bar: Redesigned bottom tabs to completely remove duplicate grey capsules and blocky hover squares for a pixel-perfect, clean selection highlight.\n📅 Smarter Timestamps: Missing email transaction times now fall back to the exact email arrival time instead of a hardcoded 12:00 PM.\n📊 Optimized Layouts: The Spending Map and Bucket Analytics cards are now visible by default and positioned at the bottom of the Insights tab presets.",
-      "publishedAt": "2026-06-04",
-      "sha256": "963768807060bcc4dd36d22ee57f0be3af1002108b1d0bed7249768e2643b368"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 127,
+      "toVersion": 128,
+      "size": 527145,
+      "sha256": "2abd2bf79df5126a1649d19e88d7269dbf0091eb4b161bbeb788290a03749c98",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v128/patch_v127_to_v128.patch"
+    },
+    {
+      "fromVersion": 126,
+      "toVersion": 128,
+      "size": 985555,
+      "sha256": "f7b53757946615ecb1999064ef885fa68414d73c7a209c8b26fbcd7feb389b04",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v128/patch_v126_to_v128.patch"
+    },
+    {
+      "fromVersion": 125,
+      "toVersion": 128,
+      "size": 1660534,
+      "sha256": "aa80ce1d43e6d4b829e784b1e2f423985ee83b15c3bcfd148efc8c273c87fcee",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v128/patch_v125_to_v128.patch"
+    },
     {
       "fromVersion": 126,
       "toVersion": 127,

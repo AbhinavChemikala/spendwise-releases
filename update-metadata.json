@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v131",
-    "versionNumber": 131,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v131/app-release.apk",
+    "tagName": "v132",
+    "versionNumber": 132,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v132/app-release.apk",
     "downloadSizeBytes": 133186916,
-    "releaseNotes": "Remove legacy CreditCardStatementsScreen and add new card UI components (BankBrandColors.kt, CardDetailScreen.kt, CreditCardStatementsScreen.kt under ui/cards). Add DAO methods for per-transaction delete and multi-statement transaction flow, and repository helpers: observeCcTransactionsForStatements(), deleteCcTransaction(). Fix deleteCcStatement() to delete child transactions first to prevent orphaned credit_card_transactions. Also update PROJECT_CONTEXT.md with the new credit-card UI/import/features and various changelog formatting fixes.",
+    "releaseNotes": "✨ Butter-smooth transition math for credit card statements stacked deck layout!\n\n💳 Reverses unstacking trigger order so that the visually top card in the bottom stack (SBI Card) expands and scrolls up first.\n🚀 Removes temporary debug text overlay.",
     "publishedAt": "2026-06-08",
-    "sha256": "9e30b980c1d8b639d9ca61ab4632a2c27e7e1fe26b5a61bdd209334bded7c8ea"
+    "sha256": "6aadc1bf0825228da8f7d99033dd6c36d5a7a95cd77dcf3412130faaa6005470"
   },
   "releases": [
+    {
+      "tagName": "v132",
+      "versionNumber": 132,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v132/app-release.apk",
+      "downloadSizeBytes": 133186916,
+      "releaseNotes": "✨ Butter-smooth transition math for credit card statements stacked deck layout!\n\n💳 Reverses unstacking trigger order so that the visually top card in the bottom stack (SBI Card) expands and scrolls up first.\n🚀 Removes temporary debug text overlay.",
+      "publishedAt": "2026-06-08",
+      "sha256": "6aadc1bf0825228da8f7d99033dd6c36d5a7a95cd77dcf3412130faaa6005470"
+    },
     {
       "tagName": "v131",
       "versionNumber": 131,
@@ -89,18 +98,30 @@
       "releaseNotes": "💳 Track credit card dues with instant recalculations when marked as paid, plus beautiful new badges!\n📬 Sync Axis statements automatically with the corrected email sender filter!\n⚙️ Drag-and-drop layouts on Home and Insights screens now save permanently without resetting on app close!\n🧹 Streamlined the dashboard by removing the duplicate standalone financial buckets widget!",
       "publishedAt": "2026-06-05",
       "sha256": "c98bf607affef41fb0fbe339d88d715ba8a5d86d4852984e36711eedca49a1f8"
-    },
-    {
-      "tagName": "v122",
-      "versionNumber": 122,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v122/app-release.apk",
-      "downloadSizeBytes": 133006688,
-      "releaseNotes": "📬 Auto-Sync from Gmail: Automatically fetch and sync statements from major card providers (IDFC FIRST, SBI, HDFC, ICICI, Axis, Slice, and more) in seconds! 🔒 Secure Inline Decryption: Enter your statement password once, save it securely on your device, and watch future statements decrypt automatically. 📈 Premium Spending Charts: Track billing cycles with a smooth, touch-interactive daily trend line and category breakdown donut chart! 🛡️ Smart Expense Calculations: View your true net expenses (purchases minus cashbacks/refunds) while ignoring bill repayments to keep charts 100% accurate.",
-      "publishedAt": "2026-06-05",
-      "sha256": "22d2d9aaefd3bfe1a7c43140b77ee45c8dd96b77492e653d3391aaf0ce5ddaac"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 131,
+      "toVersion": 132,
+      "size": 1234272,
+      "sha256": "0abc7ec2e15e674302e1208187260cdf072c9763c73a21d0ff4512796a1bf4dd",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v132/patch_v131_to_v132.patch"
+    },
+    {
+      "fromVersion": 130,
+      "toVersion": 132,
+      "size": 4616059,
+      "sha256": "dfc3ef0d83b68d56bbb315cb2778caf0a12246e1dff2e0a40105c7315feb2697",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v132/patch_v130_to_v132.patch"
+    },
+    {
+      "fromVersion": 129,
+      "toVersion": 132,
+      "size": 4625183,
+      "sha256": "8f57537753cee015b53b4f86829708741bc1835f92fa3100b801c4fa489a17c1",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v132/patch_v129_to_v132.patch"
+    },
     {
       "fromVersion": 130,
       "toVersion": 131,

@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v130",
-    "versionNumber": 130,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v130/app-release.apk",
-    "downloadSizeBytes": 133055844,
-    "releaseNotes": "🔒 Keeps background syncs and backups running flawlessly by auto-clearing expired Google tokens from cache!\n\n⚠️ Introduces smart, high-priority notifications to immediately alert you if your Gmail sync or Google Drive backup credentials need a quick reconnection!\n\n✨ Polishes month selection chips on the credit card statement view with clean border margins and scale transitions without edge clipping!",
-    "publishedAt": "2026-06-07",
-    "sha256": "a8353615926ab7321eb7c87b3849543837259c57b641e06312540eea80e4f3b7"
+    "tagName": "v131",
+    "versionNumber": 131,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v131/app-release.apk",
+    "downloadSizeBytes": 133186916,
+    "releaseNotes": "Remove legacy CreditCardStatementsScreen and add new card UI components (BankBrandColors.kt, CardDetailScreen.kt, CreditCardStatementsScreen.kt under ui/cards). Add DAO methods for per-transaction delete and multi-statement transaction flow, and repository helpers: observeCcTransactionsForStatements(), deleteCcTransaction(). Fix deleteCcStatement() to delete child transactions first to prevent orphaned credit_card_transactions. Also update PROJECT_CONTEXT.md with the new credit-card UI/import/features and various changelog formatting fixes.",
+    "publishedAt": "2026-06-08",
+    "sha256": "9e30b980c1d8b639d9ca61ab4632a2c27e7e1fe26b5a61bdd209334bded7c8ea"
   },
   "releases": [
+    {
+      "tagName": "v131",
+      "versionNumber": 131,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v131/app-release.apk",
+      "downloadSizeBytes": 133186916,
+      "releaseNotes": "Remove legacy CreditCardStatementsScreen and add new card UI components (BankBrandColors.kt, CardDetailScreen.kt, CreditCardStatementsScreen.kt under ui/cards). Add DAO methods for per-transaction delete and multi-statement transaction flow, and repository helpers: observeCcTransactionsForStatements(), deleteCcTransaction(). Fix deleteCcStatement() to delete child transactions first to prevent orphaned credit_card_transactions. Also update PROJECT_CONTEXT.md with the new credit-card UI/import/features and various changelog formatting fixes.",
+      "publishedAt": "2026-06-08",
+      "sha256": "9e30b980c1d8b639d9ca61ab4632a2c27e7e1fe26b5a61bdd209334bded7c8ea"
+    },
     {
       "tagName": "v130",
       "versionNumber": 130,
@@ -89,18 +98,30 @@
       "releaseNotes": "📬 Auto-Sync from Gmail: Automatically fetch and sync statements from major card providers (IDFC FIRST, SBI, HDFC, ICICI, Axis, Slice, and more) in seconds! 🔒 Secure Inline Decryption: Enter your statement password once, save it securely on your device, and watch future statements decrypt automatically. 📈 Premium Spending Charts: Track billing cycles with a smooth, touch-interactive daily trend line and category breakdown donut chart! 🛡️ Smart Expense Calculations: View your true net expenses (purchases minus cashbacks/refunds) while ignoring bill repayments to keep charts 100% accurate.",
       "publishedAt": "2026-06-05",
       "sha256": "22d2d9aaefd3bfe1a7c43140b77ee45c8dd96b77492e653d3391aaf0ce5ddaac"
-    },
-    {
-      "tagName": "v120",
-      "versionNumber": 120,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v120/app-release.apk",
-      "downloadSizeBytes": 119874822,
-      "releaseNotes": "💳 You can now map transactions to specific cards or custom accounts in your rules! Pick from your existing accounts list or type custom names to keep your logs perfectly organized. 🚀✨",
-      "publishedAt": "2026-06-04",
-      "sha256": "fbb4a9c4b9ace82ab915d55bd1a74398b35e9361cf63850eaf6f59556197ae02"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 130,
+      "toVersion": 131,
+      "size": 4618481,
+      "sha256": "7d0d6b65dd8a21db207451272fb74c22dbd6e96567a3c44514b9e7354e4aa014",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v131/patch_v130_to_v131.patch"
+    },
+    {
+      "fromVersion": 129,
+      "toVersion": 131,
+      "size": 4632944,
+      "sha256": "4265d5d5651744fa1291ebab476db06f7b25c19d0b00d1a9cad7f6b318313c56",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v131/patch_v129_to_v131.patch"
+    },
+    {
+      "fromVersion": 128,
+      "toVersion": 131,
+      "size": 4629403,
+      "sha256": "6d7549ef070a2af73829ca41be7c625e00f8eb2890f5fe2226e1d47843f2db67",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v131/patch_v128_to_v131.patch"
+    },
     {
       "fromVersion": 129,
       "toVersion": 130,

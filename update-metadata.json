@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v133",
-    "versionNumber": 133,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v133/app-release.apk",
-    "downloadSizeBytes": 133186916,
-    "releaseNotes": "💳 Tapping a stacked card from any billing month now opens that exact statement — no more landing on the wrong month!\n🔍 Transaction reconciliation badges (Matched / Import) now correctly reflect the selected statement's history.\n🗂️ Replaced PROJECT_CONTEXT.md with a structured context/ folder (ARCHITECTURE.md, CHANGELOG_RECENT.md, CHANGELOG_ARCHIVE.md).",
+    "tagName": "v134",
+    "versionNumber": 134,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v134/app-release.apk",
+    "downloadSizeBytes": 133186912,
+    "releaseNotes": "🧪 Empty commit to trigger and verify the new release build pipeline optimizations.",
     "publishedAt": "2026-06-09",
-    "sha256": "aa02f6ed017249a62d2734102de4c1dd26e362cbd68df27f5b63596fb1e11560"
+    "sha256": "77d7f7c3b6473a2ac95f4c827d74ef4eb4d80b28cdd1fdcc4ae42494dfd98416"
   },
   "releases": [
+    {
+      "tagName": "v134",
+      "versionNumber": 134,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v134/app-release.apk",
+      "downloadSizeBytes": 133186912,
+      "releaseNotes": "🧪 Empty commit to trigger and verify the new release build pipeline optimizations.",
+      "publishedAt": "2026-06-09",
+      "sha256": "77d7f7c3b6473a2ac95f4c827d74ef4eb4d80b28cdd1fdcc4ae42494dfd98416"
+    },
     {
       "tagName": "v133",
       "versionNumber": 133,
@@ -89,18 +98,30 @@
       "releaseNotes": "💳 Sync and view multiple credit cards from the same bank side-by-side!\n🔒 Collision-free locked statement handling with auto-merge on unlock.\n🧪 Fully tested and verified across all statement parsers!",
       "publishedAt": "2026-06-05",
       "sha256": "c1751ef355f3cdb1d212f54b8047149ddcb7df87fc307e9c492c78067746b732"
-    },
-    {
-      "tagName": "v124",
-      "versionNumber": 124,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v124/app-release.apk",
-      "downloadSizeBytes": 133039456,
-      "releaseNotes": "⏰ Get daily notifications for upcoming credit card statement deadlines at your chosen time!\n\n📂 Fixed the statement debug logs filter so you can easily track and view sync results for all your custom forwarded statement sources directly in settings!",
-      "publishedAt": "2026-06-05",
-      "sha256": "24fb370233b481bfc139ceb57789bd8e023e9a751a574ce776f66afc85d9fb5a"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 133,
+      "toVersion": 134,
+      "size": 144116,
+      "sha256": "9f8f01ce7019fc4e97ab6e5cf7ff9eeb795f66973f42949a72ccc3b014955165",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v134/patch_v133_to_v134.patch"
+    },
+    {
+      "fromVersion": 132,
+      "toVersion": 134,
+      "size": 455332,
+      "sha256": "8b2aa4c27479a9cb21e24ad640e26e73f324c2517e3db06e1631f1955281c786",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v134/patch_v132_to_v134.patch"
+    },
+    {
+      "fromVersion": 131,
+      "toVersion": 134,
+      "size": 1133501,
+      "sha256": "0d72a6f495fe42b5695fb073b9d572b91f88c0e07b4c55887af421092ba1f04e",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v134/patch_v131_to_v134.patch"
+    },
     {
       "fromVersion": 132,
       "toVersion": 133,

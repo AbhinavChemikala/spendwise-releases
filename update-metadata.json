@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v132",
-    "versionNumber": 132,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v132/app-release.apk",
+    "tagName": "v133",
+    "versionNumber": 133,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v133/app-release.apk",
     "downloadSizeBytes": 133186916,
-    "releaseNotes": "✨ Butter-smooth transition math for credit card statements stacked deck layout!\n\n💳 Reverses unstacking trigger order so that the visually top card in the bottom stack (SBI Card) expands and scrolls up first.\n🚀 Removes temporary debug text overlay.",
-    "publishedAt": "2026-06-08",
-    "sha256": "6aadc1bf0825228da8f7d99033dd6c36d5a7a95cd77dcf3412130faaa6005470"
+    "releaseNotes": "💳 Tapping a stacked card from any billing month now opens that exact statement — no more landing on the wrong month!\n🔍 Transaction reconciliation badges (Matched / Import) now correctly reflect the selected statement's history.\n🗂️ Replaced PROJECT_CONTEXT.md with a structured context/ folder (ARCHITECTURE.md, CHANGELOG_RECENT.md, CHANGELOG_ARCHIVE.md).",
+    "publishedAt": "2026-06-09",
+    "sha256": "aa02f6ed017249a62d2734102de4c1dd26e362cbd68df27f5b63596fb1e11560"
   },
   "releases": [
+    {
+      "tagName": "v133",
+      "versionNumber": 133,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v133/app-release.apk",
+      "downloadSizeBytes": 133186916,
+      "releaseNotes": "💳 Tapping a stacked card from any billing month now opens that exact statement — no more landing on the wrong month!\n🔍 Transaction reconciliation badges (Matched / Import) now correctly reflect the selected statement's history.\n🗂️ Replaced PROJECT_CONTEXT.md with a structured context/ folder (ARCHITECTURE.md, CHANGELOG_RECENT.md, CHANGELOG_ARCHIVE.md).",
+      "publishedAt": "2026-06-09",
+      "sha256": "aa02f6ed017249a62d2734102de4c1dd26e362cbd68df27f5b63596fb1e11560"
+    },
     {
       "tagName": "v132",
       "versionNumber": 132,
@@ -89,18 +98,30 @@
       "releaseNotes": "⏰ Get daily notifications for upcoming credit card statement deadlines at your chosen time!\n\n📂 Fixed the statement debug logs filter so you can easily track and view sync results for all your custom forwarded statement sources directly in settings!",
       "publishedAt": "2026-06-05",
       "sha256": "24fb370233b481bfc139ceb57789bd8e023e9a751a574ce776f66afc85d9fb5a"
-    },
-    {
-      "tagName": "v123",
-      "versionNumber": 123,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v123/app-release.apk",
-      "downloadSizeBytes": 133006692,
-      "releaseNotes": "💳 Track credit card dues with instant recalculations when marked as paid, plus beautiful new badges!\n📬 Sync Axis statements automatically with the corrected email sender filter!\n⚙️ Drag-and-drop layouts on Home and Insights screens now save permanently without resetting on app close!\n🧹 Streamlined the dashboard by removing the duplicate standalone financial buckets widget!",
-      "publishedAt": "2026-06-05",
-      "sha256": "c98bf607affef41fb0fbe339d88d715ba8a5d86d4852984e36711eedca49a1f8"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 132,
+      "toVersion": 133,
+      "size": 454376,
+      "sha256": "6d1aecdb55ec8beaa9271aaaec0c5b24491b422fee8d1bb3e1de9f3f7c583542",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v133/patch_v132_to_v133.patch"
+    },
+    {
+      "fromVersion": 131,
+      "toVersion": 133,
+      "size": 1132601,
+      "sha256": "cceef1d60bbcb1de1be5f49dfe4cae56e8bc49746d62f22ac9a6f757494a8d90",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v133/patch_v131_to_v133.patch"
+    },
+    {
+      "fromVersion": 130,
+      "toVersion": 133,
+      "size": 4625240,
+      "sha256": "61816b1558b57fde63853ca065e8a8ba9e96a1fff78853fb56aaecd378bb7a25",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v133/patch_v130_to_v133.patch"
+    },
     {
       "fromVersion": 131,
       "toVersion": 132,

@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v134",
-    "versionNumber": 134,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v134/app-release.apk",
+    "tagName": "v135",
+    "versionNumber": 135,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v135/app-release.apk",
     "downloadSizeBytes": 133186912,
-    "releaseNotes": "🧪 Empty commit to trigger and verify the new release build pipeline optimizations.",
+    "releaseNotes": "⚡ Empty commit to verify build speed with caching enabled.",
     "publishedAt": "2026-06-09",
-    "sha256": "77d7f7c3b6473a2ac95f4c827d74ef4eb4d80b28cdd1fdcc4ae42494dfd98416"
+    "sha256": "0ae032f4decd74faad13ded33b497e814e62fac25e65cf848bc1a05ceaf77b89"
   },
   "releases": [
+    {
+      "tagName": "v135",
+      "versionNumber": 135,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v135/app-release.apk",
+      "downloadSizeBytes": 133186912,
+      "releaseNotes": "⚡ Empty commit to verify build speed with caching enabled.",
+      "publishedAt": "2026-06-09",
+      "sha256": "0ae032f4decd74faad13ded33b497e814e62fac25e65cf848bc1a05ceaf77b89"
+    },
     {
       "tagName": "v134",
       "versionNumber": 134,
@@ -89,18 +98,30 @@
       "releaseNotes": "💳 Redesigned the statements screen into a gorgeous virtual credit card wallet!\n✨ Added a tactile swipable card pager with 3D perspective rotation and scaling.\n🎨 Ambient glow shifting backdrop matching card branding colors.\n📅 Sliding segmented month selector control with smooth scale animations.",
       "publishedAt": "2026-06-05",
       "sha256": "7765bf6078d65d84a3ab2c1628c0bce322df045ba2081155991075c8e0223404"
-    },
-    {
-      "tagName": "v125",
-      "versionNumber": 125,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v125/app-release.apk",
-      "downloadSizeBytes": 133039456,
-      "releaseNotes": "💳 Sync and view multiple credit cards from the same bank side-by-side!\n🔒 Collision-free locked statement handling with auto-merge on unlock.\n🧪 Fully tested and verified across all statement parsers!",
-      "publishedAt": "2026-06-05",
-      "sha256": "c1751ef355f3cdb1d212f54b8047149ddcb7df87fc307e9c492c78067746b732"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 134,
+      "toVersion": 135,
+      "size": 143211,
+      "sha256": "4b5595e6ec1a3dffc1042bbd52e5c8687eb5127b5f7c275898203a6b4fce6842",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v135/patch_v134_to_v135.patch"
+    },
+    {
+      "fromVersion": 133,
+      "toVersion": 135,
+      "size": 144121,
+      "sha256": "9d370219101074bde3d6cffe42fd87c30779d9b818d6b7ee37076213e037694a",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v135/patch_v133_to_v135.patch"
+    },
+    {
+      "fromVersion": 132,
+      "toVersion": 135,
+      "size": 455342,
+      "sha256": "120a18cc8d659124b6f0696fc3a13d23aee5b26783d6ac364655356baa0bf67f",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v135/patch_v132_to_v135.patch"
+    },
     {
       "fromVersion": 133,
       "toVersion": 134,

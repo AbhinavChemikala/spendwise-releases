@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v135",
-    "versionNumber": 135,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v135/app-release.apk",
+    "tagName": "v137",
+    "versionNumber": 137,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v137/app-release.apk",
     "downloadSizeBytes": 133186912,
-    "releaseNotes": "⚡ Empty commit to verify build speed with caching enabled.",
+    "releaseNotes": "🧪 Empty commit containing [skip fcm] to verify that the Firebase Cloud Messaging notification step is skipped during the release build.",
     "publishedAt": "2026-06-09",
-    "sha256": "0ae032f4decd74faad13ded33b497e814e62fac25e65cf848bc1a05ceaf77b89"
+    "sha256": "df48fb8d9b2dffc278c607c6c9d43b0cf527b26cbbbf31ce33b28b162600fa06"
   },
   "releases": [
+    {
+      "tagName": "v137",
+      "versionNumber": 137,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v137/app-release.apk",
+      "downloadSizeBytes": 133186912,
+      "releaseNotes": "🧪 Empty commit containing [skip fcm] to verify that the Firebase Cloud Messaging notification step is skipped during the release build.",
+      "publishedAt": "2026-06-09",
+      "sha256": "df48fb8d9b2dffc278c607c6c9d43b0cf527b26cbbbf31ce33b28b162600fa06"
+    },
     {
       "tagName": "v135",
       "versionNumber": 135,
@@ -89,18 +98,30 @@
       "releaseNotes": "📊 Hide paid statements from your dashboard automatically!\n🔢 Correctly mask 2-digit credit card suffixes with dots.\n🔄 Reset Gmail sync cache seamlessly for Axis and IDFC FIRST Bank updates.",
       "publishedAt": "2026-06-05",
       "sha256": "90ac10de5b1dcc5baed75df50a5cea6a5dace5fcd2efee4f73d6effbc0759f15"
-    },
-    {
-      "tagName": "v126",
-      "versionNumber": 126,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v126/app-release.apk",
-      "downloadSizeBytes": 133055844,
-      "releaseNotes": "💳 Redesigned the statements screen into a gorgeous virtual credit card wallet!\n✨ Added a tactile swipable card pager with 3D perspective rotation and scaling.\n🎨 Ambient glow shifting backdrop matching card branding colors.\n📅 Sliding segmented month selector control with smooth scale animations.",
-      "publishedAt": "2026-06-05",
-      "sha256": "7765bf6078d65d84a3ab2c1628c0bce322df045ba2081155991075c8e0223404"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 135,
+      "toVersion": 137,
+      "size": 143209,
+      "sha256": "ac73301dd2dd5bd9bcda752ae2e44be6b87a3d74f230a3a7fc6180b6d30a6f83",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v137/patch_v135_to_v137.patch"
+    },
+    {
+      "fromVersion": 134,
+      "toVersion": 137,
+      "size": 143187,
+      "sha256": "4f79ab418e02bc19ed4ee8ba49738eb7a34a397ab837dec70ddd6144f8a35b75",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v137/patch_v134_to_v137.patch"
+    },
+    {
+      "fromVersion": 133,
+      "toVersion": 137,
+      "size": 144510,
+      "sha256": "c3e8225f883ce8f9c88528f7f44294b4d8fad9f6187c11618cd3bc5bb0d37e48",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v137/patch_v133_to_v137.patch"
+    },
     {
       "fromVersion": 134,
       "toVersion": 135,

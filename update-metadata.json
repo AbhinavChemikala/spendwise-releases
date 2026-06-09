@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v137",
-    "versionNumber": 137,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v137/app-release.apk",
-    "downloadSizeBytes": 133186912,
-    "releaseNotes": "🧪 Empty commit containing [skip fcm] to verify that the Firebase Cloud Messaging notification step is skipped during the release build.",
+    "tagName": "v138",
+    "versionNumber": 138,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v138/app-release.apk",
+    "downloadSizeBytes": 133186916,
+    "releaseNotes": "📊 Refined the category donut chart calculations to compute net statement spending by subtracting credits from gross debits. Enjoy a fully cohesive and accurate spending breakdown! ✨",
     "publishedAt": "2026-06-09",
-    "sha256": "df48fb8d9b2dffc278c607c6c9d43b0cf527b26cbbbf31ce33b28b162600fa06"
+    "sha256": "e6d4f95de5b32e9263a2c8c00ba69e4afbd5e489a0afd7fe279160b6da8c9efb"
   },
   "releases": [
+    {
+      "tagName": "v138",
+      "versionNumber": 138,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v138/app-release.apk",
+      "downloadSizeBytes": 133186916,
+      "releaseNotes": "📊 Refined the category donut chart calculations to compute net statement spending by subtracting credits from gross debits. Enjoy a fully cohesive and accurate spending breakdown! ✨",
+      "publishedAt": "2026-06-09",
+      "sha256": "e6d4f95de5b32e9263a2c8c00ba69e4afbd5e489a0afd7fe279160b6da8c9efb"
+    },
     {
       "tagName": "v137",
       "versionNumber": 137,
@@ -89,18 +98,30 @@
       "releaseNotes": "📊 Extract all EMI interest & principal amortizations on ICICI and Amazon Pay credit cards!\n🔄 Correctly handle multi-line descriptions and fix trailing reward point labels on merchants.",
       "publishedAt": "2026-06-07",
       "sha256": "b67d2126ccc10215248b16f2f1c20f1a65f0dbc8f8151f1153e12eae16106123"
-    },
-    {
-      "tagName": "v127",
-      "versionNumber": 127,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v127/app-release.apk",
-      "downloadSizeBytes": 133055844,
-      "releaseNotes": "📊 Hide paid statements from your dashboard automatically!\n🔢 Correctly mask 2-digit credit card suffixes with dots.\n🔄 Reset Gmail sync cache seamlessly for Axis and IDFC FIRST Bank updates.",
-      "publishedAt": "2026-06-05",
-      "sha256": "90ac10de5b1dcc5baed75df50a5cea6a5dace5fcd2efee4f73d6effbc0759f15"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 137,
+      "toVersion": 138,
+      "size": 433709,
+      "sha256": "c445ef0f9bb4624a43d48931703172c9a1f8ca7422a8834c28dd1992b466ad72",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v138/patch_v137_to_v138.patch"
+    },
+    {
+      "fromVersion": 135,
+      "toVersion": 138,
+      "size": 433694,
+      "sha256": "bd45106496542c251a8f65e1b753816b6e60ac3c45c0dc76aeb649932e5ff609",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v138/patch_v135_to_v138.patch"
+    },
+    {
+      "fromVersion": 134,
+      "toVersion": 138,
+      "size": 433718,
+      "sha256": "fd38ac2a5ece5f981a9dcc027805d9cbfe85362ae9c097df5b8836c84127621b",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v138/patch_v134_to_v138.patch"
+    },
     {
       "fromVersion": 135,
       "toVersion": 137,

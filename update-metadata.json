@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v141",
-    "versionNumber": 141,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v141/app-release.apk",
-    "downloadSizeBytes": 133285216,
-    "releaseNotes": "🔄 Automatically launches background statement categorization upon successful email sync or manual PDF import!\n\n✨ Resets and updates progress indicators in real-time when clicking AI refinement controls!\n\n⚡ Provides a robust, unified background task tracking experience across all statement views!",
+    "tagName": "v142",
+    "versionNumber": 142,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v142/app-release.apk",
+    "downloadSizeBytes": 176577886,
+    "releaseNotes": "Add Smart Credit Card Variant Detection and Custom Styling\n\n💳 Automatically detects credit card variants (like Amazon Pay or Coral) during statement imports!\n🎨 Applies custom, premium card theme gradients and accent colors tailored to the detected variant.\n⚙️ Refined matching boundaries and added robust testing checks for flawless validation.",
     "publishedAt": "2026-06-10",
-    "sha256": "c458b902fb39efde6992b80d5519ef435737b151ba5aa40e0f0c7dde870a7f5b"
+    "sha256": "668cad83c22be02370acc8211a2f5bf3be0e3594ee1969ace2474f1ebd6494d1"
   },
   "releases": [
+    {
+      "tagName": "v142",
+      "versionNumber": 142,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v142/app-release.apk",
+      "downloadSizeBytes": 176577886,
+      "releaseNotes": "Add Smart Credit Card Variant Detection and Custom Styling\n\n💳 Automatically detects credit card variants (like Amazon Pay or Coral) during statement imports!\n🎨 Applies custom, premium card theme gradients and accent colors tailored to the detected variant.\n⚙️ Refined matching boundaries and added robust testing checks for flawless validation.",
+      "publishedAt": "2026-06-10",
+      "sha256": "668cad83c22be02370acc8211a2f5bf3be0e3594ee1969ace2474f1ebd6494d1"
+    },
     {
       "tagName": "v141",
       "versionNumber": 141,
@@ -89,18 +98,30 @@
       "releaseNotes": "✨ Butter-smooth transition math for credit card statements stacked deck layout!\n\n💳 Reverses unstacking trigger order so that the visually top card in the bottom stack (SBI Card) expands and scrolls up first.\n🚀 Removes temporary debug text overlay.",
       "publishedAt": "2026-06-08",
       "sha256": "6aadc1bf0825228da8f7d99033dd6c36d5a7a95cd77dcf3412130faaa6005470"
-    },
-    {
-      "tagName": "v131",
-      "versionNumber": 131,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v131/app-release.apk",
-      "downloadSizeBytes": 133186916,
-      "releaseNotes": "Remove legacy CreditCardStatementsScreen and add new card UI components (BankBrandColors.kt, CardDetailScreen.kt, CreditCardStatementsScreen.kt under ui/cards). Add DAO methods for per-transaction delete and multi-statement transaction flow, and repository helpers: observeCcTransactionsForStatements(), deleteCcTransaction(). Fix deleteCcStatement() to delete child transactions first to prevent orphaned credit_card_transactions. Also update PROJECT_CONTEXT.md with the new credit-card UI/import/features and various changelog formatting fixes.",
-      "publishedAt": "2026-06-08",
-      "sha256": "9e30b980c1d8b639d9ca61ab4632a2c27e7e1fe26b5a61bdd209334bded7c8ea"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 141,
+      "toVersion": 142,
+      "size": 25036384,
+      "sha256": "7418bc2d0732b8f030bc7b0e258f9de13e5685fdf4fca02b62dee57e1041c1c4",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v142/patch_v141_to_v142.patch"
+    },
+    {
+      "fromVersion": 140,
+      "toVersion": 142,
+      "size": 25097005,
+      "sha256": "e067d34a230c61355d4651f4652e434620e4f2e31c6f30f3af602f8c268a813a",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v142/patch_v140_to_v142.patch"
+    },
+    {
+      "fromVersion": 139,
+      "toVersion": 142,
+      "size": 25110254,
+      "sha256": "5a7e915c7f391f868c04679b4a05354dac34252e5ce27347e034ab7b962acb86",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v142/patch_v139_to_v142.patch"
+    },
     {
       "fromVersion": 140,
       "toVersion": 141,

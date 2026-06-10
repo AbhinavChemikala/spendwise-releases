@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v138",
-    "versionNumber": 138,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v138/app-release.apk",
-    "downloadSizeBytes": 133186916,
-    "releaseNotes": "📊 Refined the category donut chart calculations to compute net statement spending by subtracting credits from gross debits. Enjoy a fully cohesive and accurate spending breakdown! ✨",
-    "publishedAt": "2026-06-09",
-    "sha256": "e6d4f95de5b32e9263a2c8c00ba69e4afbd5e489a0afd7fe279160b6da8c9efb"
+    "tagName": "v139",
+    "versionNumber": 139,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v139/app-release.apk",
+    "downloadSizeBytes": 133285220,
+    "releaseNotes": "Upgrade: AI Credit Card Statement Categorization & Backups\n\n⚡ Automatic background AI categorization for statement transactions, complete with a real-time progress banner and a gorgeous console-styled logs dialog!\n🔄 Tap the sparkles icon on any transaction to manually trigger AI categorization on-demand!\n🛡️ Locked statements are now placed directly in the active month's dues list so you can easily enter their passwords without them getting lost!\n💾 Added full backup & restore support for statements, card transactions, and saved decryption passwords!\n🧹 Automatic cleanup ensures no leftover transaction data is left behind when statements are deleted!",
+    "publishedAt": "2026-06-10",
+    "sha256": "376c7c8bee4e099a88bf172af60f156af964832c7578858f846e9c40d6d29619"
   },
   "releases": [
+    {
+      "tagName": "v139",
+      "versionNumber": 139,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v139/app-release.apk",
+      "downloadSizeBytes": 133285220,
+      "releaseNotes": "Upgrade: AI Credit Card Statement Categorization & Backups\n\n⚡ Automatic background AI categorization for statement transactions, complete with a real-time progress banner and a gorgeous console-styled logs dialog!\n🔄 Tap the sparkles icon on any transaction to manually trigger AI categorization on-demand!\n🛡️ Locked statements are now placed directly in the active month's dues list so you can easily enter their passwords without them getting lost!\n💾 Added full backup & restore support for statements, card transactions, and saved decryption passwords!\n🧹 Automatic cleanup ensures no leftover transaction data is left behind when statements are deleted!",
+      "publishedAt": "2026-06-10",
+      "sha256": "376c7c8bee4e099a88bf172af60f156af964832c7578858f846e9c40d6d29619"
+    },
     {
       "tagName": "v138",
       "versionNumber": 138,
@@ -89,18 +98,30 @@
       "releaseNotes": "💳 Personalise the virtual card wallet dashboard!\n👤 Dynamically display the saved profile name (or Google account name) in uppercase instead of the hardcoded placeholder.",
       "publishedAt": "2026-06-07",
       "sha256": "24085aa791b6571f0b280deab3be48e2c9117ecee9f6bd9e14209199782e99fc"
-    },
-    {
-      "tagName": "v128",
-      "versionNumber": 128,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v128/app-release.apk",
-      "downloadSizeBytes": 133055840,
-      "releaseNotes": "📊 Extract all EMI interest & principal amortizations on ICICI and Amazon Pay credit cards!\n🔄 Correctly handle multi-line descriptions and fix trailing reward point labels on merchants.",
-      "publishedAt": "2026-06-07",
-      "sha256": "b67d2126ccc10215248b16f2f1c20f1a65f0dbc8f8151f1153e12eae16106123"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 138,
+      "toVersion": 139,
+      "size": 2272227,
+      "sha256": "227768558cab03f928e57a9c5ea707be1a4a016e1d79358dc38a8282ee53bcd9",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v139/patch_v138_to_v139.patch"
+    },
+    {
+      "fromVersion": 137,
+      "toVersion": 139,
+      "size": 2266913,
+      "sha256": "f832631cf745808c2781629d5b110f844356941595e59e86edff5679426fb992",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v139/patch_v137_to_v139.patch"
+    },
+    {
+      "fromVersion": 135,
+      "toVersion": 139,
+      "size": 2266909,
+      "sha256": "5cba0091a635aedfdd4bc2143349daf69befabc3114b3bf807c55fc2476de4e5",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v139/patch_v135_to_v139.patch"
+    },
     {
       "fromVersion": 137,
       "toVersion": 138,

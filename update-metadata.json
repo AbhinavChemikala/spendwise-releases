@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v142",
-    "versionNumber": 142,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v142/app-release.apk",
-    "downloadSizeBytes": 176577886,
-    "releaseNotes": "Add Smart Credit Card Variant Detection and Custom Styling\n\n💳 Automatically detects credit card variants (like Amazon Pay or Coral) during statement imports!\n🎨 Applies custom, premium card theme gradients and accent colors tailored to the detected variant.\n⚙️ Refined matching boundaries and added robust testing checks for flawless validation.",
+    "tagName": "v143",
+    "versionNumber": 143,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v143/app-release.apk",
+    "downloadSizeBytes": 200316652,
+    "releaseNotes": "📸 Scan any UPI QR code directly using a lightning-fast camera viewfinder!\n⚡ Launch instantly from a separate 1x1 home screen shortcut or widget.\n💸 Automatically opens GPay or PhonePe with payment details pre-filled.\n✨ Auto-reconciles transactions and skips AI review by matching incoming bank SMS alerts.",
     "publishedAt": "2026-06-10",
-    "sha256": "668cad83c22be02370acc8211a2f5bf3be0e3594ee1969ace2474f1ebd6494d1"
+    "sha256": "f9ff849248c48467c5fae9b69e84e7733b4a5dea26735c65c3c4199ded6e0793"
   },
   "releases": [
+    {
+      "tagName": "v143",
+      "versionNumber": 143,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v143/app-release.apk",
+      "downloadSizeBytes": 200316652,
+      "releaseNotes": "📸 Scan any UPI QR code directly using a lightning-fast camera viewfinder!\n⚡ Launch instantly from a separate 1x1 home screen shortcut or widget.\n💸 Automatically opens GPay or PhonePe with payment details pre-filled.\n✨ Auto-reconciles transactions and skips AI review by matching incoming bank SMS alerts.",
+      "publishedAt": "2026-06-10",
+      "sha256": "f9ff849248c48467c5fae9b69e84e7733b4a5dea26735c65c3c4199ded6e0793"
+    },
     {
       "tagName": "v142",
       "versionNumber": 142,
@@ -89,18 +98,30 @@
       "releaseNotes": "💳 Tapping a stacked card from any billing month now opens that exact statement — no more landing on the wrong month!\n🔍 Transaction reconciliation badges (Matched / Import) now correctly reflect the selected statement's history.\n🗂️ Replaced PROJECT_CONTEXT.md with a structured context/ folder (ARCHITECTURE.md, CHANGELOG_RECENT.md, CHANGELOG_ARCHIVE.md).",
       "publishedAt": "2026-06-09",
       "sha256": "aa02f6ed017249a62d2734102de4c1dd26e362cbd68df27f5b63596fb1e11560"
-    },
-    {
-      "tagName": "v132",
-      "versionNumber": 132,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v132/app-release.apk",
-      "downloadSizeBytes": 133186916,
-      "releaseNotes": "✨ Butter-smooth transition math for credit card statements stacked deck layout!\n\n💳 Reverses unstacking trigger order so that the visually top card in the bottom stack (SBI Card) expands and scrolls up first.\n🚀 Removes temporary debug text overlay.",
-      "publishedAt": "2026-06-08",
-      "sha256": "6aadc1bf0825228da8f7d99033dd6c36d5a7a95cd77dcf3412130faaa6005470"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 142,
+      "toVersion": 143,
+      "size": 13999288,
+      "sha256": "a6b5f437786d77a5efe314e45a681fcd99922bae5c2c428af7642af056727515",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v143/patch_v142_to_v143.patch"
+    },
+    {
+      "fromVersion": 141,
+      "toVersion": 143,
+      "size": 36932346,
+      "sha256": "823faffc7aabec06825435ab7f7cc6ed2e2a85e35b988a498d64c9ef7e554828",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v143/patch_v141_to_v143.patch"
+    },
+    {
+      "fromVersion": 140,
+      "toVersion": 143,
+      "size": 36905127,
+      "sha256": "6ea01a752de12b72708d63abcb1093dceda4826aa322750adca2c7286685f964",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v143/patch_v140_to_v143.patch"
+    },
     {
       "fromVersion": 141,
       "toVersion": 142,

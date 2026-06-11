@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v143",
-    "versionNumber": 143,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v143/app-release.apk",
-    "downloadSizeBytes": 200316652,
-    "releaseNotes": "📸 Scan any UPI QR code directly using a lightning-fast camera viewfinder!\n⚡ Launch instantly from a separate 1x1 home screen shortcut or widget.\n💸 Automatically opens GPay or PhonePe with payment details pre-filled.\n✨ Auto-reconciles transactions and skips AI review by matching incoming bank SMS alerts.",
-    "publishedAt": "2026-06-10",
-    "sha256": "f9ff849248c48467c5fae9b69e84e7733b4a5dea26735c65c3c4199ded6e0793"
+    "tagName": "v144",
+    "versionNumber": 144,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v144/app-release.apk",
+    "downloadSizeBytes": 176577886,
+    "releaseNotes": "🧹 Cleaned up the codebase by reverting the experimental UPI QR Scanner feature, restoring the app to its original lightweight build size and focusing on core SMS auto-tracking! ⚡",
+    "publishedAt": "2026-06-11",
+    "sha256": "a106323a2bc86f5e3adc6a137a1b0d1b634e86f7003c9cdeaa44295b068a87a0"
   },
   "releases": [
+    {
+      "tagName": "v144",
+      "versionNumber": 144,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v144/app-release.apk",
+      "downloadSizeBytes": 176577886,
+      "releaseNotes": "🧹 Cleaned up the codebase by reverting the experimental UPI QR Scanner feature, restoring the app to its original lightweight build size and focusing on core SMS auto-tracking! ⚡",
+      "publishedAt": "2026-06-11",
+      "sha256": "a106323a2bc86f5e3adc6a137a1b0d1b634e86f7003c9cdeaa44295b068a87a0"
+    },
     {
       "tagName": "v143",
       "versionNumber": 143,
@@ -89,18 +98,30 @@
       "releaseNotes": "🧪 Empty commit to trigger and verify the new release build pipeline optimizations.",
       "publishedAt": "2026-06-09",
       "sha256": "77d7f7c3b6473a2ac95f4c827d74ef4eb4d80b28cdd1fdcc4ae42494dfd98416"
-    },
-    {
-      "tagName": "v133",
-      "versionNumber": 133,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v133/app-release.apk",
-      "downloadSizeBytes": 133186916,
-      "releaseNotes": "💳 Tapping a stacked card from any billing month now opens that exact statement — no more landing on the wrong month!\n🔍 Transaction reconciliation badges (Matched / Import) now correctly reflect the selected statement's history.\n🗂️ Replaced PROJECT_CONTEXT.md with a structured context/ folder (ARCHITECTURE.md, CHANGELOG_RECENT.md, CHANGELOG_ARCHIVE.md).",
-      "publishedAt": "2026-06-09",
-      "sha256": "aa02f6ed017249a62d2734102de4c1dd26e362cbd68df27f5b63596fb1e11560"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 143,
+      "toVersion": 144,
+      "size": 8515537,
+      "sha256": "78105bf2a8f175bc5d103a9d203fab3af8ba190982adb4b4a63fc41e634e8064",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v144/patch_v143_to_v144.patch"
+    },
+    {
+      "fromVersion": 142,
+      "toVersion": 144,
+      "size": 185320,
+      "sha256": "065a76df3d1106c23749eb2b3b9f614614878aff608ba2b1a5943362cf774824",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v144/patch_v142_to_v144.patch"
+    },
+    {
+      "fromVersion": 141,
+      "toVersion": 144,
+      "size": 25036382,
+      "sha256": "8e75b3e3342b6315bb83dbe096e47a0fc48921d1e49a585994b6eda09fe7f9db",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v144/patch_v141_to_v144.patch"
+    },
     {
       "fromVersion": 142,
       "toVersion": 143,

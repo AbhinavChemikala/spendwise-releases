@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v144",
-    "versionNumber": 144,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v144/app-release.apk",
-    "downloadSizeBytes": 176577886,
-    "releaseNotes": "🧹 Cleaned up the codebase by reverting the experimental UPI QR Scanner feature, restoring the app to its original lightweight build size and focusing on core SMS auto-tracking! ⚡",
+    "tagName": "v145",
+    "versionNumber": 145,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v145/app-release.apk",
+    "downloadSizeBytes": 176594270,
+    "releaseNotes": "Introduce a gorgeous horizontal swipable stacked card deck for credit card dues! 💳✨ Enjoy fluid physics-based gestures, smooth animations, and a dynamic cards count pill. 🚀 Plus, smart month-based alignment and auto-scaling layout polish ensure the experience looks stunning and feels perfectly balanced on all screen heights. 🎨📱",
     "publishedAt": "2026-06-11",
-    "sha256": "a106323a2bc86f5e3adc6a137a1b0d1b634e86f7003c9cdeaa44295b068a87a0"
+    "sha256": "804bc818688cc567bc298eb1cfd6b0cf81f40840677f80fb25ecca6a68934c24"
   },
   "releases": [
+    {
+      "tagName": "v145",
+      "versionNumber": 145,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v145/app-release.apk",
+      "downloadSizeBytes": 176594270,
+      "releaseNotes": "Introduce a gorgeous horizontal swipable stacked card deck for credit card dues! 💳✨ Enjoy fluid physics-based gestures, smooth animations, and a dynamic cards count pill. 🚀 Plus, smart month-based alignment and auto-scaling layout polish ensure the experience looks stunning and feels perfectly balanced on all screen heights. 🎨📱",
+      "publishedAt": "2026-06-11",
+      "sha256": "804bc818688cc567bc298eb1cfd6b0cf81f40840677f80fb25ecca6a68934c24"
+    },
     {
       "tagName": "v144",
       "versionNumber": 144,
@@ -89,18 +98,30 @@
       "releaseNotes": "⚡ Empty commit to verify build speed with caching enabled.",
       "publishedAt": "2026-06-09",
       "sha256": "0ae032f4decd74faad13ded33b497e814e62fac25e65cf848bc1a05ceaf77b89"
-    },
-    {
-      "tagName": "v134",
-      "versionNumber": 134,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v134/app-release.apk",
-      "downloadSizeBytes": 133186912,
-      "releaseNotes": "🧪 Empty commit to trigger and verify the new release build pipeline optimizations.",
-      "publishedAt": "2026-06-09",
-      "sha256": "77d7f7c3b6473a2ac95f4c827d74ef4eb4d80b28cdd1fdcc4ae42494dfd98416"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 144,
+      "toVersion": 145,
+      "size": 1431037,
+      "sha256": "698e74f9e99110d6f590c18253da0fb709cfbe36a389ed758f7857597f4ab8ee",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v145/patch_v144_to_v145.patch"
+    },
+    {
+      "fromVersion": 143,
+      "toVersion": 145,
+      "size": 8663951,
+      "sha256": "9f9c9ba066de943f8eabd450caf96c01a6abb70f04fade9bf7a885a0cccbc34b",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v145/patch_v143_to_v145.patch"
+    },
+    {
+      "fromVersion": 142,
+      "toVersion": 145,
+      "size": 1431029,
+      "sha256": "8edff89d9afb0c8a1d45ade3372cb88669b28f8dcb6ea468ff83f73ec52ca758",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v145/patch_v142_to_v145.patch"
+    },
     {
       "fromVersion": 143,
       "toVersion": 144,

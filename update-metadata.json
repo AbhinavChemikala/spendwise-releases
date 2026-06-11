@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v145",
-    "versionNumber": 145,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v145/app-release.apk",
+    "tagName": "v146",
+    "versionNumber": 146,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v146/app-release.apk",
     "downloadSizeBytes": 176594270,
-    "releaseNotes": "Introduce a gorgeous horizontal swipable stacked card deck for credit card dues! 💳✨ Enjoy fluid physics-based gestures, smooth animations, and a dynamic cards count pill. 🚀 Plus, smart month-based alignment and auto-scaling layout polish ensure the experience looks stunning and feels perfectly balanced on all screen heights. 🎨📱",
+    "releaseNotes": "Center the active credit card cleanly in the dues widget deck! 💳✨ The top card is now symmetrically balanced in the middle, and peeking cards layer beautifully to the right. 🎨 Reverted experimental vertical height auto-scaling layout on statements screen to keep the original bottom-anchored wallet deck spacing intact. 📅📱",
     "publishedAt": "2026-06-11",
-    "sha256": "804bc818688cc567bc298eb1cfd6b0cf81f40840677f80fb25ecca6a68934c24"
+    "sha256": "b188c799c1c720423401242e14348b4d66356435a210d141141c4857af8765a7"
   },
   "releases": [
+    {
+      "tagName": "v146",
+      "versionNumber": 146,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v146/app-release.apk",
+      "downloadSizeBytes": 176594270,
+      "releaseNotes": "Center the active credit card cleanly in the dues widget deck! 💳✨ The top card is now symmetrically balanced in the middle, and peeking cards layer beautifully to the right. 🎨 Reverted experimental vertical height auto-scaling layout on statements screen to keep the original bottom-anchored wallet deck spacing intact. 📅📱",
+      "publishedAt": "2026-06-11",
+      "sha256": "b188c799c1c720423401242e14348b4d66356435a210d141141c4857af8765a7"
+    },
     {
       "tagName": "v145",
       "versionNumber": 145,
@@ -89,18 +98,30 @@
       "releaseNotes": "🧪 Empty commit containing [skip fcm] to verify that the Firebase Cloud Messaging notification step is skipped during the release build.",
       "publishedAt": "2026-06-09",
       "sha256": "df48fb8d9b2dffc278c607c6c9d43b0cf527b26cbbbf31ce33b28b162600fa06"
-    },
-    {
-      "tagName": "v135",
-      "versionNumber": 135,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v135/app-release.apk",
-      "downloadSizeBytes": 133186912,
-      "releaseNotes": "⚡ Empty commit to verify build speed with caching enabled.",
-      "publishedAt": "2026-06-09",
-      "sha256": "0ae032f4decd74faad13ded33b497e814e62fac25e65cf848bc1a05ceaf77b89"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 145,
+      "toVersion": 146,
+      "size": 527388,
+      "sha256": "38b91eccccb845ace41a73a4837914d9f471b4f608595d1e886626b7d934a778",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v146/patch_v145_to_v146.patch"
+    },
+    {
+      "fromVersion": 144,
+      "toVersion": 146,
+      "size": 1309628,
+      "sha256": "c57ef8fa175e7b47dd88788d7c33fe0dda29e6a545bc01606449df378562f634",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v146/patch_v144_to_v146.patch"
+    },
+    {
+      "fromVersion": 143,
+      "toVersion": 146,
+      "size": 8625951,
+      "sha256": "30bd6f919ed4e6217fd523a91f91ab454bd36c3e76533783a807daea6c7bbea7",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v146/patch_v143_to_v146.patch"
+    },
     {
       "fromVersion": 144,
       "toVersion": 145,

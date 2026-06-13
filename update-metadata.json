@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v146",
-    "versionNumber": 146,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v146/app-release.apk",
-    "downloadSizeBytes": 176594270,
-    "releaseNotes": "Center the active credit card cleanly in the dues widget deck! 💳✨ The top card is now symmetrically balanced in the middle, and peeking cards layer beautifully to the right. 🎨 Reverted experimental vertical height auto-scaling layout on statements screen to keep the original bottom-anchored wallet deck spacing intact. 📅📱",
-    "publishedAt": "2026-06-11",
-    "sha256": "b188c799c1c720423401242e14348b4d66356435a210d141141c4857af8765a7"
+    "tagName": "v147",
+    "versionNumber": 147,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v147/app-release.apk",
+    "downloadSizeBytes": 176610654,
+    "releaseNotes": "🎬 Added fresh, beautiful Movies and Fuel icons to custom category creator options with automatic style presets!\n📅 Aligned the dashboard's Quick Summary card filters and financial bucket progress bars to match custom start date settings seamlessly!\n🔔 Routed confirmed expense notifications to open their details view in the Activity tab automatically upon click!\n🔒 Restored the statement password entry panel to easily unlock locked credit card statement details!",
+    "publishedAt": "2026-06-13",
+    "sha256": "1f6a166cf709707724a9d975bbdc6cf1df39f0b9a38b8184665b8c7cbd2b0b00"
   },
   "releases": [
+    {
+      "tagName": "v147",
+      "versionNumber": 147,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v147/app-release.apk",
+      "downloadSizeBytes": 176610654,
+      "releaseNotes": "🎬 Added fresh, beautiful Movies and Fuel icons to custom category creator options with automatic style presets!\n📅 Aligned the dashboard's Quick Summary card filters and financial bucket progress bars to match custom start date settings seamlessly!\n🔔 Routed confirmed expense notifications to open their details view in the Activity tab automatically upon click!\n🔒 Restored the statement password entry panel to easily unlock locked credit card statement details!",
+      "publishedAt": "2026-06-13",
+      "sha256": "1f6a166cf709707724a9d975bbdc6cf1df39f0b9a38b8184665b8c7cbd2b0b00"
+    },
     {
       "tagName": "v146",
       "versionNumber": 146,
@@ -89,18 +98,30 @@
       "releaseNotes": "📊 Refined the category donut chart calculations to compute net statement spending by subtracting credits from gross debits. Enjoy a fully cohesive and accurate spending breakdown! ✨",
       "publishedAt": "2026-06-09",
       "sha256": "e6d4f95de5b32e9263a2c8c00ba69e4afbd5e489a0afd7fe279160b6da8c9efb"
-    },
-    {
-      "tagName": "v137",
-      "versionNumber": 137,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v137/app-release.apk",
-      "downloadSizeBytes": 133186912,
-      "releaseNotes": "🧪 Empty commit containing [skip fcm] to verify that the Firebase Cloud Messaging notification step is skipped during the release build.",
-      "publishedAt": "2026-06-09",
-      "sha256": "df48fb8d9b2dffc278c607c6c9d43b0cf527b26cbbbf31ce33b28b162600fa06"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 146,
+      "toVersion": 147,
+      "size": 2433898,
+      "sha256": "1e22b16b10fa751aecc520fa1ef96719201364be33a02a8132cf31d378a56190",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v147/patch_v146_to_v147.patch"
+    },
+    {
+      "fromVersion": 145,
+      "toVersion": 147,
+      "size": 2386654,
+      "sha256": "35f8f345a2c3151e52bd0de24bfb8c17e8b25be02a0c9a1f6e5012e866d0cd63",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v147/patch_v145_to_v147.patch"
+    },
+    {
+      "fromVersion": 144,
+      "toVersion": 147,
+      "size": 2473753,
+      "sha256": "86de5127c15088b9a4b5bbddfc36afb8ec05dab55391fb972ab5302258411ee3",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v147/patch_v144_to_v147.patch"
+    },
     {
       "fromVersion": 145,
       "toVersion": 146,

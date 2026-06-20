@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v147",
-    "versionNumber": 147,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v147/app-release.apk",
+    "tagName": "v148",
+    "versionNumber": 148,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v148/app-release.apk",
     "downloadSizeBytes": 176610654,
-    "releaseNotes": "🎬 Added fresh, beautiful Movies and Fuel icons to custom category creator options with automatic style presets!\n📅 Aligned the dashboard's Quick Summary card filters and financial bucket progress bars to match custom start date settings seamlessly!\n🔔 Routed confirmed expense notifications to open their details view in the Activity tab automatically upon click!\n🔒 Restored the statement password entry panel to easily unlock locked credit card statement details!",
-    "publishedAt": "2026-06-13",
-    "sha256": "1f6a166cf709707724a9d975bbdc6cf1df39f0b9a38b8184665b8c7cbd2b0b00"
+    "releaseNotes": "Bug Fixes",
+    "publishedAt": "2026-06-20",
+    "sha256": "4e27aed180cc88fc2c53b8fa9f533a6736f2b757db7b058c5f586d383e1acb0b"
   },
   "releases": [
+    {
+      "tagName": "v148",
+      "versionNumber": 148,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v148/app-release.apk",
+      "downloadSizeBytes": 176610654,
+      "releaseNotes": "Bug Fixes",
+      "publishedAt": "2026-06-20",
+      "sha256": "4e27aed180cc88fc2c53b8fa9f533a6736f2b757db7b058c5f586d383e1acb0b"
+    },
     {
       "tagName": "v147",
       "versionNumber": 147,
@@ -89,18 +98,30 @@
       "releaseNotes": "Upgrade: AI Credit Card Statement Categorization & Backups\n\n⚡ Automatic background AI categorization for statement transactions, complete with a real-time progress banner and a gorgeous console-styled logs dialog!\n🔄 Tap the sparkles icon on any transaction to manually trigger AI categorization on-demand!\n🛡️ Locked statements are now placed directly in the active month's dues list so you can easily enter their passwords without them getting lost!\n💾 Added full backup & restore support for statements, card transactions, and saved decryption passwords!\n🧹 Automatic cleanup ensures no leftover transaction data is left behind when statements are deleted!",
       "publishedAt": "2026-06-10",
       "sha256": "376c7c8bee4e099a88bf172af60f156af964832c7578858f846e9c40d6d29619"
-    },
-    {
-      "tagName": "v138",
-      "versionNumber": 138,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v138/app-release.apk",
-      "downloadSizeBytes": 133186916,
-      "releaseNotes": "📊 Refined the category donut chart calculations to compute net statement spending by subtracting credits from gross debits. Enjoy a fully cohesive and accurate spending breakdown! ✨",
-      "publishedAt": "2026-06-09",
-      "sha256": "e6d4f95de5b32e9263a2c8c00ba69e4afbd5e489a0afd7fe279160b6da8c9efb"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 147,
+      "toVersion": 148,
+      "size": 454278,
+      "sha256": "2faaea450ca8c124b353017def1ec43bf3eb0214f60d56343d8f885ab332cac8",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v148/patch_v147_to_v148.patch"
+    },
+    {
+      "fromVersion": 146,
+      "toVersion": 148,
+      "size": 2345226,
+      "sha256": "1340614beebeb8a47629549f38284f0505975af0f62cfe7bc1c582a4f34f1b18",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v148/patch_v146_to_v148.patch"
+    },
+    {
+      "fromVersion": 145,
+      "toVersion": 148,
+      "size": 2299960,
+      "sha256": "bad77e412326863e09fd8c777e044df41c415ed252a07bced99e942b7082e3fb",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v148/patch_v145_to_v148.patch"
+    },
     {
       "fromVersion": 146,
       "toVersion": 147,

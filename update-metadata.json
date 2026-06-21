@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v149",
-    "versionNumber": 149,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v149/app-release.apk",
-    "downloadSizeBytes": 183984380,
-    "releaseNotes": "👥 Share and split group expenses offline-first with automated debt simplification!\n\n📲 Receive instant transaction notifications powered by a zero-cost serverless proxy.\n\n🔒 Keep your group splits safe with robust Firestore security rules.\n\n✨ Enjoy seamless Google account connections and smooth group creation layouts.",
+    "tagName": "v150",
+    "versionNumber": 150,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v150/app-release.apk",
+    "downloadSizeBytes": 184213756,
+    "releaseNotes": "📊 Beautiful new data-driven Split Bills card on the home dashboard!\n\n💸 Shows your overall net balance, detailed owed/you-owe badge pills, and active group avatars!\n\n🏦 SBM Bank SMS messages are now automatically whitelisted to bypass spam filters!\n\n🛠️ Under-the-hood stability and layout performance improvements!",
     "publishedAt": "2026-06-21",
-    "sha256": "9e5ac4a06483dc7dc7009f73f32bbcbeb0214056091dc76cd13347dcaa088a2c"
+    "sha256": "e3b18d2abfcb872a6b53ede5893afc60eef1f88e9a5666dbaaed7edc9c96951a"
   },
   "releases": [
+    {
+      "tagName": "v150",
+      "versionNumber": 150,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v150/app-release.apk",
+      "downloadSizeBytes": 184213756,
+      "releaseNotes": "📊 Beautiful new data-driven Split Bills card on the home dashboard!\n\n💸 Shows your overall net balance, detailed owed/you-owe badge pills, and active group avatars!\n\n🏦 SBM Bank SMS messages are now automatically whitelisted to bypass spam filters!\n\n🛠️ Under-the-hood stability and layout performance improvements!",
+      "publishedAt": "2026-06-21",
+      "sha256": "e3b18d2abfcb872a6b53ede5893afc60eef1f88e9a5666dbaaed7edc9c96951a"
+    },
     {
       "tagName": "v149",
       "versionNumber": 149,
@@ -89,18 +98,30 @@
       "releaseNotes": "🔄 Automatically launches background statement categorization upon successful email sync or manual PDF import!\n\n✨ Resets and updates progress indicators in real-time when clicking AI refinement controls!\n\n⚡ Provides a robust, unified background task tracking experience across all statement views!",
       "publishedAt": "2026-06-10",
       "sha256": "c458b902fb39efde6992b80d5519ef435737b151ba5aa40e0f0c7dde870a7f5b"
-    },
-    {
-      "tagName": "v140",
-      "versionNumber": 140,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v140/app-release.apk",
-      "downloadSizeBytes": 133285220,
-      "releaseNotes": "⚡ Cache-busts OTA update checks so new versions are instantly detected on client devices!\n\n📦 Swaps release pipeline steps so APK assets fully upload before updating metadata, eliminating download checksum mismatches!\n\n🔔 Ensures seamless background FCM update notifications reach users right away!",
-      "publishedAt": "2026-06-10",
-      "sha256": "3f1e97ba72cf71886a1082cc056a65ff28dbd652b484c6ef6800b580b2f8336f"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 149,
+      "toVersion": 150,
+      "size": 3749477,
+      "sha256": "b799a70b20ad0a2ff8ab998d0d660ed0fd1edc5bdb314fc3e8bc99fb74c3d9cd",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v150/patch_v149_to_v150.patch"
+    },
+    {
+      "fromVersion": 148,
+      "toVersion": 150,
+      "size": 11962468,
+      "sha256": "5b2d1235af7e2ab9cd7178ed1187bac2bd478976e10cb934c1dde72bf0e09a00",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v150/patch_v148_to_v150.patch"
+    },
+    {
+      "fromVersion": 147,
+      "toVersion": 150,
+      "size": 11961863,
+      "sha256": "0291adbe99121e2ff7383f38f08ca63335f2e38264b538711e71dde13c8a8346",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v150/patch_v147_to_v150.patch"
+    },
     {
       "fromVersion": 148,
       "toVersion": 149,

@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v148",
-    "versionNumber": 148,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v148/app-release.apk",
-    "downloadSizeBytes": 176610654,
-    "releaseNotes": "Bug Fixes",
-    "publishedAt": "2026-06-20",
-    "sha256": "4e27aed180cc88fc2c53b8fa9f533a6736f2b757db7b058c5f586d383e1acb0b"
+    "tagName": "v149",
+    "versionNumber": 149,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v149/app-release.apk",
+    "downloadSizeBytes": 183984380,
+    "releaseNotes": "👥 Share and split group expenses offline-first with automated debt simplification!\n\n📲 Receive instant transaction notifications powered by a zero-cost serverless proxy.\n\n🔒 Keep your group splits safe with robust Firestore security rules.\n\n✨ Enjoy seamless Google account connections and smooth group creation layouts.",
+    "publishedAt": "2026-06-21",
+    "sha256": "9e5ac4a06483dc7dc7009f73f32bbcbeb0214056091dc76cd13347dcaa088a2c"
   },
   "releases": [
+    {
+      "tagName": "v149",
+      "versionNumber": 149,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v149/app-release.apk",
+      "downloadSizeBytes": 183984380,
+      "releaseNotes": "👥 Share and split group expenses offline-first with automated debt simplification!\n\n📲 Receive instant transaction notifications powered by a zero-cost serverless proxy.\n\n🔒 Keep your group splits safe with robust Firestore security rules.\n\n✨ Enjoy seamless Google account connections and smooth group creation layouts.",
+      "publishedAt": "2026-06-21",
+      "sha256": "9e5ac4a06483dc7dc7009f73f32bbcbeb0214056091dc76cd13347dcaa088a2c"
+    },
     {
       "tagName": "v148",
       "versionNumber": 148,
@@ -89,18 +98,30 @@
       "releaseNotes": "⚡ Cache-busts OTA update checks so new versions are instantly detected on client devices!\n\n📦 Swaps release pipeline steps so APK assets fully upload before updating metadata, eliminating download checksum mismatches!\n\n🔔 Ensures seamless background FCM update notifications reach users right away!",
       "publishedAt": "2026-06-10",
       "sha256": "3f1e97ba72cf71886a1082cc056a65ff28dbd652b484c6ef6800b580b2f8336f"
-    },
-    {
-      "tagName": "v139",
-      "versionNumber": 139,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v139/app-release.apk",
-      "downloadSizeBytes": 133285220,
-      "releaseNotes": "Upgrade: AI Credit Card Statement Categorization & Backups\n\n⚡ Automatic background AI categorization for statement transactions, complete with a real-time progress banner and a gorgeous console-styled logs dialog!\n🔄 Tap the sparkles icon on any transaction to manually trigger AI categorization on-demand!\n🛡️ Locked statements are now placed directly in the active month's dues list so you can easily enter their passwords without them getting lost!\n💾 Added full backup & restore support for statements, card transactions, and saved decryption passwords!\n🧹 Automatic cleanup ensures no leftover transaction data is left behind when statements are deleted!",
-      "publishedAt": "2026-06-10",
-      "sha256": "376c7c8bee4e099a88bf172af60f156af964832c7578858f846e9c40d6d29619"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 148,
+      "toVersion": 149,
+      "size": 11863006,
+      "sha256": "e704895d3245c11189281a6a16795176d4a150ffe37d8ce4a5a7708f6ed4f4d8",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v149/patch_v148_to_v149.patch"
+    },
+    {
+      "fromVersion": 147,
+      "toVersion": 149,
+      "size": 11864836,
+      "sha256": "2f1bbccfba74b2e7d933ef1876bf1b5fb205b2dc2dc35500b216ee7212ae7539",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v149/patch_v147_to_v149.patch"
+    },
+    {
+      "fromVersion": 146,
+      "toVersion": 149,
+      "size": 12006591,
+      "sha256": "0b49b889a234c7a380ec35a4bc3aa73a0f69f0d67ea255615767801cab5b31e3",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v149/patch_v146_to_v149.patch"
+    },
     {
       "fromVersion": 147,
       "toVersion": 148,

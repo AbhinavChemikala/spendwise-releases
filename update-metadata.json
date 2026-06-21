@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v150",
-    "versionNumber": 150,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v150/app-release.apk",
-    "downloadSizeBytes": 184213756,
-    "releaseNotes": "📊 Beautiful new data-driven Split Bills card on the home dashboard!\n\n💸 Shows your overall net balance, detailed owed/you-owe badge pills, and active group avatars!\n\n🏦 SBM Bank SMS messages are now automatically whitelisted to bypass spam filters!\n\n🛠️ Under-the-hood stability and layout performance improvements!",
+    "tagName": "v151",
+    "versionNumber": 151,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v151/app-release.apk",
+    "downloadSizeBytes": 184230140,
+    "releaseNotes": "🔄 Kept overall balances completely synchronized between dashboard widgets and group screens!\n\n🗑️ Implemented atomic database transactions to automatically clean up deleted groups and expenses!\n\n🧹 Resolved pairwise debts Group ID placeholder code smells for robust cache storage!\n\n🧪 All unit tests and debug APK compilations passed with flying colors!",
     "publishedAt": "2026-06-21",
-    "sha256": "e3b18d2abfcb872a6b53ede5893afc60eef1f88e9a5666dbaaed7edc9c96951a"
+    "sha256": "ce50ed92f9945f827888f7b4b9f9adee3f74fc4afecdc00e3fe7455f248c8d11"
   },
   "releases": [
+    {
+      "tagName": "v151",
+      "versionNumber": 151,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v151/app-release.apk",
+      "downloadSizeBytes": 184230140,
+      "releaseNotes": "🔄 Kept overall balances completely synchronized between dashboard widgets and group screens!\n\n🗑️ Implemented atomic database transactions to automatically clean up deleted groups and expenses!\n\n🧹 Resolved pairwise debts Group ID placeholder code smells for robust cache storage!\n\n🧪 All unit tests and debug APK compilations passed with flying colors!",
+      "publishedAt": "2026-06-21",
+      "sha256": "ce50ed92f9945f827888f7b4b9f9adee3f74fc4afecdc00e3fe7455f248c8d11"
+    },
     {
       "tagName": "v150",
       "versionNumber": 150,
@@ -89,18 +98,30 @@
       "releaseNotes": "Add Smart Credit Card Variant Detection and Custom Styling\n\n💳 Automatically detects credit card variants (like Amazon Pay or Coral) during statement imports!\n🎨 Applies custom, premium card theme gradients and accent colors tailored to the detected variant.\n⚙️ Refined matching boundaries and added robust testing checks for flawless validation.",
       "publishedAt": "2026-06-10",
       "sha256": "668cad83c22be02370acc8211a2f5bf3be0e3594ee1969ace2474f1ebd6494d1"
-    },
-    {
-      "tagName": "v141",
-      "versionNumber": 141,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v141/app-release.apk",
-      "downloadSizeBytes": 133285216,
-      "releaseNotes": "🔄 Automatically launches background statement categorization upon successful email sync or manual PDF import!\n\n✨ Resets and updates progress indicators in real-time when clicking AI refinement controls!\n\n⚡ Provides a robust, unified background task tracking experience across all statement views!",
-      "publishedAt": "2026-06-10",
-      "sha256": "c458b902fb39efde6992b80d5519ef435737b151ba5aa40e0f0c7dde870a7f5b"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 150,
+      "toVersion": 151,
+      "size": 1140035,
+      "sha256": "49dc84f39ed642c4c1db37732214452126d4c91265b9d90edfb262facf3b4389",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v151/patch_v150_to_v151.patch"
+    },
+    {
+      "fromVersion": 149,
+      "toVersion": 151,
+      "size": 3808275,
+      "sha256": "c759af176685b0e55b62cfcfb5c29cdf3b37266f01ae4fc2ac6fb8d8eef4efc7",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v151/patch_v149_to_v151.patch"
+    },
+    {
+      "fromVersion": 148,
+      "toVersion": 151,
+      "size": 11970113,
+      "sha256": "cd779837dd9feb7a022d96a8358714c1926f9fa0d602ba10136a2988280f30c5",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v151/patch_v148_to_v151.patch"
+    },
     {
       "fromVersion": 149,
       "toVersion": 150,

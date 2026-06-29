@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v151",
-    "versionNumber": 151,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v151/app-release.apk",
+    "tagName": "v153",
+    "versionNumber": 153,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v153/app-release.apk",
     "downloadSizeBytes": 184230140,
-    "releaseNotes": "🔄 Kept overall balances completely synchronized between dashboard widgets and group screens!\n\n🗑️ Implemented atomic database transactions to automatically clean up deleted groups and expenses!\n\n🧹 Resolved pairwise debts Group ID placeholder code smells for robust cache storage!\n\n🧪 All unit tests and debug APK compilations passed with flying colors!",
-    "publishedAt": "2026-06-21",
-    "sha256": "ce50ed92f9945f827888f7b4b9f9adee3f74fc4afecdc00e3fe7455f248c8d11"
+    "releaseNotes": "📊 Keep tabs on your daily cash flow at a glance! Each day's transaction card now features a sleek, rounded header bar summarizing total incoming and outgoing funds. 💸 Color-coded indicators let you scan your finances in a premium, clutter-free view!",
+    "publishedAt": "2026-06-29",
+    "sha256": "e036f4115cc6a3b29b8aa8e80c65890711481765558693b42f429496d3d321fd"
   },
   "releases": [
+    {
+      "tagName": "v153",
+      "versionNumber": 153,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v153/app-release.apk",
+      "downloadSizeBytes": 184230140,
+      "releaseNotes": "📊 Keep tabs on your daily cash flow at a glance! Each day's transaction card now features a sleek, rounded header bar summarizing total incoming and outgoing funds. 💸 Color-coded indicators let you scan your finances in a premium, clutter-free view!",
+      "publishedAt": "2026-06-29",
+      "sha256": "e036f4115cc6a3b29b8aa8e80c65890711481765558693b42f429496d3d321fd"
+    },
     {
       "tagName": "v151",
       "versionNumber": 151,
@@ -89,18 +98,30 @@
       "releaseNotes": "📸 Scan any UPI QR code directly using a lightning-fast camera viewfinder!\n⚡ Launch instantly from a separate 1x1 home screen shortcut or widget.\n💸 Automatically opens GPay or PhonePe with payment details pre-filled.\n✨ Auto-reconciles transactions and skips AI review by matching incoming bank SMS alerts.",
       "publishedAt": "2026-06-10",
       "sha256": "f9ff849248c48467c5fae9b69e84e7733b4a5dea26735c65c3c4199ded6e0793"
-    },
-    {
-      "tagName": "v142",
-      "versionNumber": 142,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v142/app-release.apk",
-      "downloadSizeBytes": 176577886,
-      "releaseNotes": "Add Smart Credit Card Variant Detection and Custom Styling\n\n💳 Automatically detects credit card variants (like Amazon Pay or Coral) during statement imports!\n🎨 Applies custom, premium card theme gradients and accent colors tailored to the detected variant.\n⚙️ Refined matching boundaries and added robust testing checks for flawless validation.",
-      "publishedAt": "2026-06-10",
-      "sha256": "668cad83c22be02370acc8211a2f5bf3be0e3594ee1969ace2474f1ebd6494d1"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 151,
+      "toVersion": 153,
+      "size": 662466,
+      "sha256": "29bf2b09845ded579938ab5ab0ccd9bc8e914f514e8623de740ec8ea625a4985",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v153/patch_v151_to_v153.patch"
+    },
+    {
+      "fromVersion": 150,
+      "toVersion": 153,
+      "size": 1239658,
+      "sha256": "ea04bad64eabd55fd108eb15704ea960024965eddac47349cba642624bfdcae0",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v153/patch_v150_to_v153.patch"
+    },
+    {
+      "fromVersion": 149,
+      "toVersion": 153,
+      "size": 3833185,
+      "sha256": "1f01a5490431c33b0e35e5fc4485c1572fe4817f842811aea5be4acdd3d544f5",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v153/patch_v149_to_v153.patch"
+    },
     {
       "fromVersion": 150,
       "toVersion": 151,

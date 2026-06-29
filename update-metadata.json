@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v153",
-    "versionNumber": 153,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v153/app-release.apk",
-    "downloadSizeBytes": 184230140,
-    "releaseNotes": "📊 Keep tabs on your daily cash flow at a glance! Each day's transaction card now features a sleek, rounded header bar summarizing total incoming and outgoing funds. 💸 Color-coded indicators let you scan your finances in a premium, clutter-free view!",
+    "tagName": "v154",
+    "versionNumber": 154,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v154/app-release.apk",
+    "downloadSizeBytes": 184246524,
+    "releaseNotes": "🛠️ Power up your transaction workflows! We've introduced a real-time Rules Sandbox testbench, active search filter badges, and physical haptic feedbacks.\n\n🎨 Empty states have been redesigned with custom, modern Canvas circular vector drawings for a premium layout!",
     "publishedAt": "2026-06-29",
-    "sha256": "e036f4115cc6a3b29b8aa8e80c65890711481765558693b42f429496d3d321fd"
+    "sha256": "cae44bfbd01b54ce246c017dd814701dc79e4d7e91b5651cd1d89e89d5b479b5"
   },
   "releases": [
+    {
+      "tagName": "v154",
+      "versionNumber": 154,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v154/app-release.apk",
+      "downloadSizeBytes": 184246524,
+      "releaseNotes": "🛠️ Power up your transaction workflows! We've introduced a real-time Rules Sandbox testbench, active search filter badges, and physical haptic feedbacks.\n\n🎨 Empty states have been redesigned with custom, modern Canvas circular vector drawings for a premium layout!",
+      "publishedAt": "2026-06-29",
+      "sha256": "cae44bfbd01b54ce246c017dd814701dc79e4d7e91b5651cd1d89e89d5b479b5"
+    },
     {
       "tagName": "v153",
       "versionNumber": 153,
@@ -89,18 +98,30 @@
       "releaseNotes": "🧹 Cleaned up the codebase by reverting the experimental UPI QR Scanner feature, restoring the app to its original lightweight build size and focusing on core SMS auto-tracking! ⚡",
       "publishedAt": "2026-06-11",
       "sha256": "a106323a2bc86f5e3adc6a137a1b0d1b634e86f7003c9cdeaa44295b068a87a0"
-    },
-    {
-      "tagName": "v143",
-      "versionNumber": 143,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v143/app-release.apk",
-      "downloadSizeBytes": 200316652,
-      "releaseNotes": "📸 Scan any UPI QR code directly using a lightning-fast camera viewfinder!\n⚡ Launch instantly from a separate 1x1 home screen shortcut or widget.\n💸 Automatically opens GPay or PhonePe with payment details pre-filled.\n✨ Auto-reconciles transactions and skips AI review by matching incoming bank SMS alerts.",
-      "publishedAt": "2026-06-10",
-      "sha256": "f9ff849248c48467c5fae9b69e84e7733b4a5dea26735c65c3c4199ded6e0793"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 153,
+      "toVersion": 154,
+      "size": 2376715,
+      "sha256": "736a63dc1210b8ab73023147189c1bae53c272c799e4a88507fb1db948422534",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v154/patch_v153_to_v154.patch"
+    },
+    {
+      "fromVersion": 151,
+      "toVersion": 154,
+      "size": 2375991,
+      "sha256": "5ca83d18233dcd8ea61b3aabfc6831d072b6180b6a2eef5137b7c9447b066d94",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v154/patch_v151_to_v154.patch"
+    },
+    {
+      "fromVersion": 150,
+      "toVersion": 154,
+      "size": 2501469,
+      "sha256": "85eb4c7899782186185ea64071ffccb2b8173a55c532b97aebfaf35364769ee2",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v154/patch_v150_to_v154.patch"
+    },
     {
       "fromVersion": 151,
       "toVersion": 153,

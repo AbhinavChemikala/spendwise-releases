@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v154",
-    "versionNumber": 154,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v154/app-release.apk",
-    "downloadSizeBytes": 184246524,
-    "releaseNotes": "🛠️ Power up your transaction workflows! We've introduced a real-time Rules Sandbox testbench, active search filter badges, and physical haptic feedbacks.\n\n🎨 Empty states have been redesigned with custom, modern Canvas circular vector drawings for a premium layout!",
-    "publishedAt": "2026-06-29",
-    "sha256": "cae44bfbd01b54ce246c017dd814701dc79e4d7e91b5651cd1d89e89d5b479b5"
+    "tagName": "v155",
+    "versionNumber": 155,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v155/app-release.apk",
+    "downloadSizeBytes": 184377680,
+    "releaseNotes": "Introducing a suite of updates to automate and simplify your expense tracking! 🚀\n\n📸 **Silent Screenshot Scanner: Share transaction receipts directly to SpendWise to auto-scan and add them in the background with confirmation notifications.\n\n📬 **Precision Email Syncing: A new modular syncing registry featuring dedicated ICICI and SBI email parsers, advanced quoted-printable decoding, and smarter Axis UPI transaction mappings.\n\n📊 **Interactive Financial Buckets: Deep-dive into category-wise spending breakdowns with fullscreen bucket drill-down screens.",
+    "publishedAt": "2026-07-13",
+    "sha256": "4df449930d624bd162b7533d2e984fcd2e187067a9856dd91e9bfbff81c0da37"
   },
   "releases": [
+    {
+      "tagName": "v155",
+      "versionNumber": 155,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v155/app-release.apk",
+      "downloadSizeBytes": 184377680,
+      "releaseNotes": "Introducing a suite of updates to automate and simplify your expense tracking! 🚀\n\n📸 **Silent Screenshot Scanner: Share transaction receipts directly to SpendWise to auto-scan and add them in the background with confirmation notifications.\n\n📬 **Precision Email Syncing: A new modular syncing registry featuring dedicated ICICI and SBI email parsers, advanced quoted-printable decoding, and smarter Axis UPI transaction mappings.\n\n📊 **Interactive Financial Buckets: Deep-dive into category-wise spending breakdowns with fullscreen bucket drill-down screens.",
+      "publishedAt": "2026-07-13",
+      "sha256": "4df449930d624bd162b7533d2e984fcd2e187067a9856dd91e9bfbff81c0da37"
+    },
     {
       "tagName": "v154",
       "versionNumber": 154,
@@ -89,18 +98,30 @@
       "releaseNotes": "Introduce a gorgeous horizontal swipable stacked card deck for credit card dues! 💳✨ Enjoy fluid physics-based gestures, smooth animations, and a dynamic cards count pill. 🚀 Plus, smart month-based alignment and auto-scaling layout polish ensure the experience looks stunning and feels perfectly balanced on all screen heights. 🎨📱",
       "publishedAt": "2026-06-11",
       "sha256": "804bc818688cc567bc298eb1cfd6b0cf81f40840677f80fb25ecca6a68934c24"
-    },
-    {
-      "tagName": "v144",
-      "versionNumber": 144,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v144/app-release.apk",
-      "downloadSizeBytes": 176577886,
-      "releaseNotes": "🧹 Cleaned up the codebase by reverting the experimental UPI QR Scanner feature, restoring the app to its original lightweight build size and focusing on core SMS auto-tracking! ⚡",
-      "publishedAt": "2026-06-11",
-      "sha256": "a106323a2bc86f5e3adc6a137a1b0d1b634e86f7003c9cdeaa44295b068a87a0"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 154,
+      "toVersion": 155,
+      "size": 5730260,
+      "sha256": "e7a85c5517e2e5b5693f4262ef39151ef3b14ff5d1b1b771eff1043dd679fc3f",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v155/patch_v154_to_v155.patch"
+    },
+    {
+      "fromVersion": 153,
+      "toVersion": 155,
+      "size": 5733676,
+      "sha256": "dc031e17f571a750684784690e43fe88f556ab5bf9177b3509035ea9c55aa16a",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v155/patch_v153_to_v155.patch"
+    },
+    {
+      "fromVersion": 151,
+      "toVersion": 155,
+      "size": 5751070,
+      "sha256": "097a4dd8653769004fb39b82f379955ac1090e95784de6aff6037cc89a550a72",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v155/patch_v151_to_v155.patch"
+    },
     {
       "fromVersion": 153,
       "toVersion": 154,

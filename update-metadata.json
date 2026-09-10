@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v156",
-    "versionNumber": 156,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v156/app-release.apk",
-    "downloadSizeBytes": 184377680,
-    "releaseNotes": "✨ Say goodbye to 12:00 AM placeholders! Synced bank emails with missing or midnight-default times now intelligently match the exact moment your email arrived 📬 Accurate timelines for your SBI and daily alert spends 🕒🚀",
+    "tagName": "v157",
+    "versionNumber": 157,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v157/app-release.apk",
+    "downloadSizeBytes": 184557900,
+    "releaseNotes": "⚡ Real-time live tracking in the AI Review tab with instant in-queue status updates!\n🚦 Express priority lanes for swift transaction detection and quiet background category enrichment!\n🛡️ Intelligent request pacing and automatic rate-limit cooldowns for rock-solid reliability!\n💎 Sleek micro-capsule AI status pill with interactive background task monitoring and controls!\n✨ Seamless offline handling and instant cleanup synchronization!",
     "publishedAt": "2026-09-10",
-    "sha256": "3f878242028a626fd61cf4761001537043042dcf4b39090566aa1d4ccfcc5fdf"
+    "sha256": "1f88be2a7c4d2c113dcc1d26508968b40720753fd74be27c90203f80865fc59e"
   },
   "releases": [
+    {
+      "tagName": "v157",
+      "versionNumber": 157,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v157/app-release.apk",
+      "downloadSizeBytes": 184557900,
+      "releaseNotes": "⚡ Real-time live tracking in the AI Review tab with instant in-queue status updates!\n🚦 Express priority lanes for swift transaction detection and quiet background category enrichment!\n🛡️ Intelligent request pacing and automatic rate-limit cooldowns for rock-solid reliability!\n💎 Sleek micro-capsule AI status pill with interactive background task monitoring and controls!\n✨ Seamless offline handling and instant cleanup synchronization!",
+      "publishedAt": "2026-09-10",
+      "sha256": "1f88be2a7c4d2c113dcc1d26508968b40720753fd74be27c90203f80865fc59e"
+    },
     {
       "tagName": "v156",
       "versionNumber": 156,
@@ -89,18 +98,30 @@
       "releaseNotes": "🎬 Added fresh, beautiful Movies and Fuel icons to custom category creator options with automatic style presets!\n📅 Aligned the dashboard's Quick Summary card filters and financial bucket progress bars to match custom start date settings seamlessly!\n🔔 Routed confirmed expense notifications to open their details view in the Activity tab automatically upon click!\n🔒 Restored the statement password entry panel to easily unlock locked credit card statement details!",
       "publishedAt": "2026-06-13",
       "sha256": "1f6a166cf709707724a9d975bbdc6cf1df39f0b9a38b8184665b8c7cbd2b0b00"
-    },
-    {
-      "tagName": "v146",
-      "versionNumber": 146,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v146/app-release.apk",
-      "downloadSizeBytes": 176594270,
-      "releaseNotes": "Center the active credit card cleanly in the dues widget deck! 💳✨ The top card is now symmetrically balanced in the middle, and peeking cards layer beautifully to the right. 🎨 Reverted experimental vertical height auto-scaling layout on statements screen to keep the original bottom-anchored wallet deck spacing intact. 📅📱",
-      "publishedAt": "2026-06-11",
-      "sha256": "b188c799c1c720423401242e14348b4d66356435a210d141141c4857af8765a7"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 156,
+      "toVersion": 157,
+      "size": 1667822,
+      "sha256": "c4114a31330f976c59637cdfe1ecc23a65cfa9d1f4bb07a0efb21e2164c40901",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v157/patch_v156_to_v157.patch"
+    },
+    {
+      "fromVersion": 155,
+      "toVersion": 157,
+      "size": 1676201,
+      "sha256": "a78644658de12730e80568330d341daa48c071c9524f3045700cbfdf6bd0060c",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v157/patch_v155_to_v157.patch"
+    },
+    {
+      "fromVersion": 154,
+      "toVersion": 157,
+      "size": 5872881,
+      "sha256": "a824e0337870c04188dbc9ffc7b882b620602cc8dd16dcee5c0181a6ab530742",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v157/patch_v154_to_v157.patch"
+    },
     {
       "fromVersion": 155,
       "toVersion": 156,

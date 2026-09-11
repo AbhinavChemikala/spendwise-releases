@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v157",
-    "versionNumber": 157,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v157/app-release.apk",
-    "downloadSizeBytes": 184557900,
-    "releaseNotes": "⚡ Real-time live tracking in the AI Review tab with instant in-queue status updates!\n🚦 Express priority lanes for swift transaction detection and quiet background category enrichment!\n🛡️ Intelligent request pacing and automatic rate-limit cooldowns for rock-solid reliability!\n💎 Sleek micro-capsule AI status pill with interactive background task monitoring and controls!\n✨ Seamless offline handling and instant cleanup synchronization!",
-    "publishedAt": "2026-09-10",
-    "sha256": "1f88be2a7c4d2c113dcc1d26508968b40720753fd74be27c90203f80865fc59e"
+    "tagName": "v158",
+    "versionNumber": 158,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v158/app-release.apk",
+    "downloadSizeBytes": 184529756,
+    "releaseNotes": "💜 A sleek new look for SpendWise! Reimagined with a vibrant 3D purple wallet, shining golden Rupee coin, and upward growth chart 🪙📈. Complete with dynamic themed icon support for Android homescreens ✨🎨.",
+    "publishedAt": "2026-09-11",
+    "sha256": "9611fabbe24f38262b871e6f76050b0d18a2f69d4a32f027e8dbd1a7f4631525"
   },
   "releases": [
+    {
+      "tagName": "v158",
+      "versionNumber": 158,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v158/app-release.apk",
+      "downloadSizeBytes": 184529756,
+      "releaseNotes": "💜 A sleek new look for SpendWise! Reimagined with a vibrant 3D purple wallet, shining golden Rupee coin, and upward growth chart 🪙📈. Complete with dynamic themed icon support for Android homescreens ✨🎨.",
+      "publishedAt": "2026-09-11",
+      "sha256": "9611fabbe24f38262b871e6f76050b0d18a2f69d4a32f027e8dbd1a7f4631525"
+    },
     {
       "tagName": "v157",
       "versionNumber": 157,
@@ -89,18 +98,30 @@
       "releaseNotes": "Bug Fixes",
       "publishedAt": "2026-06-20",
       "sha256": "4e27aed180cc88fc2c53b8fa9f533a6736f2b757db7b058c5f586d383e1acb0b"
-    },
-    {
-      "tagName": "v147",
-      "versionNumber": 147,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v147/app-release.apk",
-      "downloadSizeBytes": 176610654,
-      "releaseNotes": "🎬 Added fresh, beautiful Movies and Fuel icons to custom category creator options with automatic style presets!\n📅 Aligned the dashboard's Quick Summary card filters and financial bucket progress bars to match custom start date settings seamlessly!\n🔔 Routed confirmed expense notifications to open their details view in the Activity tab automatically upon click!\n🔒 Restored the statement password entry panel to easily unlock locked credit card statement details!",
-      "publishedAt": "2026-06-13",
-      "sha256": "1f6a166cf709707724a9d975bbdc6cf1df39f0b9a38b8184665b8c7cbd2b0b00"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 157,
+      "toVersion": 158,
+      "size": 638931,
+      "sha256": "c77ba46e570dda0e147ddc2907bc3480bb1d3dc85818910062ec053f2c5e3f77",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v158/patch_v157_to_v158.patch"
+    },
+    {
+      "fromVersion": 156,
+      "toVersion": 158,
+      "size": 2111431,
+      "sha256": "919dc00880e42e9ea55c0d1700f56f03923f5af70bc167ee26d0a862867f1be0",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v158/patch_v156_to_v158.patch"
+    },
+    {
+      "fromVersion": 155,
+      "toVersion": 158,
+      "size": 2118314,
+      "sha256": "4f108bc22dd206e6abc0ae3ae7e7710752ba361ef1cc817deb413061e5fdd061",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v158/patch_v155_to_v158.patch"
+    },
     {
       "fromVersion": 156,
       "toVersion": 157,

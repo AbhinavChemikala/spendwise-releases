@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v158",
-    "versionNumber": 158,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v158/app-release.apk",
-    "downloadSizeBytes": 184529756,
-    "releaseNotes": "💜 A sleek new look for SpendWise! Reimagined with a vibrant 3D purple wallet, shining golden Rupee coin, and upward growth chart 🪙📈. Complete with dynamic themed icon support for Android homescreens ✨🎨.",
-    "publishedAt": "2026-09-11",
-    "sha256": "9611fabbe24f38262b871e6f76050b0d18a2f69d4a32f027e8dbd1a7f4631525"
+    "tagName": "v159",
+    "versionNumber": 159,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v159/app-release.apk",
+    "downloadSizeBytes": 187784044,
+    "releaseNotes": "✨ Unveiling the all-new Evening Daily Recap! 🌙 Effortlessly review your day's spending with a stunning AMOLED dark aesthetic, glanceable 7-day mini trend bars, smart daily pacing, and pixel-perfect Google Sans typography 🚀💳",
+    "publishedAt": "2026-09-15",
+    "sha256": "b72eb65d944ba04502b472e3a86258a29549f58648d93f8ac605cf2ff3d6d6d9"
   },
   "releases": [
+    {
+      "tagName": "v159",
+      "versionNumber": 159,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v159/app-release.apk",
+      "downloadSizeBytes": 187784044,
+      "releaseNotes": "✨ Unveiling the all-new Evening Daily Recap! 🌙 Effortlessly review your day's spending with a stunning AMOLED dark aesthetic, glanceable 7-day mini trend bars, smart daily pacing, and pixel-perfect Google Sans typography 🚀💳",
+      "publishedAt": "2026-09-15",
+      "sha256": "b72eb65d944ba04502b472e3a86258a29549f58648d93f8ac605cf2ff3d6d6d9"
+    },
     {
       "tagName": "v158",
       "versionNumber": 158,
@@ -89,18 +98,30 @@
       "releaseNotes": "👥 Share and split group expenses offline-first with automated debt simplification!\n\n📲 Receive instant transaction notifications powered by a zero-cost serverless proxy.\n\n🔒 Keep your group splits safe with robust Firestore security rules.\n\n✨ Enjoy seamless Google account connections and smooth group creation layouts.",
       "publishedAt": "2026-06-21",
       "sha256": "9e5ac4a06483dc7dc7009f73f32bbcbeb0214056091dc76cd13347dcaa088a2c"
-    },
-    {
-      "tagName": "v148",
-      "versionNumber": 148,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v148/app-release.apk",
-      "downloadSizeBytes": 176610654,
-      "releaseNotes": "Bug Fixes",
-      "publishedAt": "2026-06-20",
-      "sha256": "4e27aed180cc88fc2c53b8fa9f533a6736f2b757db7b058c5f586d383e1acb0b"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 158,
+      "toVersion": 159,
+      "size": 4734686,
+      "sha256": "bdd5ffb26cf1c884ade02e7557b148b070fa96b93f93a6b5e62b13300d541972",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v159/patch_v158_to_v159.patch"
+    },
+    {
+      "fromVersion": 157,
+      "toVersion": 159,
+      "size": 5173618,
+      "sha256": "af8d620f3da00e975c0eaae972c30fcaf8221388c66b6362ff1dc470f0abed51",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v159/patch_v157_to_v159.patch"
+    },
+    {
+      "fromVersion": 156,
+      "toVersion": 159,
+      "size": 5357959,
+      "sha256": "a3d1ff18a7cd362b67136ede55922e2b3a42ac26af803705abe194ef4646b8d7",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v159/patch_v156_to_v159.patch"
+    },
     {
       "fromVersion": 157,
       "toVersion": 158,

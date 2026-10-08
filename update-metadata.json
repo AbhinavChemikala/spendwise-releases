@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v159",
-    "versionNumber": 159,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v159/app-release.apk",
-    "downloadSizeBytes": 187784044,
-    "releaseNotes": "✨ Unveiling the all-new Evening Daily Recap! 🌙 Effortlessly review your day's spending with a stunning AMOLED dark aesthetic, glanceable 7-day mini trend bars, smart daily pacing, and pixel-perfect Google Sans typography 🚀💳",
-    "publishedAt": "2026-09-15",
-    "sha256": "b72eb65d944ba04502b472e3a86258a29549f58648d93f8ac605cf2ff3d6d6d9"
+    "tagName": "v160",
+    "versionNumber": 160,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v160/app-release.apk",
+    "downloadSizeBytes": 187800428,
+    "releaseNotes": "✨ Bring powerful automation rules to both SMS and email intake! Filter by channel 📬, stop unwanted statements before AI kicks in 🛡️, auto-confirm trusted receipts ⚡, and test everything live in the interactive sandbox 🧪.",
+    "publishedAt": "2026-10-08",
+    "sha256": "c67725eac48359f58b4dd084713efb2313636004debe6aa83f8e07ce85267a00"
   },
   "releases": [
+    {
+      "tagName": "v160",
+      "versionNumber": 160,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v160/app-release.apk",
+      "downloadSizeBytes": 187800428,
+      "releaseNotes": "✨ Bring powerful automation rules to both SMS and email intake! Filter by channel 📬, stop unwanted statements before AI kicks in 🛡️, auto-confirm trusted receipts ⚡, and test everything live in the interactive sandbox 🧪.",
+      "publishedAt": "2026-10-08",
+      "sha256": "c67725eac48359f58b4dd084713efb2313636004debe6aa83f8e07ce85267a00"
+    },
     {
       "tagName": "v159",
       "versionNumber": 159,
@@ -89,18 +98,30 @@
       "releaseNotes": "📊 Beautiful new data-driven Split Bills card on the home dashboard!\n\n💸 Shows your overall net balance, detailed owed/you-owe badge pills, and active group avatars!\n\n🏦 SBM Bank SMS messages are now automatically whitelisted to bypass spam filters!\n\n🛠️ Under-the-hood stability and layout performance improvements!",
       "publishedAt": "2026-06-21",
       "sha256": "e3b18d2abfcb872a6b53ede5893afc60eef1f88e9a5666dbaaed7edc9c96951a"
-    },
-    {
-      "tagName": "v149",
-      "versionNumber": 149,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v149/app-release.apk",
-      "downloadSizeBytes": 183984380,
-      "releaseNotes": "👥 Share and split group expenses offline-first with automated debt simplification!\n\n📲 Receive instant transaction notifications powered by a zero-cost serverless proxy.\n\n🔒 Keep your group splits safe with robust Firestore security rules.\n\n✨ Enjoy seamless Google account connections and smooth group creation layouts.",
-      "publishedAt": "2026-06-21",
-      "sha256": "9e5ac4a06483dc7dc7009f73f32bbcbeb0214056091dc76cd13347dcaa088a2c"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 159,
+      "toVersion": 160,
+      "size": 1984526,
+      "sha256": "fc4f7d469b892f20a636cba2bd68a0ebf99f9864fbad4820960a7c6b340f14ab",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v160/patch_v159_to_v160.patch"
+    },
+    {
+      "fromVersion": 158,
+      "toVersion": 160,
+      "size": 5465302,
+      "sha256": "ebe7c85113ab2ac02fb55666f9981382f73fa75937a1d8b8127c9e0b2303b180",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v160/patch_v158_to_v160.patch"
+    },
+    {
+      "fromVersion": 157,
+      "toVersion": 160,
+      "size": 5907215,
+      "sha256": "96c55f62039c1f530e5328ae1d4920d7b5c156df6eb5ea8c51dc53c13698d28c",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v160/patch_v157_to_v160.patch"
+    },
     {
       "fromVersion": 158,
       "toVersion": 159,

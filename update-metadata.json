@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v161",
-    "versionNumber": 161,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v161/app-release.apk",
+    "tagName": "v162",
+    "versionNumber": 162,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v162/app-release.apk",
     "downloadSizeBytes": 187898732,
-    "releaseNotes": "✨ Keep transaction reviews, category suggestions, statement refinement, and finance chat available with downloaded Local AI.\n🌙 Let automatic reviews and refinements continue in the background, with helpful run details in Debug Mode.\n🔔 See each transaction’s amount, merchant, category, account, source, and the AI engine that verified it.\n🔒 Keep local AI diagnostics private, with no prompts or generated messages in the history.",
+    "releaseNotes": "✨ Keep Settings tidy with a dedicated Local AI usage view.\n📊 Browse run outcomes, timing, and memory details together.",
     "publishedAt": "2026-10-16",
-    "sha256": "185c535164210b184461aa71a53dfb104f1406a9a2a8a756908ed3f201bad049"
+    "sha256": "9b4a2be10880cc35d629b8fa70d9f4cb37935890cfa132857e993cf541dcfac7"
   },
   "releases": [
+    {
+      "tagName": "v162",
+      "versionNumber": 162,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v162/app-release.apk",
+      "downloadSizeBytes": 187898732,
+      "releaseNotes": "✨ Keep Settings tidy with a dedicated Local AI usage view.\n📊 Browse run outcomes, timing, and memory details together.",
+      "publishedAt": "2026-10-16",
+      "sha256": "9b4a2be10880cc35d629b8fa70d9f4cb37935890cfa132857e993cf541dcfac7"
+    },
     {
       "tagName": "v161",
       "versionNumber": 161,
@@ -89,18 +98,30 @@
       "releaseNotes": "📊 Keep tabs on your daily cash flow at a glance! Each day's transaction card now features a sleek, rounded header bar summarizing total incoming and outgoing funds. 💸 Color-coded indicators let you scan your finances in a premium, clutter-free view!",
       "publishedAt": "2026-06-29",
       "sha256": "e036f4115cc6a3b29b8aa8e80c65890711481765558693b42f429496d3d321fd"
-    },
-    {
-      "tagName": "v151",
-      "versionNumber": 151,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v151/app-release.apk",
-      "downloadSizeBytes": 184230140,
-      "releaseNotes": "🔄 Kept overall balances completely synchronized between dashboard widgets and group screens!\n\n🗑️ Implemented atomic database transactions to automatically clean up deleted groups and expenses!\n\n🧹 Resolved pairwise debts Group ID placeholder code smells for robust cache storage!\n\n🧪 All unit tests and debug APK compilations passed with flying colors!",
-      "publishedAt": "2026-06-21",
-      "sha256": "ce50ed92f9945f827888f7b4b9f9adee3f74fc4afecdc00e3fe7455f248c8d11"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 161,
+      "toVersion": 162,
+      "size": 1315158,
+      "sha256": "f15e405ec01f98135b82619ea549c004fb34c257a2606cea18fca3c12b3c2dd2",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v162/patch_v161_to_v162.patch"
+    },
+    {
+      "fromVersion": 160,
+      "toVersion": 162,
+      "size": 2755160,
+      "sha256": "c271ca9f3a41092a0eed78ab16dd649ca94609456c7204208d0b5a6c78235753",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v162/patch_v160_to_v162.patch"
+    },
+    {
+      "fromVersion": 159,
+      "toVersion": 162,
+      "size": 2950980,
+      "sha256": "12714766f71bbf2bd1857358450d6ed33dbead036ef5d4562c1485e7fd27223d",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v162/patch_v159_to_v162.patch"
+    },
     {
       "fromVersion": 160,
       "toVersion": 161,

@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v160",
-    "versionNumber": 160,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v160/app-release.apk",
-    "downloadSizeBytes": 187800428,
-    "releaseNotes": "✨ Bring powerful automation rules to both SMS and email intake! Filter by channel 📬, stop unwanted statements before AI kicks in 🛡️, auto-confirm trusted receipts ⚡, and test everything live in the interactive sandbox 🧪.",
-    "publishedAt": "2026-10-08",
-    "sha256": "c67725eac48359f58b4dd084713efb2313636004debe6aa83f8e07ce85267a00"
+    "tagName": "v161",
+    "versionNumber": 161,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v161/app-release.apk",
+    "downloadSizeBytes": 187898732,
+    "releaseNotes": "✨ Keep transaction reviews, category suggestions, statement refinement, and finance chat available with downloaded Local AI.\n🌙 Let automatic reviews and refinements continue in the background, with helpful run details in Debug Mode.\n🔔 See each transaction’s amount, merchant, category, account, source, and the AI engine that verified it.\n🔒 Keep local AI diagnostics private, with no prompts or generated messages in the history.",
+    "publishedAt": "2026-10-16",
+    "sha256": "185c535164210b184461aa71a53dfb104f1406a9a2a8a756908ed3f201bad049"
   },
   "releases": [
+    {
+      "tagName": "v161",
+      "versionNumber": 161,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v161/app-release.apk",
+      "downloadSizeBytes": 187898732,
+      "releaseNotes": "✨ Keep transaction reviews, category suggestions, statement refinement, and finance chat available with downloaded Local AI.\n🌙 Let automatic reviews and refinements continue in the background, with helpful run details in Debug Mode.\n🔔 See each transaction’s amount, merchant, category, account, source, and the AI engine that verified it.\n🔒 Keep local AI diagnostics private, with no prompts or generated messages in the history.",
+      "publishedAt": "2026-10-16",
+      "sha256": "185c535164210b184461aa71a53dfb104f1406a9a2a8a756908ed3f201bad049"
+    },
     {
       "tagName": "v160",
       "versionNumber": 160,
@@ -89,18 +98,30 @@
       "releaseNotes": "🔄 Kept overall balances completely synchronized between dashboard widgets and group screens!\n\n🗑️ Implemented atomic database transactions to automatically clean up deleted groups and expenses!\n\n🧹 Resolved pairwise debts Group ID placeholder code smells for robust cache storage!\n\n🧪 All unit tests and debug APK compilations passed with flying colors!",
       "publishedAt": "2026-06-21",
       "sha256": "ce50ed92f9945f827888f7b4b9f9adee3f74fc4afecdc00e3fe7455f248c8d11"
-    },
-    {
-      "tagName": "v150",
-      "versionNumber": 150,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v150/app-release.apk",
-      "downloadSizeBytes": 184213756,
-      "releaseNotes": "📊 Beautiful new data-driven Split Bills card on the home dashboard!\n\n💸 Shows your overall net balance, detailed owed/you-owe badge pills, and active group avatars!\n\n🏦 SBM Bank SMS messages are now automatically whitelisted to bypass spam filters!\n\n🛠️ Under-the-hood stability and layout performance improvements!",
-      "publishedAt": "2026-06-21",
-      "sha256": "e3b18d2abfcb872a6b53ede5893afc60eef1f88e9a5666dbaaed7edc9c96951a"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 160,
+      "toVersion": 161,
+      "size": 2730104,
+      "sha256": "ba29f1e355c9121544ac4b1bdf88a25054422341e78f3c1d29e81e64c84b0c63",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v161/patch_v160_to_v161.patch"
+    },
+    {
+      "fromVersion": 159,
+      "toVersion": 161,
+      "size": 2948028,
+      "sha256": "021a96072b613ed8057737ec8a2d08d3e25a1131f2beee21abeecfd9360b8618",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v161/patch_v159_to_v161.patch"
+    },
+    {
+      "fromVersion": 158,
+      "toVersion": 161,
+      "size": 6244977,
+      "sha256": "b1a08e89977f5865493648c82dc5641f1d47d7b4b671ebd9f3bd63f53053e403",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v161/patch_v158_to_v161.patch"
+    },
     {
       "fromVersion": 159,
       "toVersion": 160,

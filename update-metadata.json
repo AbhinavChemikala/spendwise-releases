@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v163",
-    "versionNumber": 163,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v163/app-release.apk",
-    "downloadSizeBytes": 187915116,
-    "releaseNotes": "✨ SpendWise now rests the AI status indicator while the queue is idle and releases the loaded model after a quiet minute. 🧠📉",
+    "tagName": "v164",
+    "versionNumber": 164,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v164/app-release.apk",
+    "downloadSizeBytes": 187947952,
+    "releaseNotes": "🚀 Test your selected model before starting a task. 🛡️ Keep your CPU fallback and personal data protected.",
     "publishedAt": "2026-10-17",
-    "sha256": "03168ee905daf32c01fe4938cf45e0e7c14af2ae9dc70403246d9fffa59cd1ea"
+    "sha256": "c5935b8afd5a949754b8eb1845c5af2a3352ec6ada726b2d41f98d764a4e3450"
   },
   "releases": [
+    {
+      "tagName": "v164",
+      "versionNumber": 164,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v164/app-release.apk",
+      "downloadSizeBytes": 187947952,
+      "releaseNotes": "🚀 Test your selected model before starting a task. 🛡️ Keep your CPU fallback and personal data protected.",
+      "publishedAt": "2026-10-17",
+      "sha256": "c5935b8afd5a949754b8eb1845c5af2a3352ec6ada726b2d41f98d764a4e3450"
+    },
     {
       "tagName": "v163",
       "versionNumber": 163,
@@ -89,18 +98,30 @@
       "releaseNotes": "Introducing a suite of updates to automate and simplify your expense tracking! 🚀\n\n📸 **Silent Screenshot Scanner: Share transaction receipts directly to SpendWise to auto-scan and add them in the background with confirmation notifications.\n\n📬 **Precision Email Syncing: A new modular syncing registry featuring dedicated ICICI and SBI email parsers, advanced quoted-printable decoding, and smarter Axis UPI transaction mappings.\n\n📊 **Interactive Financial Buckets: Deep-dive into category-wise spending breakdowns with fullscreen bucket drill-down screens.",
       "publishedAt": "2026-07-13",
       "sha256": "4df449930d624bd162b7533d2e984fcd2e187067a9856dd91e9bfbff81c0da37"
-    },
-    {
-      "tagName": "v154",
-      "versionNumber": 154,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v154/app-release.apk",
-      "downloadSizeBytes": 184246524,
-      "releaseNotes": "🛠️ Power up your transaction workflows! We've introduced a real-time Rules Sandbox testbench, active search filter badges, and physical haptic feedbacks.\n\n🎨 Empty states have been redesigned with custom, modern Canvas circular vector drawings for a premium layout!",
-      "publishedAt": "2026-06-29",
-      "sha256": "cae44bfbd01b54ce246c017dd814701dc79e4d7e91b5651cd1d89e89d5b479b5"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 163,
+      "toVersion": 164,
+      "size": 1352420,
+      "sha256": "c1aa8149213e3bf36c17cc79df1b6d54bc8aa7793d0462a07b5510aa485350fe",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v164/patch_v163_to_v164.patch"
+    },
+    {
+      "fromVersion": 162,
+      "toVersion": 164,
+      "size": 1407486,
+      "sha256": "e49d671ce6aed826dd4c91aa7d2bb79bc727137c99e88bc839d51ef97b5007d5",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v164/patch_v162_to_v164.patch"
+    },
+    {
+      "fromVersion": 161,
+      "toVersion": 164,
+      "size": 1439690,
+      "sha256": "3e3d72b35a89e6738ce8c7c2e6c20d7337ed48faee9a7bca3b8a15f114dafbae",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v164/patch_v161_to_v164.patch"
+    },
     {
       "fromVersion": 162,
       "toVersion": 163,

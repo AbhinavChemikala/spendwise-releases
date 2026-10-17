@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v165",
-    "versionNumber": 165,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v165/app-release.apk",
-    "downloadSizeBytes": 187947952,
-    "releaseNotes": "⚡ Run the same on-device model check across both backends.\n📊 See load and inference times before choosing how Local AI runs.",
+    "tagName": "v166",
+    "versionNumber": 166,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v166/app-release.apk",
+    "downloadSizeBytes": 188013488,
+    "releaseNotes": "📊 See what takes space at a glance. 🧹 Reclaim room with clearer, safer cleanup controls.",
     "publishedAt": "2026-10-17",
-    "sha256": "8e5c586f22087a32e38b0767f2dc61b2365c132e0f0feaf47a1da11ed7284ba2"
+    "sha256": "9d4a61a74ea6a52b768f8a6b7575b9d95569098b3c484f66e60b56c8b441931b"
   },
   "releases": [
+    {
+      "tagName": "v166",
+      "versionNumber": 166,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v166/app-release.apk",
+      "downloadSizeBytes": 188013488,
+      "releaseNotes": "📊 See what takes space at a glance. 🧹 Reclaim room with clearer, safer cleanup controls.",
+      "publishedAt": "2026-10-17",
+      "sha256": "9d4a61a74ea6a52b768f8a6b7575b9d95569098b3c484f66e60b56c8b441931b"
+    },
     {
       "tagName": "v165",
       "versionNumber": 165,
@@ -89,18 +98,30 @@
       "releaseNotes": "⚡ Real-time live tracking in the AI Review tab with instant in-queue status updates!\n🚦 Express priority lanes for swift transaction detection and quiet background category enrichment!\n🛡️ Intelligent request pacing and automatic rate-limit cooldowns for rock-solid reliability!\n💎 Sleek micro-capsule AI status pill with interactive background task monitoring and controls!\n✨ Seamless offline handling and instant cleanup synchronization!",
       "publishedAt": "2026-09-10",
       "sha256": "1f88be2a7c4d2c113dcc1d26508968b40720753fd74be27c90203f80865fc59e"
-    },
-    {
-      "tagName": "v156",
-      "versionNumber": 156,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v156/app-release.apk",
-      "downloadSizeBytes": 184377680,
-      "releaseNotes": "✨ Say goodbye to 12:00 AM placeholders! Synced bank emails with missing or midnight-default times now intelligently match the exact moment your email arrived 📬 Accurate timelines for your SBI and daily alert spends 🕒🚀",
-      "publishedAt": "2026-09-10",
-      "sha256": "3f878242028a626fd61cf4761001537043042dcf4b39090566aa1d4ccfcc5fdf"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 165,
+      "toVersion": 166,
+      "size": 2544500,
+      "sha256": "da147a16cdd0e3d7b1ce85ce8578d4e1240f878f87303c21ede5a2e8d0fc83c8",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v166/patch_v165_to_v166.patch"
+    },
+    {
+      "fromVersion": 164,
+      "toVersion": 166,
+      "size": 2613659,
+      "sha256": "86b8c0652315b099328f7a10a91e150c6c789d86375d664c62bd204e2f24c915",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v166/patch_v164_to_v166.patch"
+    },
+    {
+      "fromVersion": 163,
+      "toVersion": 166,
+      "size": 2674381,
+      "sha256": "53675b579b37d14e7a9d6583d349f3bf9d32c1070bf4b5e1b54fdddb5e76f655",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v166/patch_v163_to_v166.patch"
+    },
     {
       "fromVersion": 164,
       "toVersion": 165,

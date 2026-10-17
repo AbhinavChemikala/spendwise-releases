@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v162",
-    "versionNumber": 162,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v162/app-release.apk",
-    "downloadSizeBytes": 187898732,
-    "releaseNotes": "✨ Keep Settings tidy with a dedicated Local AI usage view.\n📊 Browse run outcomes, timing, and memory details together.",
-    "publishedAt": "2026-10-16",
-    "sha256": "9b4a2be10880cc35d629b8fa70d9f4cb37935890cfa132857e993cf541dcfac7"
+    "tagName": "v163",
+    "versionNumber": 163,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v163/app-release.apk",
+    "downloadSizeBytes": 187915116,
+    "releaseNotes": "✨ SpendWise now rests the AI status indicator while the queue is idle and releases the loaded model after a quiet minute. 🧠📉",
+    "publishedAt": "2026-10-17",
+    "sha256": "03168ee905daf32c01fe4938cf45e0e7c14af2ae9dc70403246d9fffa59cd1ea"
   },
   "releases": [
+    {
+      "tagName": "v163",
+      "versionNumber": 163,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v163/app-release.apk",
+      "downloadSizeBytes": 187915116,
+      "releaseNotes": "✨ SpendWise now rests the AI status indicator while the queue is idle and releases the loaded model after a quiet minute. 🧠📉",
+      "publishedAt": "2026-10-17",
+      "sha256": "03168ee905daf32c01fe4938cf45e0e7c14af2ae9dc70403246d9fffa59cd1ea"
+    },
     {
       "tagName": "v162",
       "versionNumber": 162,
@@ -89,18 +98,30 @@
       "releaseNotes": "🛠️ Power up your transaction workflows! We've introduced a real-time Rules Sandbox testbench, active search filter badges, and physical haptic feedbacks.\n\n🎨 Empty states have been redesigned with custom, modern Canvas circular vector drawings for a premium layout!",
       "publishedAt": "2026-06-29",
       "sha256": "cae44bfbd01b54ce246c017dd814701dc79e4d7e91b5651cd1d89e89d5b479b5"
-    },
-    {
-      "tagName": "v153",
-      "versionNumber": 153,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v153/app-release.apk",
-      "downloadSizeBytes": 184230140,
-      "releaseNotes": "📊 Keep tabs on your daily cash flow at a glance! Each day's transaction card now features a sleek, rounded header bar summarizing total incoming and outgoing funds. 💸 Color-coded indicators let you scan your finances in a premium, clutter-free view!",
-      "publishedAt": "2026-06-29",
-      "sha256": "e036f4115cc6a3b29b8aa8e80c65890711481765558693b42f429496d3d321fd"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 162,
+      "toVersion": 163,
+      "size": 1138848,
+      "sha256": "c2296845f23af524c1e1025b22d46eff3f7869b8ba4e86ee58a0707d99553328",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v163/patch_v162_to_v163.patch"
+    },
+    {
+      "fromVersion": 161,
+      "toVersion": 163,
+      "size": 1282802,
+      "sha256": "61006c97a0fd5bdb49de8f236153ae481cc8ea196227cc0251f93d9ca7169fb0",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v163/patch_v161_to_v163.patch"
+    },
+    {
+      "fromVersion": 160,
+      "toVersion": 163,
+      "size": 2752126,
+      "sha256": "8ede6e0dfb7b96f215c1e5d2c0e371755fc7b43b62f5995674fd777a988ecade",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v163/patch_v160_to_v163.patch"
+    },
     {
       "fromVersion": 161,
       "toVersion": 162,

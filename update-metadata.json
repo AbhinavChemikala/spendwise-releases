@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v164",
-    "versionNumber": 164,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v164/app-release.apk",
+    "tagName": "v165",
+    "versionNumber": 165,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v165/app-release.apk",
     "downloadSizeBytes": 187947952,
-    "releaseNotes": "🚀 Test your selected model before starting a task. 🛡️ Keep your CPU fallback and personal data protected.",
+    "releaseNotes": "⚡ Run the same on-device model check across both backends.\n📊 See load and inference times before choosing how Local AI runs.",
     "publishedAt": "2026-10-17",
-    "sha256": "c5935b8afd5a949754b8eb1845c5af2a3352ec6ada726b2d41f98d764a4e3450"
+    "sha256": "8e5c586f22087a32e38b0767f2dc61b2365c132e0f0feaf47a1da11ed7284ba2"
   },
   "releases": [
+    {
+      "tagName": "v165",
+      "versionNumber": 165,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v165/app-release.apk",
+      "downloadSizeBytes": 187947952,
+      "releaseNotes": "⚡ Run the same on-device model check across both backends.\n📊 See load and inference times before choosing how Local AI runs.",
+      "publishedAt": "2026-10-17",
+      "sha256": "8e5c586f22087a32e38b0767f2dc61b2365c132e0f0feaf47a1da11ed7284ba2"
+    },
     {
       "tagName": "v164",
       "versionNumber": 164,
@@ -89,18 +98,30 @@
       "releaseNotes": "✨ Say goodbye to 12:00 AM placeholders! Synced bank emails with missing or midnight-default times now intelligently match the exact moment your email arrived 📬 Accurate timelines for your SBI and daily alert spends 🕒🚀",
       "publishedAt": "2026-09-10",
       "sha256": "3f878242028a626fd61cf4761001537043042dcf4b39090566aa1d4ccfcc5fdf"
-    },
-    {
-      "tagName": "v155",
-      "versionNumber": 155,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v155/app-release.apk",
-      "downloadSizeBytes": 184377680,
-      "releaseNotes": "Introducing a suite of updates to automate and simplify your expense tracking! 🚀\n\n📸 **Silent Screenshot Scanner: Share transaction receipts directly to SpendWise to auto-scan and add them in the background with confirmation notifications.\n\n📬 **Precision Email Syncing: A new modular syncing registry featuring dedicated ICICI and SBI email parsers, advanced quoted-printable decoding, and smarter Axis UPI transaction mappings.\n\n📊 **Interactive Financial Buckets: Deep-dive into category-wise spending breakdowns with fullscreen bucket drill-down screens.",
-      "publishedAt": "2026-07-13",
-      "sha256": "4df449930d624bd162b7533d2e984fcd2e187067a9856dd91e9bfbff81c0da37"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 164,
+      "toVersion": 165,
+      "size": 1253738,
+      "sha256": "10c0adc973fb119a3fabd42df7bf6ce43527b6fc1f7ef55d433602d5fe0de73c",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v165/patch_v164_to_v165.patch"
+    },
+    {
+      "fromVersion": 163,
+      "toVersion": 165,
+      "size": 1409681,
+      "sha256": "b6c12e045944b7bb5319edeac5515351454559891e2211f0c2f1ad505ea47267",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v165/patch_v163_to_v165.patch"
+    },
+    {
+      "fromVersion": 162,
+      "toVersion": 165,
+      "size": 1388418,
+      "sha256": "c0092eefb939d65d90675924b91684b10f5e891d19639764914a8d4d99b3fced",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v165/patch_v162_to_v165.patch"
+    },
     {
       "fromVersion": 163,
       "toVersion": 164,

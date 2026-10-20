@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v167",
-    "versionNumber": 167,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v167/app-release.apk",
-    "downloadSizeBytes": 188357620,
-    "releaseNotes": "✨ Bring recognized Indian and international brands into transaction lists, with personal brand registration and registry-only matching.\\n🧾 Share polished transaction receipts as images, with location details when available.",
+    "tagName": "v168",
+    "versionNumber": 168,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v168/app-release.apk",
+    "downloadSizeBytes": 188488692,
+    "releaseNotes": "📄 Save detailed spending reports as PDFs for any selected period.\n📊 Explore filterable Excel workbooks with clear totals and category insights.",
     "publishedAt": "2026-10-20",
-    "sha256": "3d74ed78534b8b88114a9968634fbc370e5795c50074c422ad51699cba833e1b"
+    "sha256": "45d87888a19460a26ca40a5cdfd384ab8f006daf270ff15639bfe9f4a263e7c4"
   },
   "releases": [
+    {
+      "tagName": "v168",
+      "versionNumber": 168,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v168/app-release.apk",
+      "downloadSizeBytes": 188488692,
+      "releaseNotes": "📄 Save detailed spending reports as PDFs for any selected period.\n📊 Explore filterable Excel workbooks with clear totals and category insights.",
+      "publishedAt": "2026-10-20",
+      "sha256": "45d87888a19460a26ca40a5cdfd384ab8f006daf270ff15639bfe9f4a263e7c4"
+    },
     {
       "tagName": "v167",
       "versionNumber": 167,
@@ -89,18 +98,30 @@
       "releaseNotes": "✨ Unveiling the all-new Evening Daily Recap! 🌙 Effortlessly review your day's spending with a stunning AMOLED dark aesthetic, glanceable 7-day mini trend bars, smart daily pacing, and pixel-perfect Google Sans typography 🚀💳",
       "publishedAt": "2026-09-15",
       "sha256": "b72eb65d944ba04502b472e3a86258a29549f58648d93f8ac605cf2ff3d6d6d9"
-    },
-    {
-      "tagName": "v158",
-      "versionNumber": 158,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v158/app-release.apk",
-      "downloadSizeBytes": 184529756,
-      "releaseNotes": "💜 A sleek new look for SpendWise! Reimagined with a vibrant 3D purple wallet, shining golden Rupee coin, and upward growth chart 🪙📈. Complete with dynamic themed icon support for Android homescreens ✨🎨.",
-      "publishedAt": "2026-09-11",
-      "sha256": "9611fabbe24f38262b871e6f76050b0d18a2f69d4a32f027e8dbd1a7f4631525"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 167,
+      "toVersion": 168,
+      "size": 4127485,
+      "sha256": "758277f06b05d5e8855b20d16164b009ef1a84ebc0cfe80601187c76270ee20f",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v168/patch_v167_to_v168.patch"
+    },
+    {
+      "fromVersion": 166,
+      "toVersion": 168,
+      "size": 4312011,
+      "sha256": "58f5c3b5213bc18f70a927786e1f2ba900e67a10caf906d0751159d2f630d7cd",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v168/patch_v166_to_v168.patch"
+    },
+    {
+      "fromVersion": 165,
+      "toVersion": 168,
+      "size": 4406079,
+      "sha256": "3a06b7e764724a64805227f44a131500dad4da09879b22b8a7f847bc903e6f37",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v168/patch_v165_to_v168.patch"
+    },
     {
       "fromVersion": 166,
       "toVersion": 167,

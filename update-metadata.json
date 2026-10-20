@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v166",
-    "versionNumber": 166,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v166/app-release.apk",
-    "downloadSizeBytes": 188013488,
-    "releaseNotes": "📊 See what takes space at a glance. 🧹 Reclaim room with clearer, safer cleanup controls.",
-    "publishedAt": "2026-10-17",
-    "sha256": "9d4a61a74ea6a52b768f8a6b7575b9d95569098b3c484f66e60b56c8b441931b"
+    "tagName": "v167",
+    "versionNumber": 167,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v167/app-release.apk",
+    "downloadSizeBytes": 188357620,
+    "releaseNotes": "✨ Bring recognized Indian and international brands into transaction lists, with personal brand registration and registry-only matching.\\n🧾 Share polished transaction receipts as images, with location details when available.",
+    "publishedAt": "2026-10-20",
+    "sha256": "3d74ed78534b8b88114a9968634fbc370e5795c50074c422ad51699cba833e1b"
   },
   "releases": [
+    {
+      "tagName": "v167",
+      "versionNumber": 167,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v167/app-release.apk",
+      "downloadSizeBytes": 188357620,
+      "releaseNotes": "✨ Bring recognized Indian and international brands into transaction lists, with personal brand registration and registry-only matching.\\n🧾 Share polished transaction receipts as images, with location details when available.",
+      "publishedAt": "2026-10-20",
+      "sha256": "3d74ed78534b8b88114a9968634fbc370e5795c50074c422ad51699cba833e1b"
+    },
     {
       "tagName": "v166",
       "versionNumber": 166,
@@ -89,18 +98,30 @@
       "releaseNotes": "💜 A sleek new look for SpendWise! Reimagined with a vibrant 3D purple wallet, shining golden Rupee coin, and upward growth chart 🪙📈. Complete with dynamic themed icon support for Android homescreens ✨🎨.",
       "publishedAt": "2026-09-11",
       "sha256": "9611fabbe24f38262b871e6f76050b0d18a2f69d4a32f027e8dbd1a7f4631525"
-    },
-    {
-      "tagName": "v157",
-      "versionNumber": 157,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v157/app-release.apk",
-      "downloadSizeBytes": 184557900,
-      "releaseNotes": "⚡ Real-time live tracking in the AI Review tab with instant in-queue status updates!\n🚦 Express priority lanes for swift transaction detection and quiet background category enrichment!\n🛡️ Intelligent request pacing and automatic rate-limit cooldowns for rock-solid reliability!\n💎 Sleek micro-capsule AI status pill with interactive background task monitoring and controls!\n✨ Seamless offline handling and instant cleanup synchronization!",
-      "publishedAt": "2026-09-10",
-      "sha256": "1f88be2a7c4d2c113dcc1d26508968b40720753fd74be27c90203f80865fc59e"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 166,
+      "toVersion": 167,
+      "size": 4091560,
+      "sha256": "46ad2a73414d0f0e2d827bc2a50de332b836574649a933ba558c4692e65f491b",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v167/patch_v166_to_v167.patch"
+    },
+    {
+      "fromVersion": 165,
+      "toVersion": 167,
+      "size": 4108288,
+      "sha256": "865fe904252be09ebfb2678ac41cc9bc195aff2b6de0b07bd268fdaadf216757",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v167/patch_v165_to_v167.patch"
+    },
+    {
+      "fromVersion": 164,
+      "toVersion": 167,
+      "size": 4118133,
+      "sha256": "4896abff74e1a3e5ec3ec43beb7af689938da5e477d84d8ead54a5af73b8ab86",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v167/patch_v164_to_v167.patch"
+    },
     {
       "fromVersion": 165,
       "toVersion": 166,

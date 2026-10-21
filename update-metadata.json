@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v170",
-    "versionNumber": 170,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v170/app-release.apk",
-    "downloadSizeBytes": 188537844,
-    "releaseNotes": "🧠 Export original transaction SMS with resolved merchant and account labels.\n\n📅 Choose a month, year, or custom range and save as JSONL.",
+    "tagName": "v171",
+    "versionNumber": 171,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v171/app-release.apk",
+    "downloadSizeBytes": 188734452,
+    "releaseNotes": "💳 Beautiful authentic bank card gradients and unified account branding! ✨\n🪄 1-Tap 'Draft from Month' to auto-discover your cards, bank accounts, and FASTags! 🚗\n🎯 Intelligent automatic resolution for all new transactions without lifting a finger! ⚡\n🛡️ Safe historical month cleaner with real-time change previews! 🔍\n🎨 Sleek, compact AMOLED-harmonized design built for effortless money tracking! 🌟",
     "publishedAt": "2026-10-21",
-    "sha256": "fffd5c685a1171a50efbf8a7b8f7edda0093fd111c04d9475e73e3bbcf1cdbff"
+    "sha256": "176e34febb56cd72e61d434026ed024a980cf170866b99b984c695ec01cf0e7f"
   },
   "releases": [
+    {
+      "tagName": "v171",
+      "versionNumber": 171,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v171/app-release.apk",
+      "downloadSizeBytes": 188734452,
+      "releaseNotes": "💳 Beautiful authentic bank card gradients and unified account branding! ✨\n🪄 1-Tap 'Draft from Month' to auto-discover your cards, bank accounts, and FASTags! 🚗\n🎯 Intelligent automatic resolution for all new transactions without lifting a finger! ⚡\n🛡️ Safe historical month cleaner with real-time change previews! 🔍\n🎨 Sleek, compact AMOLED-harmonized design built for effortless money tracking! 🌟",
+      "publishedAt": "2026-10-21",
+      "sha256": "176e34febb56cd72e61d434026ed024a980cf170866b99b984c695ec01cf0e7f"
+    },
     {
       "tagName": "v170",
       "versionNumber": 170,
@@ -89,18 +98,30 @@
       "releaseNotes": "✨ Keep Settings tidy with a dedicated Local AI usage view.\n📊 Browse run outcomes, timing, and memory details together.",
       "publishedAt": "2026-10-16",
       "sha256": "9b4a2be10880cc35d629b8fa70d9f4cb37935890cfa132857e993cf541dcfac7"
-    },
-    {
-      "tagName": "v161",
-      "versionNumber": 161,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v161/app-release.apk",
-      "downloadSizeBytes": 187898732,
-      "releaseNotes": "✨ Keep transaction reviews, category suggestions, statement refinement, and finance chat available with downloaded Local AI.\n🌙 Let automatic reviews and refinements continue in the background, with helpful run details in Debug Mode.\n🔔 See each transaction’s amount, merchant, category, account, source, and the AI engine that verified it.\n🔒 Keep local AI diagnostics private, with no prompts or generated messages in the history.",
-      "publishedAt": "2026-10-16",
-      "sha256": "185c535164210b184461aa71a53dfb104f1406a9a2a8a756908ed3f201bad049"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 170,
+      "toVersion": 171,
+      "size": 1914761,
+      "sha256": "60a2752f97ca1d18e32794f6ea6b0e0607248ed07303d5626f8a0bc9af5f1d0a",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v171/patch_v170_to_v171.patch"
+    },
+    {
+      "fromVersion": 169,
+      "toVersion": 171,
+      "size": 1939024,
+      "sha256": "ecf014254a9ee93d418d4f5a21d7f2fa4eb6294b53c9bb31d8b392f5cee7bfd8",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v171/patch_v169_to_v171.patch"
+    },
+    {
+      "fromVersion": 168,
+      "toVersion": 171,
+      "size": 1941249,
+      "sha256": "6142afc07efe0f9c2ada54cddc3438adebe094b3a2cedff63a7271565fb9fef9",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v171/patch_v168_to_v171.patch"
+    },
     {
       "fromVersion": 169,
       "toVersion": 170,

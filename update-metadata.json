@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v169",
-    "versionNumber": 169,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v169/app-release.apk",
-    "downloadSizeBytes": 188488692,
-    "releaseNotes": "✍️ Keep user-renamed merchants when saving transactions.\n🧾 Preserve automatic merchant recognition during import.",
+    "tagName": "v170",
+    "versionNumber": 170,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v170/app-release.apk",
+    "downloadSizeBytes": 188537844,
+    "releaseNotes": "🧠 Export original transaction SMS with resolved merchant and account labels.\n\n📅 Choose a month, year, or custom range and save as JSONL.",
     "publishedAt": "2026-10-21",
-    "sha256": "92306dd70d4eb8ccb798becb31d7ac2279e546f704b6aeadf0e4ae88d0e1a3e7"
+    "sha256": "fffd5c685a1171a50efbf8a7b8f7edda0093fd111c04d9475e73e3bbcf1cdbff"
   },
   "releases": [
+    {
+      "tagName": "v170",
+      "versionNumber": 170,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v170/app-release.apk",
+      "downloadSizeBytes": 188537844,
+      "releaseNotes": "🧠 Export original transaction SMS with resolved merchant and account labels.\n\n📅 Choose a month, year, or custom range and save as JSONL.",
+      "publishedAt": "2026-10-21",
+      "sha256": "fffd5c685a1171a50efbf8a7b8f7edda0093fd111c04d9475e73e3bbcf1cdbff"
+    },
     {
       "tagName": "v169",
       "versionNumber": 169,
@@ -89,18 +98,30 @@
       "releaseNotes": "✨ Keep transaction reviews, category suggestions, statement refinement, and finance chat available with downloaded Local AI.\n🌙 Let automatic reviews and refinements continue in the background, with helpful run details in Debug Mode.\n🔔 See each transaction’s amount, merchant, category, account, source, and the AI engine that verified it.\n🔒 Keep local AI diagnostics private, with no prompts or generated messages in the history.",
       "publishedAt": "2026-10-16",
       "sha256": "185c535164210b184461aa71a53dfb104f1406a9a2a8a756908ed3f201bad049"
-    },
-    {
-      "tagName": "v160",
-      "versionNumber": 160,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v160/app-release.apk",
-      "downloadSizeBytes": 187800428,
-      "releaseNotes": "✨ Bring powerful automation rules to both SMS and email intake! Filter by channel 📬, stop unwanted statements before AI kicks in 🛡️, auto-confirm trusted receipts ⚡, and test everything live in the interactive sandbox 🧪.",
-      "publishedAt": "2026-10-08",
-      "sha256": "c67725eac48359f58b4dd084713efb2313636004debe6aa83f8e07ce85267a00"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 169,
+      "toVersion": 170,
+      "size": 1429265,
+      "sha256": "c56b698bc51388ae546916cfd4ad503aa576c6c5e3d23d8ab85168226dee86a6",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v170/patch_v169_to_v170.patch"
+    },
+    {
+      "fromVersion": 168,
+      "toVersion": 170,
+      "size": 1430142,
+      "sha256": "15c94da66b7a94121c9a05da6daa3ae2272e866b0cc767636aa61013cd35f77d",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v170/patch_v168_to_v170.patch"
+    },
+    {
+      "fromVersion": 167,
+      "toVersion": 170,
+      "size": 4166957,
+      "sha256": "960677fccff096022e5b0ab32623d1dd6d87ec577611a00bd5520670a8cac00e",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v170/patch_v167_to_v170.patch"
+    },
     {
       "fromVersion": 168,
       "toVersion": 169,

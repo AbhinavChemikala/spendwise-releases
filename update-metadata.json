@@ -1,14 +1,23 @@
 {
   "latest": {
-    "tagName": "v168",
-    "versionNumber": 168,
-    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v168/app-release.apk",
+    "tagName": "v169",
+    "versionNumber": 169,
+    "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v169/app-release.apk",
     "downloadSizeBytes": 188488692,
-    "releaseNotes": "📄 Save detailed spending reports as PDFs for any selected period.\n📊 Explore filterable Excel workbooks with clear totals and category insights.",
-    "publishedAt": "2026-10-20",
-    "sha256": "45d87888a19460a26ca40a5cdfd384ab8f006daf270ff15639bfe9f4a263e7c4"
+    "releaseNotes": "✍️ Keep user-renamed merchants when saving transactions.\n🧾 Preserve automatic merchant recognition during import.",
+    "publishedAt": "2026-10-21",
+    "sha256": "92306dd70d4eb8ccb798becb31d7ac2279e546f704b6aeadf0e4ae88d0e1a3e7"
   },
   "releases": [
+    {
+      "tagName": "v169",
+      "versionNumber": 169,
+      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v169/app-release.apk",
+      "downloadSizeBytes": 188488692,
+      "releaseNotes": "✍️ Keep user-renamed merchants when saving transactions.\n🧾 Preserve automatic merchant recognition during import.",
+      "publishedAt": "2026-10-21",
+      "sha256": "92306dd70d4eb8ccb798becb31d7ac2279e546f704b6aeadf0e4ae88d0e1a3e7"
+    },
     {
       "tagName": "v168",
       "versionNumber": 168,
@@ -89,18 +98,30 @@
       "releaseNotes": "✨ Bring powerful automation rules to both SMS and email intake! Filter by channel 📬, stop unwanted statements before AI kicks in 🛡️, auto-confirm trusted receipts ⚡, and test everything live in the interactive sandbox 🧪.",
       "publishedAt": "2026-10-08",
       "sha256": "c67725eac48359f58b4dd084713efb2313636004debe6aa83f8e07ce85267a00"
-    },
-    {
-      "tagName": "v159",
-      "versionNumber": 159,
-      "downloadUrl": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v159/app-release.apk",
-      "downloadSizeBytes": 187784044,
-      "releaseNotes": "✨ Unveiling the all-new Evening Daily Recap! 🌙 Effortlessly review your day's spending with a stunning AMOLED dark aesthetic, glanceable 7-day mini trend bars, smart daily pacing, and pixel-perfect Google Sans typography 🚀💳",
-      "publishedAt": "2026-09-15",
-      "sha256": "b72eb65d944ba04502b472e3a86258a29549f58648d93f8ac605cf2ff3d6d6d9"
     }
   ],
   "patches": [
+    {
+      "fromVersion": 168,
+      "toVersion": 169,
+      "size": 373888,
+      "sha256": "b6fd8607e7fc42d2c9856498a2fdef88f20b98875f3f8a4a2a452f202f97d84a",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v169/patch_v168_to_v169.patch"
+    },
+    {
+      "fromVersion": 167,
+      "toVersion": 169,
+      "size": 4130029,
+      "sha256": "baa180f4ee39c37eddca39f1f283e957ead1235ef13d117265eb319ea3bca8c3",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v169/patch_v167_to_v169.patch"
+    },
+    {
+      "fromVersion": 166,
+      "toVersion": 169,
+      "size": 4339915,
+      "sha256": "eb41d7e9a69c1509f5515c7bc1b0c575cf1de71726c8eb6c003c3c3e3e1c0de1",
+      "url": "https://github.com/AbhinavChemikala/spendwise-releases/releases/download/v169/patch_v166_to_v169.patch"
+    },
     {
       "fromVersion": 167,
       "toVersion": 168,
